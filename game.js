@@ -8,7 +8,6 @@ let results = JSON.parse(localStorage.getItem(today) || "[]"); // one entry per 
 let timer;
 
 const clean = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-const escape = (s) => s.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
 const totalYards = () => results.reduce((sum, r) => sum + r.yards, 0);
 
 function findAnswer(guess, answers) {
@@ -37,7 +36,8 @@ function startRound() {
     <form id="form">
       <input id="guess" autocomplete="off" spellcheck="false" placeholder="Your answer" autofocus>
       <button>Snap it</button>
-    </form>`);
+    </form>
+    <p id="msg" class="muted"></p>`);
   document.getElementById("guess").focus();
   timer = setInterval(() => {
     left--;
@@ -46,8 +46,12 @@ function startRound() {
   }, 1000);
   document.getElementById("form").onsubmit = (e) => {
     e.preventDefault();
-    const guess = document.getElementById("guess").value.trim();
-    if (guess) finishRound(guess);
+    const input = document.getElementById("guess");
+    const guess = input.value.trim();
+    if (!guess) return;
+    if (findAnswer(guess, round.answers)) return finishRound(guess);
+    document.getElementById("msg").textContent = `"${guess}" isn't on the board. Keep trying!`;
+    input.value = "";
   };
 }
 
@@ -66,7 +70,7 @@ function answerList(round) {
 function showReveal() {
   const i = results.length - 1;
   const r = results[i];
-  const verdict = !r.answer ? "Delay of game! No gain." : r.yards ? `${escape(r.answer)}: +${r.yards} yards` : `"${escape(r.answer)}" — incomplete. No gain.`;
+  const verdict = r.answer ? `${r.answer}: +${r.yards} yards` : "Delay of game! No gain.";
   render(`
     <p class="prompt">${verdict}</p>
     <details><summary>All accepted answers</summary>${answerList(game[i])}</details>
@@ -79,7 +83,7 @@ function showFinal() {
   const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => r.yards).join(" · ")}`;
   render(`
     <p class="prompt">${yards === 100 ? "Touchdown! Perfect drive." : `Drive over: ${yards} yards.`}</p>
-    <ol>${results.map((r, i) => `<li>${escape(r.answer || "(no answer)")} — ${r.yards} yds <span class="muted">(${game[i].prompt})</span></li>`).join("")}</ol>
+    <ol>${results.map((r, i) => `<li>${r.answer || "(no answer)"} — ${r.yards} yds <span class="muted">(${game[i].prompt})</span></li>`).join("")}</ol>
     <button id="share">Copy result</button>
     <p class="muted">New game tomorrow.</p>`);
   document.getElementById("share").onclick = (e) => {
