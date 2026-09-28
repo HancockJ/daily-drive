@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #0b1017;
+  color: #f6f8fc;
+  font: 18px system-ui, sans-serif;
+}
+main { max-width: 640px; margin: 0 auto; padding: 16px; }
+h1 { text-align: center; }
+.field {
+  position: relative;
+  height: 48px;
+  border-radius: 8px;
+  background: repeating-linear-gradient(90deg, #12382c 0 9.5%, #2c5e4c 9.5% 10%);
+}
+#ball { position: absolute; top: 10px; left: 0%; transition: left 0.5s; }
+#yardage { text-align: center; font-size: 24px; font-weight: bold; color: #c7f36b; }
+.prompt { font-size: 24px; }
+.timer { font-size: 32px; font-variant-numeric: tabular-nums; }
+input, button { font-size: 18px; padding: 12px; border-radius: 10px; width: 100%; box-sizing: border-box; margin-top: 8px; }
+button { background: #c7f36b; color: #10170b; border: 0; font-weight: bold; cursor: pointer; }
+.muted { color: #afbed0; }
+ul { padding-left: 20px; }

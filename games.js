@@ -1,0 +1,80 @@
+// Each game is 5 prompts. Each answer is worth 2-20 yards (rarer = more yards).
+// Optional "aliases" are other accepted spellings. A unique last name is accepted automatically.
+const GAMES = [
+  [
+    {
+      prompt: "Name a franchise that has never won a Super Bowl (through Super Bowl LIX).",
+      answers: [
+        { name: "Arizona Cardinals", yards: 20, aliases: ["Cardinals", "Arizona"] },
+        { name: "Los Angeles Chargers", yards: 17, aliases: ["Chargers", "San Diego Chargers"] },
+        { name: "Tennessee Titans", yards: 17, aliases: ["Titans", "Houston Oilers", "Oilers"] },
+        { name: "Carolina Panthers", yards: 14, aliases: ["Panthers", "Carolina"] },
+        { name: "Jacksonville Jaguars", yards: 14, aliases: ["Jaguars", "Jags", "Jacksonville"] },
+        { name: "Houston Texans", yards: 11, aliases: ["Texans"] },
+        { name: "Atlanta Falcons", yards: 11, aliases: ["Falcons", "Atlanta"] },
+        { name: "Minnesota Vikings", yards: 8, aliases: ["Vikings", "Minnesota"] },
+        { name: "Cincinnati Bengals", yards: 8, aliases: ["Bengals", "Cincinnati"] },
+        { name: "Detroit Lions", yards: 5, aliases: ["Lions", "Detroit"] },
+        { name: "Cleveland Browns", yards: 2, aliases: ["Browns", "Cleveland"] },
+        { name: "Buffalo Bills", yards: 2, aliases: ["Bills", "Buffalo"] },
+      ],
+    },
+    {
+      prompt: "Name a player selected first overall in the NFL Draft from 2015 through 2024.",
+      answers: [
+        { name: "Travon Walker", yards: 20 },
+        { name: "Jameis Winston", yards: 17 },
+        { name: "Jared Goff", yards: 14 },
+        { name: "Myles Garrett", yards: 14 },
+        { name: "Kyler Murray", yards: 11 },
+        { name: "Bryce Young", yards: 8 },
+        { name: "Baker Mayfield", yards: 8 },
+        { name: "Trevor Lawrence", yards: 5 },
+        { name: "Caleb Williams", yards: 5 },
+        { name: "Joe Burrow", yards: 2 },
+      ],
+    },
+    {
+      prompt: "Name a player with a 2,000-yard regular-season rushing year (through 2024).",
+      answers: [
+        { name: "Jamal Lewis", yards: 20 },
+        { name: "Terrell Davis", yards: 17 },
+        { name: "Chris Johnson", yards: 14, aliases: ["CJ2K"] },
+        { name: "O. J. Simpson", yards: 11, aliases: ["OJ Simpson", "OJ"] },
+        { name: "Barry Sanders", yards: 8 },
+        { name: "Adrian Peterson", yards: 5, aliases: ["AP", "All Day"] },
+        { name: "Eric Dickerson", yards: 5 },
+        { name: "Derrick Henry", yards: 2 },
+        { name: "Saquon Barkley", yards: 2, aliases: ["Saquon"] },
+      ],
+    },
+    {
+      prompt: "Name an AP NFL MVP winner from the 2010 through 2024 seasons.",
+      answers: [
+        { name: "Matt Ryan", yards: 20 },
+        { name: "Cam Newton", yards: 17 },
+        { name: "Adrian Peterson", yards: 14, aliases: ["AP", "All Day"] },
+        { name: "Peyton Manning", yards: 11, aliases: ["Peyton"] },
+        { name: "Josh Allen", yards: 8 },
+        { name: "Lamar Jackson", yards: 5, aliases: ["Lamar"] },
+        { name: "Aaron Rodgers", yards: 5 },
+        { name: "Tom Brady", yards: 2 },
+        { name: "Patrick Mahomes", yards: 2, aliases: ["Mahomes"] },
+      ],
+    },
+    {
+      prompt: "Name a wide receiver who won Super Bowl MVP (through Super Bowl LIX).",
+      answers: [
+        { name: "Fred Biletnikoff", yards: 20 },
+        { name: "Desmond Howard", yards: 20 },
+        { name: "Deion Branch", yards: 17 },
+        { name: "Lynn Swann", yards: 14 },
+        { name: "Hines Ward", yards: 11 },
+        { name: "Santonio Holmes", yards: 8 },
+        { name: "Julian Edelman", yards: 5 },
+        { name: "Jerry Rice", yards: 2 },
+        { name: "Cooper Kupp", yards: 2 },
+      ],
+    },
+  ],
+];
