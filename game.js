@@ -80,7 +80,7 @@ function showReveal() {
 
 function showFinal() {
   const yards = totalYards();
-  const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => r.yards).join(" · ")}`;
+  const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => (r.yards === 20 ? "🏈" : r.yards)).join(" · ")}\n${location.origin + location.pathname}`;
   render(`
     <p class="prompt">${yards === 100 ? "Touchdown! Perfect drive." : `Drive over: ${yards} yards.`}</p>
     <ol>${results.map((r, i) => `<li>${r.answer || "(no answer)"} — ${r.yards} yds <span class="muted">(${game[i].prompt})</span></li>`).join("")}</ol>
