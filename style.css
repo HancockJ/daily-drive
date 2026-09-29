@@ -6,13 +6,30 @@ body {
 }
 main { max-width: 640px; margin: 0 auto; padding: 16px; }
 h1 { text-align: center; }
-.field {
-  position: relative;
-  height: 48px;
-  border-radius: 8px;
-  background: repeating-linear-gradient(90deg, #12382c 0 9.5%, #2c5e4c 9.5% 10%);
+.field { display: flex; height: 72px; border-radius: 8px; overflow: hidden; border: 2px solid #f6f8fc; }
+.endzone {
+  width: 8%;
+  background: #1d5c45;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: bold;
 }
-#ball { position: absolute; top: 10px; left: 0%; transition: left 0.5s; }
+.play {
+  flex: 1;
+  position: relative;
+  border-left: 2px solid #f6f8fc;
+  border-right: 2px solid #f6f8fc;
+  background:
+    linear-gradient(90deg, #ffffff99 2px, transparent 2px) 0 0 / 10% 100%, /* yard lines */
+    linear-gradient(90deg, #ffffff80 1px, transparent 1px) 0 30% / 2% 6px repeat-x, /* hash marks */
+    linear-gradient(90deg, #ffffff80 1px, transparent 1px) 0 70% / 2% 6px repeat-x,
+    #12382c;
+}
+.play span { position: absolute; bottom: 2px; transform: translateX(-50%); font-size: 10px; color: #ffffffcc; }
+#ball { position: absolute; top: 22px; left: 0%; transform: translateX(-50%); transition: left 0.5s; }
+.card { background: #151e2a; border-radius: 16px; padding: 12px 16px; margin: 12px 0; }
+.card .head { display: flex; justify-content: space-between; font-weight: bold; }
+.card p { margin: 6px 0; }
+.rules li { margin: 6px 0; }
 #yardage { text-align: center; font-size: 24px; font-weight: bold; color: #c7f36b; }
 .prompt { font-size: 24px; }
 .timer { font-size: 32px; font-variant-numeric: tabular-nums; }

@@ -44,7 +44,8 @@ function render(html) {
   screen.innerHTML = html;
   const yards = totalYards();
   document.getElementById("yardage").textContent = `${yards} yards`;
-  document.getElementById("ball").style.left = `calc(${yards}% - ${yards * 0.3}px)`;
+  document.getElementById("ball").style.left = `${yards}%`;
+  tick();
 }
 
 function startRound() {
@@ -58,7 +59,7 @@ function startRound() {
       <input id="guess" autocomplete="off" spellcheck="false" placeholder="Your answer" autofocus>
       <button>Snap it</button>
     </form>
-    <p id="msg" class="muted"></p>`);
+    <p id="msg" class="muted">Wrong guesses don't cost anything. Keep trying until the clock hits 0:00.</p>`);
   document.getElementById("guess").focus();
   timer = setInterval(() => {
     left--;
@@ -103,11 +104,18 @@ function showFinal() {
   const yards = totalYards();
   const emoji = (y) => (y === 20 ? "🏈" : y >= 14 ? "🥇" : y >= 8 ? "🥈" : y > 0 ? "🥉" : "❌");
   const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${location.origin + location.pathname}`;
+  const card = (r, i) => `
+    <div class="card">
+      <div class="head"><span>Play ${i + 1}</span><span>${emoji(r.yards)} +${r.yards} yds</span></div>
+      <p class="muted">${game[i].prompt}</p>
+      <p>${r.answer || "No answer (clock ran out)"}</p>
+      <details><summary class="muted">All accepted answers</summary>${answerList(game[i])}</details>
+    </div>`;
   render(`
     <p class="prompt">${yards === 100 ? "Touchdown! Perfect drive." : `Drive over: ${yards} yards.`}</p>
-    <ol>${results.map((r, i) => `<li>${r.answer || "(no answer)"} — ${r.yards} yds <span class="muted">(${game[i].prompt})</span></li>`).join("")}</ol>
     <button id="share">Share Score</button>
-    <p class="muted">New game tomorrow.</p>`);
+    ${results.map(card).join("")}
+    <p class="muted">Next game in <span id="countdown"></span></p>`);
   document.getElementById("share").onclick = (e) => {
     if (navigator.share) return navigator.share({ text: share }).catch(() => {});
     navigator.clipboard.writeText(share);
@@ -118,7 +126,13 @@ function showFinal() {
 function showStart() {
   render(`
     <p class="muted">Game #${dayNumber}</p>
-    <p class="prompt">5 NFL prompts. 40-second play clock each. The less obvious your answer, the more yards you gain. Go 100 yards for a touchdown.</p>
+    <p class="prompt">You start on your own goal line. Go 100 yards for a touchdown.</p>
+    <ul class="rules">
+      <li>5 NFL prompts, each with a 40-second play clock.</li>
+      <li>Wrong guesses don't count against you. Keep guessing until you get one or the clock runs out.</li>
+      <li><b>Up to 20 yards per answer.</b> Every correct answer gains yards, but rarer answers gain more: the obvious pick might get 2 yards, a true deep cut gets the full 20.</li>
+      <li>Rarity is our estimate of how few fans would think of that answer. 5 perfect answers = 100 yards = touchdown.</li>
+    </ul>
     <button id="start">Kick off</button>`);
   document.getElementById("start").onclick = startRound;
 }
@@ -126,7 +140,17 @@ function showStart() {
 // Leaving mid-play counts as a delay of game, so reloading can't reset the clock.
 window.onbeforeunload = () => { if (timer && screen.querySelector("#form")) finishRound(""); };
 
-if (!game) render(`<p class="prompt">No game today. Check back tomorrow!</p>`);
+// Countdown to local midnight, when the next game unlocks.
+function tick() {
+  const el = document.getElementById("countdown");
+  if (!el) return;
+  const midnight = new Date().setHours(24, 0, 0, 0);
+  const secs = Math.floor((midnight - Date.now()) / 1000);
+  el.textContent = [secs / 3600, (secs / 60) % 60, secs % 60].map((n) => String(Math.floor(n)).padStart(2, "0")).join(":");
+}
+setInterval(tick, 1000);
+
+if (!game) render(`<p class="prompt">No game today.</p><p class="muted">Next game in <span id="countdown"></span></p>`);
 else if (results.length === 5) showFinal();
 else if (results.length > 0) showReveal();
 else showStart();
