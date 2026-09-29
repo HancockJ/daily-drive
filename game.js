@@ -43,7 +43,7 @@ function findAnswer(guess, answers) {
 function render(html) {
   screen.innerHTML = html;
   const yards = totalYards();
-  document.getElementById("yardage").textContent = `${yards} yards`;
+  document.getElementById("yardage").innerHTML = `${yards} <small>YDS</small>`;
   document.getElementById("ball").style.left = `${yards}%`;
   tick();
 }
