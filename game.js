@@ -1,7 +1,7 @@
 const SECONDS = 40;
 const today = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD
-const dayNumber = Math.floor((new Date(today) - new Date("2026-09-28")) / 86400000) + 1;
-const game = GAMES[(dayNumber - 1) % GAMES.length];
+const dayNumber = Object.keys(GAMES).indexOf(today) + 1;
+const game = GAMES[today];
 
 const screen = document.getElementById("screen");
 let results = JSON.parse(localStorage.getItem(today) || "[]"); // one entry per round: { answer, yards }
@@ -80,13 +80,15 @@ function showReveal() {
 
 function showFinal() {
   const yards = totalYards();
-  const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => (r.yards === 20 ? "🏈" : r.yards)).join(" · ")}\n${location.origin + location.pathname}`;
+  const emoji = (y) => (y === 20 ? "🏈" : y >= 14 ? "🥇" : y >= 8 ? "🥈" : y > 0 ? "🥉" : "❌");
+  const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${location.origin + location.pathname}`;
   render(`
     <p class="prompt">${yards === 100 ? "Touchdown! Perfect drive." : `Drive over: ${yards} yards.`}</p>
     <ol>${results.map((r, i) => `<li>${r.answer || "(no answer)"} — ${r.yards} yds <span class="muted">(${game[i].prompt})</span></li>`).join("")}</ol>
-    <button id="share">Copy result</button>
+    <button id="share">Share Score</button>
     <p class="muted">New game tomorrow.</p>`);
   document.getElementById("share").onclick = (e) => {
+    if (navigator.share) return navigator.share({ text: share }).catch(() => {});
     navigator.clipboard.writeText(share);
     e.target.textContent = "Copied!";
   };
@@ -103,6 +105,7 @@ function showStart() {
 // Leaving mid-play counts as a delay of game, so reloading can't reset the clock.
 window.onbeforeunload = () => { if (timer && screen.querySelector("#form")) finishRound(""); };
 
-if (results.length === 5) showFinal();
+if (!game) render(`<p class="prompt">No game today. Check back tomorrow!</p>`);
+else if (results.length === 5) showFinal();
 else if (results.length > 0) showReveal();
 else showStart();

@@ -1,7 +1,8 @@
+// One game per date (YYYY-MM-DD); this file is also the history of every past game.
 // Each game is 5 prompts. Each answer is worth 2-20 yards (rarer = more yards).
 // Optional "aliases" are other accepted spellings. A unique last name is accepted automatically.
-const GAMES = [
-  [
+const GAMES = {
+  "2026-09-28": [
     {
       prompt: "Name a franchise that has never won a Super Bowl (through Super Bowl LIX).",
       answers: [
@@ -77,4 +78,78 @@ const GAMES = [
       ],
     },
   ],
-];
+  "2026-09-29": [
+    {
+      prompt: "Name a franchise with 4 or more Super Bowl wins (through Super Bowl LIX).",
+      answers: [
+        { name: "New York Giants", yards: 20, aliases: ["Giants"] },
+        { name: "Green Bay Packers", yards: 14, aliases: ["Packers", "Green Bay"] },
+        { name: "Kansas City Chiefs", yards: 11, aliases: ["Chiefs", "Kansas City"] },
+        { name: "Dallas Cowboys", yards: 8, aliases: ["Cowboys", "Dallas"] },
+        { name: "San Francisco 49ers", yards: 8, aliases: ["49ers", "Niners", "San Francisco"] },
+        { name: "Pittsburgh Steelers", yards: 5, aliases: ["Steelers", "Pittsburgh"] },
+        { name: "New England Patriots", yards: 2, aliases: ["Patriots", "Pats", "New England"] },
+      ],
+    },
+    {
+      prompt: "Name a player who won Super Bowl MVP more than once (through Super Bowl LIX).",
+      answers: [
+        { name: "Bart Starr", yards: 20 },
+        { name: "Eli Manning", yards: 14, aliases: ["Eli"] },
+        { name: "Terry Bradshaw", yards: 11 },
+        { name: "Joe Montana", yards: 8 },
+        { name: "Patrick Mahomes", yards: 5, aliases: ["Mahomes"] },
+        { name: "Tom Brady", yards: 2 },
+      ],
+    },
+    {
+      prompt: "Name a quarterback with a 5,000-yard passing season (through 2024).",
+      answers: [
+        { name: "Jameis Winston", yards: 20 },
+        { name: "Matthew Stafford", yards: 17, aliases: ["Matt Stafford"] },
+        { name: "Ben Roethlisberger", yards: 17, aliases: ["Big Ben"] },
+        { name: "Justin Herbert", yards: 14 },
+        { name: "Dan Marino", yards: 11 },
+        { name: "Peyton Manning", yards: 8, aliases: ["Peyton"] },
+        { name: "Tom Brady", yards: 5 },
+        { name: "Patrick Mahomes", yards: 5, aliases: ["Mahomes"] },
+        { name: "Drew Brees", yards: 2 },
+      ],
+    },
+    {
+      prompt: "Name a head coach who won 2 or more Super Bowls (through Super Bowl LIX).",
+      answers: [
+        { name: "George Seifert", yards: 20 },
+        { name: "Tom Flores", yards: 20 },
+        { name: "Mike Shanahan", yards: 17 },
+        { name: "Jimmy Johnson", yards: 14 },
+        { name: "Tom Coughlin", yards: 14 },
+        { name: "Joe Gibbs", yards: 11 },
+        { name: "Don Shula", yards: 11 },
+        { name: "Tom Landry", yards: 11 },
+        { name: "Bill Parcells", yards: 8 },
+        { name: "Bill Walsh", yards: 8 },
+        { name: "Chuck Noll", yards: 8 },
+        { name: "Vince Lombardi", yards: 5 },
+        { name: "Andy Reid", yards: 5 },
+        { name: "Bill Belichick", yards: 2 },
+      ],
+    },
+    {
+      prompt: "Name a player with a 20-sack season (official sacks, 1982–2024).",
+      answers: [
+        { name: "Chris Doleman", yards: 20 },
+        { name: "Mark Gastineau", yards: 17 },
+        { name: "Derrick Thomas", yards: 17 },
+        { name: "Justin Houston", yards: 17 },
+        { name: "Jared Allen", yards: 14 },
+        { name: "DeMarcus Ware", yards: 14 },
+        { name: "Reggie White", yards: 11 },
+        { name: "Lawrence Taylor", yards: 8, aliases: ["LT"] },
+        { name: "J. J. Watt", yards: 5, aliases: ["JJ Watt"] },
+        { name: "T. J. Watt", yards: 5, aliases: ["TJ Watt"] },
+        { name: "Michael Strahan", yards: 5 },
+      ],
+    },
+  ],
+};
