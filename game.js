@@ -7,16 +7,37 @@ const screen = document.getElementById("screen");
 let results = JSON.parse(localStorage.getItem(today) || "[]"); // one entry per round: { answer, yards }
 let timer;
 
-const clean = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 const totalYards = () => results.reduce((sum, r) => sum + r.yards, 0);
 
+// Split into lowercase words, ignoring punctuation and suffixes like Jr. or III.
+const SUFFIXES = ["jr", "sr", "ii", "iii", "iv"];
+const words = (s) => s.toLowerCase().replace(/[.'’-]/g, "").split(/[^a-z0-9]+/).filter((w) => w && !SUFFIXES.includes(w));
+
+// Number of letter edits (add, remove, change, or swap two neighbors) to turn a into b.
+function typos(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++) {
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);
+    }
+  return d[a.length][b.length];
+}
+
+// Each word may be up to ~40% misspelled, so "Toa Tavagoloa" finds "Tua Tagovailoa"
+// but "Calvin Johnson" never becomes "Chris Johnson".
+const close = (g, n) => g.length === n.length && g.every((w, i) => typos(w, n[i]) <= Math.round((n[i].length - 1) * 0.4));
+
 function findAnswer(guess, answers) {
-  const g = clean(guess);
-  const lastName = (a) => clean(a.name.split(" ").pop());
-  return answers.find((a) =>
-    [a.name, ...(a.aliases || [])].some((n) => clean(n) === g) ||
-    (lastName(a) === g && answers.filter((b) => lastName(b) === g).length === 1)
-  );
+  const g = words(guess);
+  const last = (a) => words(a.name).slice(-1);
+  const lastIsUnique = (a) => answers.filter((b) => last(b)[0] === last(a)[0]).length === 1;
+  const names = (a) => [...[a.name, ...(a.aliases || [])].map(words), ...(lastIsUnique(a) ? [last(a)] : [])];
+  const exact = answers.find((a) => names(a).some((n) => n.join("") === g.join("")));
+  if (exact) return exact;
+  const fuzzy = answers.filter((a) => names(a).some((n) => close(g, n)));
+  return fuzzy.length === 1 ? fuzzy[0] : undefined; // ambiguous typos don't count
 }
 
 function render(html) {
