@@ -1,0 +1,48 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,old_yards,new_yards
+1,Dallas Cowboys,5.737,1256159,8,2
+1,New England Patriots,1.0,2044243,2,5
+1,Kansas City Chiefs,2.415,1027774,11,8
+1,Pittsburgh Steelers,1.628,1056589,5,11
+1,San Francisco 49ers,0.773,1117306,8,14
+1,Green Bay Packers,2.339,1019755,14,17
+1,New York Giants,0.767,1106508,20,20
+2,Tom Brady,1.0,4084883,2,2
+2,Patrick Mahomes,0.524,2238774,5,5
+2,Eli Manning,0.072,1265737,14,8
+2,Terry Bradshaw,0.068,874741,11,14
+2,Joe Montana,0.051,1054715,8,17
+2,Bart Starr,0.0,182666,20,20
+3,Tom Brady,1.0,4084883,5,2
+3,Patrick Mahomes,0.524,2238774,5,5
+3,Peyton Manning,0.16,1861392,8,8
+3,Matthew Stafford,0.105,2275480,17,8
+3,Justin Herbert,0.11,1274856,14,11
+3,Drew Brees,0.058,1012748,2,14
+3,Jameis Winston,0.054,987016,20,14
+3,Ben Roethlisberger,0.047,786462,17,17
+3,Dan Marino,0.02,650668,11,20
+4,Bill Belichick,1.0,1993798,2,2
+4,Andy Reid,0.531,869097,5,2
+4,Jimmy Johnson,0.321,652729,14,5
+4,Vince Lombardi,0.075,422101,5,5
+4,Mike Shanahan,0.05,587950,17,8
+4,Joe Gibbs,0.085,284167,11,8
+4,Don Shula,0.021,373138,11,11
+4,Bill Parcells,0.02,416974,8,11
+4,Tom Landry,0.019,370096,11,14
+4,Tom Coughlin,0.004,195045,14,14
+4,Chuck Noll,0.001,228736,8,17
+4,Bill Walsh,0.013,56706,8,17
+4,Tom Flores,0.001,139920,20,20
+4,George Seifert,0.001,110014,20,20
+5,Michael Strahan,1.058,712448,5,2
+5,J. J. Watt,1.0,713108,5,5
+5,T. J. Watt,1.064,588067,5,5
+5,Lawrence Taylor,0.517,645020,8,8
+5,Reggie White,0.29,445163,11,8
+5,Jared Allen,0.263,265370,14,11
+5,Derrick Thomas,0.119,167542,17,14
+5,Mark Gastineau,0.078,254987,17,14
+5,Justin Houston,0.197,50139,17,17
+5,DeMarcus Ware,0.054,161066,14,17
+5,Chris Doleman,0.0,38536,20,20
