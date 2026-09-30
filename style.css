@@ -80,3 +80,5 @@ button:active { transform: translateY(3px); box-shadow: 0 1px 0 #8fb33f; }
 .rules { padding-left: 20px; }
 .rules li { margin: 8px 0; }
 ul { padding-left: 20px; }
+footer { text-align: center; margin-top: 32px; font-size: 14px; }
+a { color: #afbed0; }

@@ -1,4 +1,17 @@
 const SECONDS = 40;
+const GA_ID = ""; // Google Analytics Measurement ID (G-XXXXXXXXXX); analytics stay off while empty
+
+if (GA_ID) {
+  const s = document.createElement("script");
+  s.async = true;
+  s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+  document.head.append(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { dataLayer.push(arguments); };
+  gtag("js", new Date());
+  gtag("config", GA_ID);
+}
+const track = (name, params) => window.gtag && gtag("event", name, { game: dayNumber, ...params });
 const today = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD
 const dayNumber = Object.keys(GAMES).indexOf(today) + 1;
 const game = GAMES[today];
@@ -82,6 +95,8 @@ function finishRound(guess) {
   const match = findAnswer(guess, game[results.length].answers);
   results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0 });
   localStorage.setItem(today, JSON.stringify(results));
+  track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : "timeout" });
+  if (results.length === 5) track("game_complete", { yards: totalYards() });
   showReveal();
 }
 
@@ -117,6 +132,7 @@ function showFinal() {
     ${results.map(card).join("")}
     <p class="muted">Next game in <span id="countdown"></span></p>`);
   document.getElementById("share").onclick = (e) => {
+    track("share_click", { yards });
     if (navigator.share) return navigator.share({ text: share }).catch(() => {});
     navigator.clipboard.writeText(share);
     e.target.textContent = "Copied!";
@@ -134,7 +150,10 @@ function showStart() {
       <li>Rarity is our estimate of how few fans would think of that answer. 5 perfect answers = 100 yards = touchdown.</li>
     </ul>
     <button id="start">Kick off</button>`);
-  document.getElementById("start").onclick = startRound;
+  document.getElementById("start").onclick = () => {
+    track("game_start");
+    startRound();
+  };
 }
 
 // Leaving mid-play counts as a delay of game, so reloading can't reset the clock.
