@@ -8,6 +8,11 @@ if (GA_ID) {
   document.head.append(s);
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { dataLayer.push(arguments); };
+  // No cookies for EU/EEA, UK, and Swiss visitors (they'd need a consent banner); cookieless pings only.
+  gtag("consent", "default", {
+    analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied",
+    region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],
+  });
   gtag("js", new Date());
   gtag("config", GA_ID);
 }
