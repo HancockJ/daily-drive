@@ -103,7 +103,7 @@ function showReveal() {
 function showFinal() {
   const yards = totalYards();
   const emoji = (y) => (y === 20 ? "🏈" : y >= 14 ? "🥇" : y >= 8 ? "🥈" : y > 0 ? "🥉" : "❌");
-  const share = `Fourth & Rare #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${location.host + location.pathname}`;
+  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${location.host + location.pathname}`;
   const card = (r, i) => `
     <div class="card">
       <div class="head"><span>Play ${i + 1}</span><span>${emoji(r.yards)} +${r.yards} yds</span></div>
