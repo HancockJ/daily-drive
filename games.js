@@ -152,4 +152,65 @@ const GAMES = {
       ],
     },
   ],
+  "2026-09-30": [
+    {
+      prompt: "Name an NFL team whose nickname is a bird.",
+      answers: [
+        { name: "Seattle Seahawks", yards: 2, aliases: ["Seahawks", "Seattle", "Hawks"] },
+        { name: "Philadelphia Eagles", yards: 8, aliases: ["Eagles", "Philadelphia", "Philly"] },
+        { name: "Baltimore Ravens", yards: 11, aliases: ["Ravens", "Baltimore"] },
+        { name: "Arizona Cardinals", yards: 14, aliases: ["Cardinals", "Arizona"] },
+        { name: "Atlanta Falcons", yards: 20, aliases: ["Falcons", "Atlanta"] },
+      ],
+    },
+    {
+      prompt: "Name a quarterback who started and won a Super Bowl from Super Bowl XXXV through LIX (2000–2024 seasons).",
+      answers: [
+        { name: "Tom Brady", yards: 2, aliases: ["Brady"] },
+        { name: "Aaron Rodgers", yards: 2 },
+        { name: "Matthew Stafford", yards: 5, aliases: ["Matt Stafford"] },
+        { name: "Patrick Mahomes", yards: 5, aliases: ["Mahomes"] },
+        { name: "Joe Flacco", yards: 8 },
+        { name: "Russell Wilson", yards: 8, aliases: ["Russ"] },
+        { name: "Peyton Manning", yards: 11, aliases: ["Peyton"] },
+        { name: "Eli Manning", yards: 11, aliases: ["Eli"] },
+        { name: "Jalen Hurts", yards: 14 },
+        { name: "Drew Brees", yards: 14 },
+        { name: "Ben Roethlisberger", yards: 17, aliases: ["Big Ben"] },
+        { name: "Nick Foles", yards: 17 },
+        { name: "Trent Dilfer", yards: 20 },
+        { name: "Brad Johnson", yards: 20 },
+      ],
+    },
+    {
+      prompt: "Name a player with 15,000+ career rushing yards (through 2024).",
+      answers: [
+        { name: "Emmitt Smith", yards: 2, aliases: ["Emmitt"] },
+        { name: "Walter Payton", yards: 8 },
+        { name: "Barry Sanders", yards: 14 },
+        { name: "Frank Gore", yards: 20 },
+      ],
+    },
+    {
+      prompt: "Name a player with 15,000+ career receiving yards (through 2024).",
+      answers: [
+        { name: "Randy Moss", yards: 2 },
+        { name: "Jerry Rice", yards: 5 },
+        { name: "Tony Gonzalez", yards: 8 },
+        { name: "Larry Fitzgerald", yards: 14 },
+        { name: "Terrell Owens", yards: 17, aliases: ["TO", "T.O."] },
+        { name: "Isaac Bruce", yards: 20 },
+      ],
+    },
+    {
+      prompt: "Name a player with 150+ career sacks (official sacks, 1982–2024).",
+      answers: [
+        { name: "Reggie White", yards: 2 },
+        { name: "Julius Peppers", yards: 8 },
+        { name: "Bruce Smith", yards: 11 },
+        { name: "Kevin Greene", yards: 14 },
+        { name: "Chris Doleman", yards: 20 },
+      ],
+    },
+  ],
 };
