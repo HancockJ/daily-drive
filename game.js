@@ -22,6 +22,9 @@ const dayNumber = Object.keys(GAMES).indexOf(today) + 1;
 const game = GAMES[today];
 
 const screen = document.getElementById("screen");
+document.getElementById("meta").textContent = game
+  ? `#${dayNumber} · ${new Date(today + "T12:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}`
+  : "";
 let results = JSON.parse(localStorage.getItem(today) || "[]"); // one entry per round: { answer, yards }
 let timer;
 
@@ -58,11 +61,18 @@ function findAnswer(guess, answers) {
   return fuzzy.length === 1 ? fuzzy[0] : undefined; // ambiguous typos don't count
 }
 
+const emoji = (y) => (y === 20 ? "🏈" : y >= 14 ? "🥇" : y >= 8 ? "🥈" : y > 0 ? "🥉" : "❌");
+const gainLabel = (y) => (y === 20 ? "Deep cut" : y >= 14 ? "Big gain" : y >= 8 ? "Solid gain" : y > 0 ? "Short gain" : "Delay of game");
+
 function render(html) {
   screen.innerHTML = html;
   const yards = totalYards();
-  document.getElementById("yardage").innerHTML = `${yards} <small>YDS</small>`;
+  document.getElementById("yardage").innerHTML = `${yards}<small>YDS</small>`;
   document.getElementById("ball").style.left = `${yards}%`;
+  document.getElementById("gain").style.width = `${yards}%`;
+  document.getElementById("pips").innerHTML = [0, 1, 2, 3, 4]
+    .map((i) => `<span class="${results[i] ? (results[i].yards ? "gain" : "miss") : i === results.length && screen.querySelector("#form") ? "now" : ""}"></span>`)
+    .join("");
   tick();
 }
 
@@ -70,18 +80,26 @@ function startRound() {
   const round = game[results.length];
   let left = SECONDS;
   render(`
-    <p class="muted">Play ${results.length + 1} of 5</p>
-    <p class="timer" id="clock">0:${left}</p>
-    <p class="prompt">${round.prompt}</p>
-    <form id="form">
-      <input id="guess" autocomplete="off" spellcheck="false" placeholder="Your answer" autofocus>
-      <button>Snap it</button>
-    </form>
-    <p id="msg" class="muted">Wrong guesses don't cost anything. Keep trying until the clock hits 0:00.</p>`);
+    <div class="card">
+      <div class="clockrow">
+        <p class="label">Play ${results.length + 1} of 5</p>
+        <span class="timer" id="clock">0:${left}</span>
+      </div>
+      <div class="bar"><div id="bar"></div></div>
+      <p class="prompt">${round.prompt}</p>
+      <form id="form">
+        <input id="guess" autocomplete="off" autocapitalize="words" spellcheck="false" placeholder="Your answer" autofocus>
+        <button>Snap it</button>
+      </form>
+      <p id="msg" class="muted">Wrong guesses are free. Keep trying until the clock hits 0:00.</p>
+    </div>`);
   document.getElementById("guess").focus();
+  setTimeout(() => (document.getElementById("bar").style.width = "0%"), 50);
   timer = setInterval(() => {
     left--;
-    document.getElementById("clock").textContent = `0:${String(left).padStart(2, "0")}`;
+    const clock = document.getElementById("clock");
+    clock.textContent = `0:${String(left).padStart(2, "0")}`;
+    clock.className = `timer ${left <= 5 ? "danger" : left <= 10 ? "warn" : ""}`;
     if (left <= 0) finishRound("");
   }, 1000);
   document.getElementById("form").onsubmit = (e) => {
@@ -105,37 +123,48 @@ function finishRound(guess) {
   showReveal();
 }
 
-function answerList(round) {
-  return `<ul>${round.answers.map((a) => `<li>${a.name} — ${a.yards} yds</li>`).join("")}</ul>`;
+function answerList(round, yours) {
+  return `<details><summary>All ${round.answers.length} accepted answers</summary><ul class="answers">${[...round.answers]
+    .sort((a, b) => b.yards - a.yards)
+    .map((a) => `<li class="${a.name === yours ? "you" : ""}"><span>${a.name}</span><b>${a.yards}</b></li>`)
+    .join("")}</ul></details>`;
 }
 
 function showReveal() {
   const i = results.length - 1;
   const r = results[i];
-  const verdict = r.answer ? `${r.answer}: +${r.yards} yards` : "Delay of game! No gain.";
   render(`
-    <p class="prompt">${verdict}</p>
-    <details><summary>All accepted answers</summary>${answerList(game[i])}</details>
-    <button id="next">${results.length < 5 ? "Next play" : "See final drive"}</button>`);
+    <div class="card">
+      <p class="label">Play ${i + 1} of 5 · ${gainLabel(r.yards)}</p>
+      <div class="result">
+        <span class="name">${r.answer || "Clock ran out"}</span>
+        <span class="yds ${r.yards ? "" : "zero"}">${r.yards ? `+${r.yards} YDS` : "NO GAIN"}</span>
+      </div>
+      ${answerList(game[i], r.answer)}
+      <button id="next">${results.length < 5 ? "Next play" : "See final drive"}</button>
+    </div>`);
   document.getElementById("next").onclick = results.length < 5 ? startRound : showFinal;
 }
 
 function showFinal() {
   const yards = totalYards();
-  const emoji = (y) => (y === 20 ? "🏈" : y >= 14 ? "🥇" : y >= 8 ? "🥈" : y > 0 ? "🥉" : "❌");
   const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${location.host + location.pathname}`;
   const card = (r, i) => `
-    <div class="card">
-      <div class="head"><span>Play ${i + 1}</span><span>${emoji(r.yards)} +${r.yards} yds</span></div>
-      <p class="muted">${game[i].prompt}</p>
-      <p>${r.answer || "No answer (clock ran out)"}</p>
-      <details><summary class="muted">All accepted answers</summary>${answerList(game[i])}</details>
+    <div class="card mini">
+      <div class="row"><span class="label">Play ${i + 1}</span><span class="yds">${emoji(r.yards)} +${r.yards}</span></div>
+      <p class="prompt">${game[i].prompt}</p>
+      <div>${r.answer || '<span class="muted">Clock ran out</span>'}</div>
+      ${answerList(game[i], r.answer)}
     </div>`;
   render(`
-    <p class="prompt">${yards === 100 ? "Touchdown! Perfect drive." : `Drive over: ${yards} yards.`}</p>
-    <button id="share">Share Score</button>
-    ${results.map(card).join("")}
-    <p class="muted">Next game in <span id="countdown"></span></p>`);
+    <div class="card">
+      <p class="label">${yards === 100 ? "Touchdown! Perfect drive" : "Drive complete"}</p>
+      <p class="big">${yards}<small> / 100 YDS</small></p>
+      <p class="emojis">${results.map((r) => emoji(r.yards)).join("")}</p>
+      <button id="share">Share score</button>
+      <p class="muted" style="text-align:center;margin:12px 0 0;font-size:14px">Next drive in <span id="countdown"></span></p>
+    </div>
+    ${results.map(card).join("")}`);
   document.getElementById("share").onclick = (e) => {
     track("share_click", { yards });
     if (navigator.share) return navigator.share({ text: share }).catch(() => {});
@@ -146,15 +175,16 @@ function showFinal() {
 
 function showStart() {
   render(`
-    <p class="muted">Game #${dayNumber}</p>
-    <p class="prompt">You start on your own goal line. Go 100 yards for a touchdown.</p>
-    <ul class="rules">
-      <li>5 NFL prompts, each with a 40-second play clock.</li>
-      <li>Wrong guesses don't count against you. Keep guessing until you get one or the clock runs out.</li>
-      <li><b>Up to 20 yards per answer.</b> Every correct answer gains yards, but rarer answers gain more: the obvious pick might get 2 yards, a true deep cut gets the full 20.</li>
-      <li>Rarity is our estimate of how few fans would think of that answer. 5 perfect answers = 100 yards = touchdown.</li>
-    </ul>
-    <button id="start">Kick off</button>`);
+    <div class="card">
+      <p class="label">How to play</p>
+      <p class="prompt">Start at your own goal line. Go 100 yards for a touchdown.</p>
+      <ol class="steps">
+        <li><b>5 NFL prompts</b>, each with a 40-second play clock.</li>
+        <li><b>Guess as often as you like.</b> Wrong answers are free until the clock runs out.</li>
+        <li><b>Rarer answers gain more yards.</b> Up to 20 per play: the obvious pick gets a few, a true deep cut gets all 20.</li>
+      </ol>
+      <button id="start">Kick off</button>
+    </div>`);
   document.getElementById("start").onclick = () => {
     track("game_start");
     startRound();
@@ -174,7 +204,7 @@ function tick() {
 }
 setInterval(tick, 1000);
 
-if (!game) render(`<p class="prompt">No game today.</p><p class="muted">Next game in <span id="countdown"></span></p>`);
+if (!game) render(`<div class="card"><p class="prompt">No game today.</p><p class="muted">Next drive in <span id="countdown"></span></p></div>`);
 else if (results.length === 5) showFinal();
 else if (results.length > 0) showReveal();
 else showStart();
