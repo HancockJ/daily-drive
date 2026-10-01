@@ -1,0 +1,38 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Dallas Cowboys,5.7597,1256159,2
+1,Kansas City Chiefs,2.4026,1027774,5
+1,New England Patriots,1.0,2044243,8
+1,Green Bay Packers,2.3306,1019755,11
+1,Pittsburgh Steelers,1.6404,1056589,11
+1,San Francisco 49ers,0.7744,1117306,14
+1,Denver Broncos,1.7336,926800,17
+1,Miami Dolphins,2.0805,710283,20
+2,Roger Staubach,1.0,437631,2
+2,Jim Plunkett,0.3473,298503,8
+2,Desmond Howard,0.678,260142,14
+2,Marcus Allen,0.9302,225106,20
+3,Matthew Stafford,1.0,2275480,2
+3,Cam Newton,0.7921,1474605,5
+3,Eli Manning,0.5116,1265737,5
+3,Michael Vick,0.2563,938910,8
+3,Andrew Luck,0.1596,675806,11
+3,Alex Smith,0.1393,363818,11
+3,JaMarcus Russell,0.0164,342757,14
+3,David Carr,0.028,198488,17
+3,Sam Bradford,0.0029,286852,17
+3,Carson Palmer,0.0058,285469,20
+4,Aaron Donald,1.0,988588,2
+4,Ray Lewis,0.6258,759711,5
+4,J. J. Watt,0.857,713108,8
+4,Lawrence Taylor,0.3844,645020,11
+4,Reggie White,0.1826,445163,11
+4,Joe Greene,0.0268,258078,14
+4,Mike Singletary,0.0396,212438,17
+4,Bruce Smith,0.0115,161572,20
+5,Patrick Mahomes,1.0,2238774,2
+5,Joe Montana,0.1238,1054715,5
+5,Terry Bradshaw,0.1544,874741,8
+5,Kurt Warner,0.1116,1041195,11
+5,Emmitt Smith,0.0706,811132,14
+5,Steve Young,0.0168,562029,17
+5,Bart Starr,0.0,182666,20
