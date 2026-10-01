@@ -136,3 +136,8 @@ summary { cursor: pointer; color: var(--muted); font-size: 14px; }
 .answers b { color: var(--accent); font-weight: 700; }
 
 footer { text-align: center; margin-top: 28px; font-size: 13px; color: var(--muted); }
+button.secondary {
+  background: transparent; color: var(--muted); box-shadow: none;
+  border: 1.5px solid var(--line); font-size: 18px; padding: 8px; margin-top: 8px;
+}
+button.secondary:active { transform: none; box-shadow: none; background: var(--raised); }

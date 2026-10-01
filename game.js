@@ -90,8 +90,9 @@ function startRound() {
       <form id="form">
         <input id="guess" autocomplete="off" autocapitalize="words" spellcheck="false" placeholder="Your answer" autofocus>
         <button>Snap it</button>
+        <button type="button" id="punt" class="secondary">Punt</button>
       </form>
-      <p id="msg" class="muted">Wrong guesses are free. Keep trying until the clock hits 0:00.</p>
+      <p id="msg" class="muted">Wrong guesses are free. Stuck? Punt to skip ahead.</p>
     </div>`);
   document.getElementById("guess").focus();
   setTimeout(() => (document.getElementById("bar").style.width = "0%"), 50);
@@ -102,6 +103,7 @@ function startRound() {
     clock.className = `timer ${left <= 5 ? "danger" : left <= 10 ? "warn" : ""}`;
     if (left <= 0) finishRound("");
   }, 1000);
+  document.getElementById("punt").onclick = () => finishRound("", true);
   document.getElementById("form").onsubmit = (e) => {
     e.preventDefault();
     const input = document.getElementById("guess");
@@ -113,12 +115,12 @@ function startRound() {
   };
 }
 
-function finishRound(guess) {
+function finishRound(guess, punted = false) {
   clearInterval(timer);
   const match = findAnswer(guess, game[results.length].answers);
-  results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0 });
+  results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0, ...(punted && { punt: true }) });
   localStorage.setItem(today, JSON.stringify(results));
-  track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : "timeout" });
+  track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : punted ? "punt" : "timeout" });
   if (results.length === 5) track("game_complete", { yards: totalYards() });
   showReveal();
 }
@@ -135,9 +137,9 @@ function showReveal() {
   const r = results[i];
   render(`
     <div class="card">
-      <p class="label">Play ${i + 1} of 5 · ${gainLabel(r.yards)}</p>
+      <p class="label">Play ${i + 1} of 5 · ${r.punt ? "Punt" : gainLabel(r.yards)}</p>
       <div class="result">
-        <span class="name">${r.answer || "Clock ran out"}</span>
+        <span class="name">${r.answer || (r.punt ? "Punted" : "Clock ran out")}</span>
         <span class="yds ${r.yards ? "" : "zero"}">${r.yards ? `+${r.yards} YDS` : "NO GAIN"}</span>
       </div>
       ${answerList(game[i], r.answer)}
@@ -153,7 +155,7 @@ function showFinal() {
     <div class="card mini">
       <div class="row"><span class="label">Play ${i + 1}</span><span class="yds">${emoji(r.yards)} +${r.yards}</span></div>
       <p class="prompt">${game[i].prompt}</p>
-      <div>${r.answer || '<span class="muted">Clock ran out</span>'}</div>
+      <div>${r.answer || `<span class="muted">${r.punt ? "Punted" : "Clock ran out"}</span>`}</div>
       ${answerList(game[i], r.answer)}
     </div>`;
   render(`
@@ -180,7 +182,7 @@ function showStart() {
       <p class="prompt">Start at your own goal line. Go 100 yards for a touchdown.</p>
       <ol class="steps">
         <li><b>5 NFL prompts</b>, each with a 40-second play clock.</li>
-        <li><b>Guess as often as you like.</b> Wrong answers are free until the clock runs out.</li>
+        <li><b>Guess as often as you like.</b> Wrong answers are free. Stuck? Punt to move on.</li>
         <li><b>Rarer answers gain more yards.</b> Up to 20 per play: the obvious pick gets a few, a true deep cut gets all 20.</li>
       </ol>
       <button id="start">Kick off</button>
