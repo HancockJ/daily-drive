@@ -1,5 +1,5 @@
 const SECONDS = 40;
-const GA_ID = ""; // Google Analytics Measurement ID (G-XXXXXXXXXX); analytics stay off while empty
+const GA_ID = "G-6QHLTKHKL5"; // Google Analytics Measurement ID (G-XXXXXXXXXX); analytics stay off while empty
 
 if (GA_ID) {
   const s = document.createElement("script");
