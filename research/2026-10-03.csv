@@ -1,51 +1,91 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Dallas Cowboys,1.0,1256159,2
-1,Detroit Lions,0.4927,685072,5
-1,Las Vegas Raiders,0.1298,950816,5
-1,Minnesota Vikings,0.2315,680570,8
-1,Arizona Cardinals,0.1196,762016,8
-1,Los Angeles Rams,0.0538,1231722,11
-1,Houston Texans,0.1437,669166,14
-1,Atlanta Falcons,0.1612,554203,14
-1,Los Angeles Chargers,0.0264,724182,17
-1,Indianapolis Colts,0.0581,659419,17
-1,New Orleans Saints,0.1133,506995,20
-2,Tom Brady,1.0,4084883,2
-2,Patrick Mahomes,0.5254,2238774,5
-2,Peyton Manning,0.1896,1861392,8
-2,John Elway,0.0161,1236832,11
-2,Joe Montana,0.0547,1054715,11
-2,Terry Bradshaw,0.0772,874741,14
-2,Roger Staubach,0.0017,437631,17
-2,Jim Kelly,0.0025,395679,20
-3,Bill Belichick,1.0,1993798,2
-3,Mike Tomlin,0.3347,1629456,2
-3,John Harbaugh,0.1963,1616047,5
-3,Andy Reid,0.38,869097,5
-3,Pete Carroll,0.2203,1171107,8
-3,Mike McCarthy,0.1603,1238872,8
-3,Sean Payton,0.2786,942536,8
-3,Jon Gruden,0.2882,862447,11
-3,Sean McVay,0.1465,1029434,11
-3,Nick Sirianni,0.1398,598460,11
-3,Tony Dungy,0.0558,367172,14
-3,Gary Kubiak,0.0049,547415,14
-3,Bill Cowher,0.0219,456207,14
-3,Bruce Arians,0.0445,322055,17
-3,Doug Pederson,0.0395,258322,17
-3,Tom Coughlin,0.0028,195045,20
-3,Brian Billick,0.0,150786,20
-4,Andy Reid,1.0,869097,2
-4,Bill Parcells,0.0506,416974,5
-4,Don Shula,0.0435,373138,8
-4,Dick Vermeil,0.0212,233130,11
-4,Dan Reeves,0.0471,194273,14
-4,Mike Holmgren,0.0165,200819,17
-4,John Fox,0.0024,131285,20
-5,Philadelphia Eagles,1.8507,1103844,2
-5,New England Patriots,1.0,2044243,5
-5,Kansas City Chiefs,2.4171,1027774,8
-5,Pittsburgh Steelers,1.6499,1056589,11
-5,New York Giants,0.7703,1106508,14
-5,Baltimore Ravens,1.0255,828040,17
-5,Tampa Bay Buccaneers,0.9509,737146,20
+1,Dallas Cowboys,5.9636,1256159,2
+1,Chicago Bears,2.8071,1186758,2
+1,Buffalo Bills,3.2202,1105387,5
+1,Seattle Seahawks,1.0,2183206,5
+1,New England Patriots,1.0381,2044243,5
+1,Kansas City Chiefs,2.4705,1027774,5
+1,Philadelphia Eagles,1.8601,1103844,8
+1,Green Bay Packers,2.4096,1019755,8
+1,Pittsburgh Steelers,1.6831,1056589,8
+1,San Francisco 49ers,0.808,1117306,8
+1,Denver Broncos,1.7815,926800,11
+1,Washington Commanders,1.1355,978991,11
+1,Miami Dolphins,2.1473,710283,11
+1,New York Giants,0.7813,1106508,11
+1,Los Angeles Rams,0.3206,1231722,14
+1,Minnesota Vikings,1.3777,680570,14
+1,Las Vegas Raiders,0.7735,950816,14
+1,Arizona Cardinals,0.7134,762016,14
+1,Carolina Panthers,0.9413,614319,17
+1,Atlanta Falcons,0.9569,554203,17
+1,Tennessee Titans,0.65,701747,17
+1,Cincinnati Bengals,0.8411,518209,17
+1,Los Angeles Chargers,0.1885,724182,20
+1,Indianapolis Colts,0.3384,659419,20
+2,Odell Beckham Jr.,2.1849,1269788,2
+2,Cam Newton,1.0,1474605,2
+2,Justin Herbert,0.9534,1274856,2
+2,Jayden Daniels,1.0048,1115879,5
+2,Dak Prescott,1.6691,1048063,5
+2,Saquon Barkley,1.482,888795,5
+2,Kyler Murray,0.9453,1105596,8
+2,C. J. Stroud,0.9355,968641,8
+2,Ben Roethlisberger,0.6068,786462,8
+2,Ja'Marr Chase,0.8902,514612,8
+2,Adrian Peterson,0.328,601677,8
+2,Matt Ryan,0.3802,482209,11
+2,Alvin Kamara,0.6085,314771,11
+2,Robert Griffin III,0.2796,423654,11
+2,Vince Young,0.0911,398004,14
+2,Garrett Wilson,0.3338,189311,14
+2,Todd Gurley,0.1504,308633,14
+2,Sam Bradford,0.0349,286852,14
+2,Eddie Lacy,0.0337,136743,14
+2,Anquan Boldin,0.002,162714,17
+2,Clinton Portis,0.0088,155986,17
+2,Percy Harvin,0.0146,132186,17
+2,Cadillac Williams,0.021,98719,20
+2,Mike Anderson,,21925,20
+2,Anthony Thomas,0.0005,21583,20
+3,Myles Garrett,1.0,1955167,2
+3,Jadeveon Clowney,0.1102,521486,2
+3,Travon Walker,0.0792,206027,5
+3,Keyshawn Johnson,0.0973,177173,8
+3,Mario Williams,0.0043,96219,8
+3,Eric Fisher,0.0052,91184,8
+3,Jake Long,0.0017,95820,11
+3,Orlando Pace,0.0,87249,14
+3,Ki-Jana Carter,0.0,67308,14
+3,Steve Emtman,0.0009,37705,14
+3,Russell Maryland,0.0,46843,17
+3,Courtney Brown,0.0,42395,20
+3,Dan Wilkinson,0.0,23717,20
+4,Bill Belichick,1.0,1993798,2
+4,Mike Tomlin,0.3336,1629456,2
+4,John Harbaugh,0.1939,1616047,5
+4,Andy Reid,0.3805,869097,5
+4,Pete Carroll,0.2217,1171107,8
+4,Mike McCarthy,0.1568,1238872,8
+4,Sean Payton,0.272,942536,8
+4,Jon Gruden,0.283,862447,11
+4,Sean McVay,0.1415,1029434,11
+4,Nick Sirianni,0.1376,598460,11
+4,Tony Dungy,0.0556,367172,14
+4,Gary Kubiak,0.005,547415,14
+4,Bill Cowher,0.0207,456207,14
+4,Bruce Arians,0.0442,322055,17
+4,Doug Pederson,0.0399,258322,17
+4,Tom Coughlin,0.0029,195045,20
+4,Brian Billick,0.0,150786,20
+5,Dallas Cowboys,1.0,1256159,2
+5,Detroit Lions,0.4916,685072,5
+5,Las Vegas Raiders,0.1291,950816,5
+5,Minnesota Vikings,0.2313,680570,8
+5,Arizona Cardinals,0.1194,762016,8
+5,Los Angeles Rams,0.0538,1231722,11
+5,Houston Texans,0.1443,669166,14
+5,Atlanta Falcons,0.1616,554203,14
+5,Los Angeles Chargers,0.026,724182,17
+5,Indianapolis Colts,0.0587,659419,17
+5,New Orleans Saints,0.1139,506995,20

@@ -57,6 +57,8 @@ function findAnswer(guess, answers) {
   const names = (a) => [...[a.name, ...(a.aliases || [])].map(words), ...(lastIsUnique(a) ? [last(a)] : [])];
   const exact = answers.find((a) => names(a).some((n) => n.join("") === g.join("")));
   if (exact) return exact;
+  // known look-alikes (e.g. "North Carolina" for South Carolina) never count as typos
+  if (answers.some((a) => (a.not || []).some((n) => words(n).join("") === g.join("")))) return undefined;
   const fuzzy = answers.filter((a) => names(a).some((n) => close(g, n)));
   return fuzzy.length === 1 ? fuzzy[0] : undefined; // ambiguous typos don't count
 }

@@ -1,31 +1,92 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Cleveland Browns,1.0,915514,2
-1,Detroit Lions,1.6812,685072,8
-1,Houston Texans,0.4891,669166,14
-1,Jacksonville Jaguars,0.3357,648572,20
-2,Ray Lewis,1.0,759711,2
-2,Von Miller,1.2384,718112,5
-2,Malcolm Smith,0.0019,90665,5
-2,Randy White,0.0058,87850,8
-2,Chuck Howley,0.0088,46146,11
-2,Richard Dent,0.001,73005,11
-2,Dexter Jackson,0.0,45117,14
-2,Larry Brown,,41869,17
-2,Harvey Martin,0.0,34642,17
-2,Jake Scott,,31752,20
-3,Emmitt Smith,1.0,811132,2
-3,Adrian Peterson,1.2046,601677,5
-3,Barry Sanders,1.3611,512295,8
-3,LaDainian Tomlinson,0.3917,355252,11
-3,Shaun Alexander,0.163,399496,11
-3,Marshall Faulk,0.2273,314973,14
-3,Terrell Davis,0.2519,239518,17
-3,Thurman Thomas,0.1264,130120,20
-4,Tom Brady,1.0,4084883,2
-4,Aaron Rodgers,0.8067,3356416,8
-4,Peyton Manning,0.2013,1861392,11
-4,Drew Brees,0.0577,1012748,14
-4,Brett Favre,0.1115,979116,20
-5,Pete Carroll,1.0,1171107,2
-5,Jimmy Johnson,0.7904,652729,11
-5,Barry Switzer,0.0479,345655,20
+1,Dallas Cowboys,5.9636,1256159,2
+1,Chicago Bears,2.8071,1186758,2
+1,Seattle Seahawks,1.0,2183206,5
+1,New England Patriots,1.0381,2044243,5
+1,Kansas City Chiefs,2.4705,1027774,5
+1,Philadelphia Eagles,1.893,1103844,8
+1,Green Bay Packers,2.4096,1019755,8
+1,Pittsburgh Steelers,1.6883,1056589,8
+1,San Francisco 49ers,0.798,1117306,11
+1,Washington Commanders,1.1355,978991,11
+1,Denver Broncos,1.7815,926800,11
+1,New York Giants,0.7922,1106508,11
+1,Miami Dolphins,2.1473,710283,14
+1,Los Angeles Rams,0.3206,1231722,14
+1,Baltimore Ravens,1.0587,828040,14
+1,Las Vegas Raiders,0.7693,950816,17
+1,Tampa Bay Buccaneers,0.9746,737146,17
+1,New York Jets,0.5156,861431,17
+1,New Orleans Saints,0.6764,506995,20
+1,Indianapolis Colts,0.3384,659419,20
+2,Josh Allen,3.3461,3276398,2
+2,Joe Burrow,3.4045,1365012,2
+2,Baker Mayfield,1.964,1712873,5
+2,Lamar Jackson,2.7851,1237364,5
+2,Sam Darnold,1.0,3624213,8
+2,Justin Herbert,1.2674,1274856,8
+2,Tua Tagovailoa,1.9486,967535,8
+2,Kyler Murray,1.1664,1105596,11
+2,Trevor Lawrence,1.1987,1044542,11
+2,Jordan Love,1.2457,950223,11
+2,Justin Fields,1.4114,815035,14
+2,Mac Jones,0.8877,1063512,14
+2,Daniel Jones,0.9343,901039,14
+2,Zach Wilson,0.8891,524405,17
+2,Trey Lance,0.5808,456838,17
+2,Josh Rosen,0.0282,456472,20
+2,Dwayne Haskins,0.468,295234,20
+3,Tom Brady,1.0,4084883,2
+3,Aaron Rodgers,0.7977,3356416,2
+3,Josh Allen,0.4146,3276398,5
+3,Patrick Mahomes,0.5239,2238774,5
+3,Peyton Manning,0.1994,1861392,5
+3,Lamar Jackson,0.3643,1237364,5
+3,Cam Newton,0.1624,1474605,8
+3,Joe Montana,0.052,1054715,8
+3,Brett Favre,0.1164,979116,8
+3,Kurt Warner,0.0442,1041195,11
+3,Emmitt Smith,0.0152,811132,11
+3,Adrian Peterson,0.0276,601677,11
+3,Barry Sanders,0.0363,512295,11
+3,Matt Ryan,0.0437,482209,14
+3,Steve Young,0.0051,562029,14
+3,Steve McNair,,532599,14
+3,Shaun Alexander,0.0014,399496,17
+3,LaDainian Tomlinson,0.0005,355252,17
+3,Terrell Davis,0.0028,239518,17
+3,Marshall Faulk,0.0,314973,17
+3,Rich Gannon,0.0,265194,20
+3,Thurman Thomas,0.0,130120,20
+4,Alabama,1.0,610009,2
+4,Michigan,1.0432,472710,2
+4,LSU,0.4003,380354,5
+4,Penn State,0.4307,365715,5
+4,Georgia,0.6664,357558,5
+4,Ole Miss,0.2278,483409,8
+4,Auburn,0.3332,317351,8
+4,USC,0.2777,323208,8
+4,Oklahoma,0.299,296695,11
+4,Clemson,0.3091,249325,11
+4,Texas A&M,0.206,318951,11
+4,Cal,0.0555,343273,11
+4,Florida State,0.1531,229770,14
+4,South Carolina,0.1571,175587,14
+4,Utah,0.1876,148491,14
+4,Stanford,0.0446,203320,17
+4,Virginia Tech,0.0696,158937,17
+4,NC State,0.0819,111367,17
+4,Fresno State,0.0356,82467,20
+4,Central Michigan,0.0104,62667,20
+5,Tom Brady,1.0,4084883,2
+5,Aaron Rodgers,0.7977,3356416,5
+5,Matthew Stafford,0.1899,2275480,5
+5,Peyton Manning,0.1994,1861392,8
+5,Philip Rivers,0.0496,3221906,8
+5,Eli Manning,0.0819,1265737,11
+5,Brett Favre,0.1164,979116,11
+5,Drew Brees,0.0704,1012748,14
+5,Ben Roethlisberger,0.086,786462,14
+5,John Elway,0.0143,1236832,17
+5,Dan Marino,0.0225,650668,17
+5,Matt Ryan,0.0437,482209,20
