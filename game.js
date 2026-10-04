@@ -52,10 +52,44 @@ const screen = document.getElementById("screen");
 document.getElementById("meta").textContent = game
   ? `#${dayNumber} · ${new Date(today + "T12:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}`
   : "";
-let results = JSON.parse(localStorage.getItem(today) || "[]"); // one entry per round: { answer, yards }
+// "Move my streak" link (#restore=20261004-20.14.0.5.2_...): copies finished days from another device.
+// Only fills in days this device hasn't played. Lives in the URL hash, so it never reaches the server.
+try {
+  const m = location.hash.match(/^#restore=([\d._-]+)$/);
+  if (m) {
+    for (const part of m[1].split("_")) {
+      const [d, y = ""] = part.split("-");
+      const date = `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}`;
+      const yards = y.split(".").map(Number);
+      const valid = yards.length === 5 && yards.every((n) => Number.isInteger(n) && n >= 0 && n <= 20);
+      if (GAMES[date] && valid && !load(date, []).length) save(date, yards.map((n) => ({ answer: "", yards: n, restored: true })));
+    }
+    history.replaceState(null, "", location.pathname + location.search);
+  }
+} catch {}
+
+let results = load(today, []); // one entry per round: { answer, yards }
 let timer;
 
 const totalYards = () => results.reduce((sum, r) => sum + r.yards, 0);
+
+// Streak = consecutive Eastern-time days with a finished game on this device. Today's unfinished game doesn't break it.
+const finished = (date) => load(date, []).length === 5;
+const dayBefore = (date) => {
+  const d = new Date(date + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() - 1);
+  return d.toISOString().slice(0, 10);
+};
+function streaks() {
+  let current = 0;
+  for (let d = finished(today) ? today : dayBefore(today); finished(d); d = dayBefore(d)) current++;
+  let best = 0, run = 0;
+  for (const date of Object.keys(GAMES)) best = Math.max(best, (run = finished(date) ? run + 1 : 0)); // game dates are consecutive days
+  return { current, best: Math.max(best, current) };
+}
+const streakLink = () =>
+  `${location.origin}/#restore=` +
+  Object.keys(GAMES).filter(finished).map((d) => d.replaceAll("-", "") + "-" + load(d, []).map((r) => r.yards).join(".")).join("_");
 
 // Split into lowercase words, ignoring punctuation and suffixes like Jr. or III.
 const SUFFIXES = ["jr", "sr", "ii", "iii", "iv"];
@@ -166,7 +200,7 @@ function finishRound(guess, punted = false) {
   results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0, ...(punted && { punt: true }) });
   localStorage.setItem(today, JSON.stringify(results));
   track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : punted ? "punt" : "timeout" });
-  if (results.length === 5) track("game_complete", { total_yards: totalYards() });
+  if (results.length === 5) track("game_complete", { total_yards: totalYards(), streak: streaks().current });
   showReveal();
 }
 
@@ -195,12 +229,13 @@ function showReveal() {
 
 function showFinal() {
   const yards = totalYards();
-  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
+  const streak = streaks();
+  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards${streak.current >= 2 ? ` · 🔥 ${streak.current}` : ""}\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
   const card = (r, i) => `
     <div class="card mini">
       <div class="row"><span class="label">Play ${i + 1}</span><span class="yds">${emoji(r.yards)} +${r.yards}</span></div>
       <p class="prompt">${game[i].prompt}</p>
-      <div>${r.answer || `<span class="muted">${r.punt ? "Punted" : "Clock ran out"}</span>`}</div>
+      <div>${r.answer || `<span class="muted">${r.restored ? "Played on another device" : r.punt ? "Punted" : "Clock ran out"}</span>`}</div>
       ${answerList(game[i], r.answer)}
     </div>`;
   render(`
@@ -208,10 +243,21 @@ function showFinal() {
       <p class="label">${yards === 100 ? "Touchdown! Perfect drive" : "Drive complete"}</p>
       <p class="big">${yards}<small> / 100 YDS</small></p>
       <p class="emojis">${results.map((r) => emoji(r.yards)).join("")}</p>
+      <p class="streak">🔥 ${streak.current}-day streak${streak.best > streak.current ? ` <span class="muted">· Best: ${streak.best}</span>` : ""}</p>
       <button id="share">Share score</button>
       <p class="muted" style="text-align:center;margin:12px 0 0;font-size:14px">Next drive in <span id="countdown"></span> · midnight ET</p>
     </div>
-    ${results.map(card).join("")}`);
+    ${results.map(card).join("")}
+    <p class="movelink"><a href="#" id="move">Playing on another device? Copy your streak link</a></p>`);
+  document.getElementById("move").onclick = (e) => {
+    e.preventDefault();
+    const link = streakLink();
+    Promise.resolve().then(() => navigator.clipboard.writeText(link)).then(
+      () => (e.target.textContent = "Copied! Open it on your other device."),
+      () => e.target.replaceWith(Object.assign(document.createElement("input"), { value: link, readOnly: true })) // no clipboard: show it to copy by hand
+    );
+    track("streak_link_copy");
+  };
   document.getElementById("share").onclick = (e) => {
     track("share_click", { total_yards: yards });
     if (navigator.share) return navigator.share({ text: share }).catch(() => {});

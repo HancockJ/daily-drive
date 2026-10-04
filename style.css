@@ -141,3 +141,6 @@ button.secondary {
   border: 1.5px solid var(--line); font-size: 18px; padding: 8px; margin-top: 8px;
 }
 button.secondary:active { transform: none; box-shadow: none; background: var(--raised); }
+.streak { margin: 8px 0 0; font-weight: 600; color: var(--warn); }
+.movelink { text-align: center; font-size: 13px; margin: 18px 0 0; }
+.movelink input { font-size: 13px; padding: 8px; }
