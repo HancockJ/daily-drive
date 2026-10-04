@@ -1,0 +1,70 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Buffalo Bills,11.4084,1105387,2
+1,Philadelphia Eagles,6.6597,1103844,2
+1,Kansas City Chiefs,8.6283,1027774,5
+1,Pittsburgh Steelers,6.0052,1056589,5
+1,Green Bay Packers,7.4199,1019755,8
+1,Los Angeles Rams,1.0,1231722,8
+1,Detroit Lions,9.1538,685072,11
+1,Denver Broncos,5.5051,926800,11
+1,Washington Commanders,3.5556,978991,14
+1,Baltimore Ravens,3.2554,828040,14
+1,Tampa Bay Buccaneers,3.0443,737146,17
+1,Minnesota Vikings,4.296,680570,17
+1,Los Angeles Chargers,0.5105,724182,20
+1,Houston Texans,2.6806,669166,20
+2,Tom Brady,1.0,4084883,2
+2,Patrick Mahomes,0.5307,2238774,2
+2,Joe Burrow,0.4179,1365012,5
+2,Peyton Manning,0.1963,1861392,5
+2,Philip Rivers,0.0532,3221906,8
+2,Tua Tagovailoa,0.2248,967535,8
+2,Deshaun Watson,0.2252,786831,11
+2,Drew Brees,0.0711,1012748,11
+2,Kurt Warner,0.0454,1041195,14
+2,Jameis Winston,0.0665,987016,14
+2,Ben Roethlisberger,0.0835,786462,17
+2,Rich Gannon,0.0005,265194,17
+2,Daunte Culpepper,0.0,206320,20
+2,Matt Schaub,0.0,101519,20
+3,Matthew Stafford,3.198,2275480,2
+3,Peyton Manning,2.9109,1861392,2
+3,Joe Burrow,6.9813,1365012,5
+3,Philip Rivers,1.0,3221906,5
+3,Joe Flacco,1.6271,2082153,8
+3,Rob Gronkowski,2.5545,1390294,8
+3,Geno Smith,1.472,864617,11
+3,Michael Vick,0.7103,938910,11
+3,Keenan Allen,0.8382,418382,14
+3,Andrew Luck,0.4252,675806,14
+3,Alex Smith,0.4742,363818,17
+3,Ryan Tannehill,0.4,287610,17
+3,Jordy Nelson,0.0202,147367,20
+3,Eric Berry,0.0022,103964,20
+4,Christian McCaffrey,1.0,1572340,2
+4,Saquon Barkley,0.9656,888795,2
+4,Ezekiel Elliott,,654689,5
+4,Jahmyr Gibbs,0.3104,643128,5
+4,Josh Jacobs,0.4359,398197,8
+4,Bijan Robinson,0.2733,577280,8
+4,Travis Etienne,,373125,11
+4,Najee Harris,0.2658,289017,11
+4,Todd Gurley,0.0961,308633,14
+4,Leonard Fournette,0.1506,250099,14
+4,Clyde Edwards-Helaire,0.0851,148335,17
+4,Sony Michel,0.027,121646,17
+4,Rashaad Penny,0.0394,57989,20
+4,Melvin Gordon,,117497,20
+5,Tom Brady,1.0,4084883,2
+5,Patrick Mahomes,0.531,2238774,2
+5,Russell Wilson,0.3355,1955619,5
+5,Peyton Manning,0.1964,1861392,8
+5,Jalen Hurts,0.341,1198682,8
+5,John Elway,0.0147,1236832,8
+5,Brett Favre,0.1166,979116,11
+5,Kurt Warner,0.0454,1041195,14
+5,Ben Roethlisberger,0.0835,786462,14
+5,Roger Staubach,0.0018,437631,14
+5,Joe Theismann,0.0,270473,17
+5,Len Dawson,0.0037,93806,20
+5,Bob Griese,0.0,123222,20

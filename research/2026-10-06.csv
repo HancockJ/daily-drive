@@ -1,0 +1,90 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Dallas Cowboys,6.0121,1256159,2
+1,Chicago Bears,2.8388,1186758,2
+1,Seattle Seahawks,1.0,2183206,5
+1,Philadelphia Eagles,1.9045,1103844,5
+1,Green Bay Packers,2.4198,1019755,8
+1,Detroit Lions,2.9504,685072,8
+1,Washington Commanders,1.1595,978991,8
+1,San Francisco 49ers,0.8121,1117306,11
+1,Los Angeles Rams,0.319,1231722,11
+1,New York Giants,0.7944,1106508,14
+1,Minnesota Vikings,1.3847,680570,14
+1,Tampa Bay Buccaneers,0.9812,737146,14
+1,Arizona Cardinals,0.7077,762016,17
+1,Carolina Panthers,0.9517,614319,17
+1,Atlanta Falcons,0.9649,554203,20
+1,New Orleans Saints,0.675,506995,20
+2,Christian McCaffrey,1.0,1572340,2
+2,Derrick Henry,0.8433,1213308,2
+2,Saquon Barkley,0.9656,888795,5
+2,Ezekiel Elliott,,654689,5
+2,Adrian Peterson,0.2336,601677,5
+2,Josh Jacobs,0.4506,398197,8
+2,Chris Johnson,0.0689,579777,8
+2,LaDainian Tomlinson,0.0682,355252,8
+2,Kareem Hunt,0.2339,240649,11
+2,Shaun Alexander,0.0075,399496,11
+2,Ricky Williams,0.0642,349076,11
+2,Jonathan Taylor,0.3819,143258,11
+2,LeSean McCoy,0.0536,251667,14
+2,Arian Foster,0.0058,171847,14
+2,Edgerrin James,0.0031,159996,14
+2,DeMarco Murray,0.0031,142471,17
+2,Jamal Lewis,0.0013,150752,17
+2,Priest Holmes,0.0018,140095,17
+2,Maurice Jones-Drew,0.0018,132185,20
+2,Curtis Martin,0.0009,111452,20
+3,Bill Belichick,1.0,1993798,2
+3,Jim Harbaugh,0.5949,1480156,2
+3,Mike Tomlin,0.3375,1629456,5
+3,Pete Carroll,0.2195,1171107,5
+3,Andy Reid,0.3941,869097,5
+3,Sean McVay,0.1808,1029434,8
+3,Kyle Shanahan,0.1166,680130,8
+3,Nick Sirianni,0.1366,598460,8
+3,Dan Quinn,0.0614,364482,11
+3,Zac Taylor,0.0414,267144,11
+3,Ron Rivera,0.0318,211019,11
+3,Lovie Smith,0.0331,173237,14
+3,Mike Holmgren,0.0048,200819,14
+3,Bill Callahan,,194910,14
+3,John Fox,0.0014,131285,17
+3,Jim Caldwell,0.0069,97330,17
+3,Mike Martz,0.0007,97464,17
+3,Ken Whisenhunt,0.0,76722,20
+3,Jim Fassel,0.0,54133,20
+4,Cam Newton,1.0,1474605,2
+4,Tim Tebow,0.5329,1017046,2
+4,Johnny Manziel,0.4602,1002225,5
+4,Andrew Luck,0.2271,675806,5
+4,Robert Griffin III,0.2827,423654,8
+4,Teddy Bridgewater,0.2257,483274,8
+4,Ryan Tannehill,0.2011,287610,11
+4,Sam Bradford,0.0383,286852,11
+4,Blake Bortles,0.0526,239583,14
+4,Christian Ponder,0.0025,103539,14
+4,Blaine Gabbert,0.0202,91497,17
+4,EJ Manuel,0.001,115987,17
+4,Brandon Weeden,0.0015,81306,20
+4,Jake Locker,0.0,54670,20
+5,Lady Gaga,1.4508,4195026,2
+5,Jennifer Lopez,1.555,3859625,2
+5,Rihanna,1.8398,3737822,5
+5,Eminem,2.2813,3524749,5
+5,Madonna,1.17,5050674,5
+5,Beyoncé,2.5841,2634876,8
+5,Shakira,1.0,6207537,8
+5,Bruno Mars,1.2891,3802693,8
+5,Katy Perry,0.913,4590302,11
+5,Snoop Dogg,1.4414,2747070,11
+5,Kendrick Lamar,1.7864,2014202,11
+5,The Weeknd,0.7614,2016945,11
+5,Justin Timberlake,0.7795,1845832,14
+5,Usher,1.0038,1045630,14
+5,Dr. Dre,0.5792,1298554,14
+5,Coldplay,0.7094,999891,17
+5,The Who,0.0472,1098970,17
+5,Mary J. Blige,0.4018,770457,17
+5,Black Eyed Peas,0.1724,978440,20
+5,Maroon 5,0.2406,667213,20

@@ -1,0 +1,76 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Dallas Cowboys,5.7297,1256159,2
+1,New England Patriots,1.0,2044243,2
+1,Buffalo Bills,3.2537,1105387,5
+1,Green Bay Packers,2.4015,1019755,8
+1,Pittsburgh Steelers,1.7104,1056589,8
+1,San Francisco 49ers,0.774,1117306,8
+1,Denver Broncos,1.73,926800,11
+1,Los Angeles Rams,0.304,1231722,14
+1,New York Giants,0.7699,1106508,14
+1,Washington Commanders,1.1269,978991,14
+1,Atlanta Falcons,0.9303,554203,17
+1,Tennessee Titans,0.6257,701747,20
+1,Los Angeles Chargers,0.1792,724182,20
+2,Aaron Donald,1.0,988588,2
+2,J. J. Watt,0.8655,713108,2
+2,Michael Strahan,,712448,5
+2,T. J. Watt,0.925,588067,5
+2,Nick Bosa,0.9922,529541,5
+2,Chandler Jones,0.1462,377630,8
+2,Trey Hendrickson,0.251,349155,8
+2,Jason Taylor,0.0505,411902,8
+2,Jared Allen,0.0621,265370,11
+2,DeMarcus Ware,0.0285,161066,11
+2,Shaquil Barrett,0.053,73159,11
+2,Shawne Merriman,0.0026,135517,14
+2,Dwight Freeney,0.0052,86457,14
+2,Justin Houston,0.0091,50139,14
+2,Robert Mathis,0.0,42387,17
+2,Vic Beasley,0.0013,39403,17
+2,Elvis Dumervil,0.0,37860,17
+2,La'Roi Glover,0.0,24673,20
+2,Derrick Burgess,0.0,10157,20
+3,Aaron Rodgers,1.0,3356416,2
+3,Matthew Stafford,0.2371,2275480,2
+3,Joe Flacco,0.1117,2082153,5
+3,Mark Sanchez,0.0351,1243003,8
+3,Matt Ryan,0.0451,482209,8
+3,Jay Cutler,0.0122,551208,8
+3,Vince Young,0.0036,398004,11
+3,Alex Smith,0.0086,363818,14
+3,Matt Leinart,0.0,479776,14
+3,JaMarcus Russell,0.0014,342757,14
+3,Brady Quinn,0.0,335723,17
+3,Josh Freeman,0.0,79491,20
+3,Jason Campbell,0.0,63428,20
+4,Josh Allen,3.397,3276398,2
+4,Patrick Mahomes,4.3668,2238774,2
+4,Russell Wilson,2.7513,1955619,5
+4,Matthew Stafford,1.6407,2275480,5
+4,Lamar Jackson,2.9062,1237364,8
+4,Baker Mayfield,1.9208,1712873,8
+4,Sam Darnold,1.0,3624213,11
+4,Jalen Hurts,2.6998,1198682,11
+4,Bo Nix,1.1771,1784926,14
+4,Justin Herbert,1.2354,1274856,14
+4,Jayden Daniels,1.307,1115879,17
+4,Jordan Love,1.2596,950223,17
+4,C. J. Stroud,1.1986,968641,20
+4,Jared Goff,0.9541,797285,20
+5,Mike McCarthy,2.9302,1238872,2
+5,Sean McVay,3.1085,1029434,2
+5,Dan Campbell,3.6756,720547,5
+5,Matt LaFleur,2.186,793288,5
+5,Mike Macdonald,1.0,1957981,8
+5,Brian Daboll,1.6899,796366,8
+5,Kyle Shanahan,2.107,680130,8
+5,Nick Sirianni,2.4214,598460,11
+5,Raheem Morris,0.6589,626289,11
+5,Dan Quinn,1.2013,364482,14
+5,Jonathan Gannon,0.5105,524765,14
+5,Todd Bowles,0.789,352446,14
+5,Matt Eberflus,1.1704,281234,17
+5,Kevin O'Connell,0.2399,472431,17
+5,Dave Canales,0.3771,350614,20
+5,Dennis Allen,0.5894,159052,20

@@ -1,0 +1,61 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Chicago Bears,2.8001,1186758,2
+1,Seattle Seahawks,1.0,2183206,5
+1,Philadelphia Eagles,1.9036,1103844,5
+1,Green Bay Packers,2.4186,1019755,8
+1,San Francisco 49ers,0.794,1117306,8
+1,Los Angeles Rams,0.3266,1231722,11
+1,New York Giants,0.7847,1106508,11
+1,Tampa Bay Buccaneers,0.9704,737146,14
+1,Carolina Panthers,0.9521,614319,14
+1,Atlanta Falcons,0.9653,554203,17
+1,Arizona Cardinals,0.7173,762016,17
+1,New Orleans Saints,0.675,506995,20
+2,Brock Bowers,1.0,268598,2
+2,Kyle Pitts,0.7395,256121,5
+2,David Njoku,0.5915,220416,5
+2,T. J. Hockenson,0.6049,106035,8
+2,Dalton Kincaid,0.5399,147555,8
+2,Evan Engram,0.3522,104744,11
+2,Noah Fant,0.2135,95444,11
+2,Hayden Hurst,0.1669,73656,14
+2,Eric Ebron,0.0438,64219,14
+2,O. J. Howard,0.0659,51782,17
+2,Tyler Eifert,0.012,43098,17
+2,Jermaine Gresham,0.0046,16749,20
+3,Mike McCarthy,1.0,1238872,2
+3,Jimmy Johnson,0.9781,652729,5
+3,Bill Parcells,0.218,416974,5
+3,Brian Schottenheimer,0.1834,562114,8
+3,Jason Garrett,0.2826,366994,11
+3,Tom Landry,0.203,370096,11
+3,Barry Switzer,0.09,345655,14
+3,Wade Phillips,0.0381,136115,17
+3,Chan Gailey,0.0,47572,17
+3,Dave Campo,0.0012,26282,20
+4,Jaxon Smith-Njigba,1.0,1528071,2
+4,Jameson Williams,0.813,269937,5
+4,Zay Flowers,0.7894,263026,5
+4,Chris Olave,0.7192,189570,8
+4,Garrett Wilson,0.7336,189311,11
+4,Drake London,0.6061,188018,11
+4,Jordan Addison,0.552,141470,14
+4,Treylon Burks,0.245,157007,17
+4,Jahan Dotson,0.2956,134105,17
+4,Quentin Johnston,0.2231,117854,20
+5,Dallas Cowboys,1.0,1256159,2
+5,Philadelphia Eagles,0.3203,1103844,2
+5,Pittsburgh Steelers,0.2868,1056589,5
+5,Cleveland Browns,0.2931,915514,5
+5,Washington Commanders,0.195,978991,8
+5,San Francisco 49ers,0.1351,1117306,8
+5,Miami Dolphins,0.3629,710283,8
+5,New York Giants,0.1344,1106508,11
+5,Los Angeles Rams,0.0531,1231722,11
+5,Baltimore Ravens,0.1771,828040,14
+5,Tampa Bay Buccaneers,0.1652,737146,14
+5,New York Jets,0.087,861431,14
+5,Houston Texans,0.145,669166,17
+5,Cincinnati Bengals,0.14,518209,17
+5,Los Angeles Chargers,0.0265,724182,20
+5,Jacksonville Jaguars,0.0978,648572,20

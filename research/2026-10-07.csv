@@ -1,0 +1,84 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Buffalo Bills,3.2474,1105387,2
+1,Kansas City Chiefs,2.456,1027774,5
+1,New England Patriots,1.0,2044243,5
+1,Pittsburgh Steelers,1.7079,1056589,8
+1,Denver Broncos,1.73,926800,8
+1,Baltimore Ravens,1.0241,828040,11
+1,Las Vegas Raiders,0.7675,950816,14
+1,Tennessee Titans,0.6257,701747,14
+1,Cincinnati Bengals,0.8122,518209,17
+1,Los Angeles Chargers,0.1792,724182,17
+1,Indianapolis Colts,0.3301,659419,20
+2,Stefon Diggs,1.0,3398514,2
+2,Tyreek Hill,1.341,1087398,2
+2,Antonio Brown,0.957,978610,5
+2,Cooper Kupp,0.4327,1197613,5
+2,Justin Jefferson,0.8098,651334,5
+2,Ja'Marr Chase,0.5644,514612,8
+2,Chad Johnson,0.1318,676181,8
+2,Julio Jones,0.254,361774,8
+2,Calvin Johnson,0.1612,469620,11
+2,Michael Thomas,0.1777,254403,11
+2,Steve Smith,,278229,11
+2,Josh Gordon,0.0336,288143,11
+2,Marvin Harrison,0.0883,273828,14
+2,T. Y. Hilton,0.0399,130148,14
+2,Andre Johnson,0.0131,202220,14
+2,Reggie Wayne,0.0011,126720,17
+2,Torry Holt,0.0017,125492,17
+2,Muhsin Muhammad,0.0006,99131,17
+2,David Boston,0.0006,74293,20
+2,Brandon Lloyd,0.0,68246,20
+3,Bill Belichick,3.5061,1993798,2
+3,Mike Vrabel,1.0,3167260,2
+3,Jim Harbaugh,2.0872,1480156,5
+3,John Harbaugh,0.6852,1616047,5
+3,Sean Payton,1.0419,942536,8
+3,Sean McVay,0.6344,1029434,8
+3,Kevin Stefanski,0.2206,927775,8
+3,Brian Daboll,0.3153,796366,11
+3,Matt Nagy,0.2043,399038,11
+3,Jason Garrett,0.1488,366994,14
+3,Bruce Arians,0.1719,322055,14
+3,Kevin O'Connell,0.0189,472431,14
+3,Ron Rivera,0.1286,211019,17
+3,Lovie Smith,0.1313,173237,17
+3,Marvin Lewis,0.0108,105245,20
+3,Mike Smith,,42828,20
+4,Justin Jefferson,1.0,651334,2
+4,Henry Ruggs,,537239,5
+4,Ja'Marr Chase,0.7091,514612,5
+4,CeeDee Lamb,0.7252,498118,8
+4,Brandon Aiyuk,0.464,498430,8
+4,DeVonta Smith,0.4047,479943,11
+4,Jaylen Waddle,0.3163,281744,14
+4,Kadarius Toney,0.2245,201739,14
+4,Jerry Jeudy,0.2335,191672,17
+4,Jalen Reagor,0.0467,97912,17
+4,Rashod Bateman,0.095,70758,20
+5,Baker Mayfield,1.0,1712873,2
+5,Joe Burrow,1.7372,1365012,2
+5,Caleb Williams,0.7686,1672755,2
+5,Lamar Jackson,1.5186,1237364,5
+5,Cam Newton,0.6791,1474605,5
+5,Derrick Henry,0.8828,1213308,5
+5,Jayden Daniels,0.676,1115879,8
+5,Kyler Murray,0.6316,1105596,8
+5,Tim Tebow,0.3607,1017046,8
+5,Bryce Young,0.4653,888394,8
+5,Travis Hunter,0.6471,642440,8
+5,Johnny Manziel,0.3115,1002225,11
+5,Jameis Winston,0.3337,987016,11
+5,DeVonta Smith,0.3535,479943,11
+5,Marcus Mariota,0.2411,827885,14
+5,Matt Leinart,0.0364,479776,14
+5,Reggie Bush,0.1711,445839,14
+5,Robert Griffin III,0.1885,423654,14
+5,Sam Bradford,0.0087,286852,14
+5,Carson Palmer,0.0116,285469,17
+5,Mark Ingram,,246043,17
+5,Chris Weinke,0.001,147449,17
+5,Troy Smith,0.0005,93136,20
+5,Jason White,0.0,98770,20
+5,Eric Crouch,0.0005,77377,20
