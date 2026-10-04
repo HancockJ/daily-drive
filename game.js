@@ -17,7 +17,9 @@ if (GA_ID) {
   gtag("config", GA_ID);
 }
 const track = (name, params) => window.gtag && gtag("event", name, { game: dayNumber, ...params });
-const today = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD
+// Everyone plays the same game: the day rolls over at midnight US Eastern time.
+const TZ = "America/New_York";
+const today = new Date().toLocaleDateString("en-CA", { timeZone: TZ }); // YYYY-MM-DD in Eastern time
 const dayNumber = Object.keys(GAMES).indexOf(today) + 1;
 const game = GAMES[today];
 
@@ -182,7 +184,7 @@ function showFinal() {
       <p class="big">${yards}<small> / 100 YDS</small></p>
       <p class="emojis">${results.map((r) => emoji(r.yards)).join("")}</p>
       <button id="share">Share score</button>
-      <p class="muted" style="text-align:center;margin:12px 0 0;font-size:14px">Next drive in <span id="countdown"></span></p>
+      <p class="muted" style="text-align:center;margin:12px 0 0;font-size:14px">Next drive in <span id="countdown"></span> · midnight ET</p>
     </div>
     ${results.map(card).join("")}`);
   document.getElementById("share").onclick = (e) => {
@@ -198,6 +200,7 @@ function showStart() {
     <div class="card">
       <p class="label">How to play</p>
       <p class="prompt">Start at your own goal line. Go 100 yards for a touchdown.</p>
+      <p class="muted" style="font-size:14px;margin:0">A new game drops every day at midnight Eastern (ET).</p>
       <ol class="steps">
         <li><b>5 NFL prompts</b>, each with a 40-second play clock.</li>
         <li><b>Guess as often as you like.</b> Wrong answers are free. Stuck? Punt to move on.</li>
@@ -211,17 +214,18 @@ function showStart() {
   };
 }
 
-// Countdown to local midnight, when the next game unlocks.
+// Countdown to midnight Eastern, when the next game unlocks.
 function tick() {
   const el = document.getElementById("countdown");
   if (!el) return;
-  const midnight = new Date().setHours(24, 0, 0, 0);
-  const secs = Math.floor((midnight - Date.now()) / 1000);
+  const [h, m, sec] = new Date().toLocaleTimeString("en-GB", { timeZone: TZ, hour12: false }).split(":").map(Number);
+  const secs = Math.max(0, 86400 - ((h % 24) * 3600 + m * 60 + sec));
+  if (secs <= 1) setTimeout(() => location.reload(), 2000); // new game is out
   el.textContent = [secs / 3600, (secs / 60) % 60, secs % 60].map((n) => String(Math.floor(n)).padStart(2, "0")).join(":");
 }
 setInterval(tick, 1000);
 
-if (!game) render(`<div class="card"><p class="prompt">No game today.</p><p class="muted">Next drive in <span id="countdown"></span></p></div>`);
+if (!game) render(`<div class="card"><p class="prompt">No game today.</p><p class="muted">Next drive in <span id="countdown"></span> · midnight ET</p></div>`);
 else if (results.length === 5) showFinal();
 else if (savedDeadline()?.play === results.length) startRound(); // back mid-play: resume the same clock (times out if expired)
 else if (results.length > 0) showReveal();
