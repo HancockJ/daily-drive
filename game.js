@@ -78,14 +78,22 @@ function render(html) {
   tick();
 }
 
+// The play clock runs off a saved deadline, so leaving the app or reloading never pauses it.
+const deadlineKey = `${today}-deadline`;
+const savedDeadline = () => JSON.parse(localStorage.getItem(deadlineKey) || "null");
+
 function startRound() {
   const round = game[results.length];
-  let left = SECONDS;
+  const saved = savedDeadline();
+  const deadline = saved && saved.play === results.length ? saved.at : Date.now() + SECONDS * 1000;
+  localStorage.setItem(deadlineKey, JSON.stringify({ play: results.length, at: deadline }));
+  const secondsLeft = () => Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+  let left = secondsLeft();
   render(`
     <div class="card">
       <div class="clockrow">
         <p class="label">Play ${results.length + 1} of 5</p>
-        <span class="timer" id="clock">0:${left}</span>
+        <span class="timer" id="clock">0:${String(left).padStart(2, "0")}</span>
       </div>
       <div class="bar"><div id="bar"></div></div>
       <p class="prompt">${round.prompt}</p>
@@ -97,14 +105,21 @@ function startRound() {
       <p id="msg" class="muted">Wrong guesses are free. Stuck? Punt to skip ahead.</p>
     </div>`);
   document.getElementById("guess").focus();
-  setTimeout(() => (document.getElementById("bar").style.width = "0%"), 50);
+  const bar = document.getElementById("bar");
+  bar.style.transition = "none";
+  bar.style.width = `${(left / SECONDS) * 100}%`;
+  setTimeout(() => {
+    bar.style.transition = `width ${left}s linear`;
+    bar.style.width = "0%";
+  }, 50);
   timer = setInterval(() => {
-    left--;
+    left = secondsLeft();
     const clock = document.getElementById("clock");
     clock.textContent = `0:${String(left).padStart(2, "0")}`;
     clock.className = `timer ${left <= 5 ? "danger" : left <= 10 ? "warn" : ""}`;
     if (left <= 0) finishRound("");
   }, 1000);
+  if (left <= 0) return finishRound(""); // time ran out while away
   document.getElementById("punt").onclick = () => finishRound("", true);
   document.getElementById("form").onsubmit = (e) => {
     e.preventDefault();
@@ -119,6 +134,7 @@ function startRound() {
 
 function finishRound(guess, punted = false) {
   clearInterval(timer);
+  localStorage.removeItem(deadlineKey);
   const match = findAnswer(guess, game[results.length].answers);
   results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0, ...(punted && { punt: true }) });
   localStorage.setItem(today, JSON.stringify(results));
@@ -195,9 +211,6 @@ function showStart() {
   };
 }
 
-// Leaving mid-play counts as a delay of game, so reloading can't reset the clock.
-window.onbeforeunload = () => { if (timer && screen.querySelector("#form")) finishRound(""); };
-
 // Countdown to local midnight, when the next game unlocks.
 function tick() {
   const el = document.getElementById("countdown");
@@ -210,5 +223,6 @@ setInterval(tick, 1000);
 
 if (!game) render(`<div class="card"><p class="prompt">No game today.</p><p class="muted">Next drive in <span id="countdown"></span></p></div>`);
 else if (results.length === 5) showFinal();
+else if (savedDeadline()?.play === results.length) startRound(); // back mid-play: resume the same clock (times out if expired)
 else if (results.length > 0) showReveal();
 else showStart();
