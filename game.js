@@ -80,12 +80,10 @@ const dayBefore = (date) => {
   d.setUTCDate(d.getUTCDate() - 1);
   return d.toISOString().slice(0, 10);
 };
-function streaks() {
-  let current = 0;
-  for (let d = finished(today) ? today : dayBefore(today); finished(d); d = dayBefore(d)) current++;
-  let best = 0, run = 0;
-  for (const date of Object.keys(GAMES)) best = Math.max(best, (run = finished(date) ? run + 1 : 0)); // game dates are consecutive days
-  return { current, best: Math.max(best, current) };
+function currentStreak() {
+  let streak = 0;
+  for (let d = finished(today) ? today : dayBefore(today); finished(d); d = dayBefore(d)) streak++;
+  return streak;
 }
 const streakLink = () =>
   `${location.origin}/#restore=` +
@@ -200,7 +198,7 @@ function finishRound(guess, punted = false) {
   results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0, ...(punted && { punt: true }) });
   localStorage.setItem(today, JSON.stringify(results));
   track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : punted ? "punt" : "timeout" });
-  if (results.length === 5) track("game_complete", { total_yards: totalYards(), streak: streaks().current });
+  if (results.length === 5) track("game_complete", { total_yards: totalYards(), streak: currentStreak() });
   showReveal();
 }
 
@@ -229,8 +227,8 @@ function showReveal() {
 
 function showFinal() {
   const yards = totalYards();
-  const streak = streaks();
-  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards${streak.current >= 3 ? ` · 🔥 ${streak.current}` : ""}\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
+  const streak = currentStreak();
+  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards${streak >= 3 ? ` · 🔥 ${streak}` : ""}\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
   const card = (r, i) => `
     <div class="card mini">
       <div class="row"><span class="label">Play ${i + 1}</span><span class="yds">${emoji(r.yards)} +${r.yards}</span></div>
@@ -243,7 +241,7 @@ function showFinal() {
       <p class="label">${yards === 100 ? "Touchdown! Perfect drive" : "Drive complete"}</p>
       <p class="big">${yards}<small> / 100 YDS</small></p>
       <p class="emojis">${results.map((r) => emoji(r.yards)).join("")}</p>
-      <p class="streak">🔥 ${streak.current}-day streak${streak.best > streak.current ? ` <span class="muted">· Best: ${streak.best}</span>` : ""}</p>
+      <p class="streak">🔥 ${streak}-day streak</p>
       <button id="share">Share score</button>
       <p class="muted" style="text-align:center;margin:12px 0 0;font-size:14px">Next drive in <span id="countdown"></span> · midnight ET</p>
     </div>
