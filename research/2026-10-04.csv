@@ -1,0 +1,82 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Chicago Bears,2.8007,1186758,2
+1,Seattle Seahawks,1.0,2183206,2
+1,Philadelphia Eagles,1.8985,1103844,5
+1,Denver Broncos,1.7854,926800,5
+1,Detroit Lions,2.9512,685072,8
+1,Miami Dolphins,2.166,710283,8
+1,Baltimore Ravens,1.0654,828040,11
+1,Los Angeles Rams,0.3266,1231722,11
+1,Arizona Cardinals,0.7077,762016,14
+1,Carolina Panthers,0.9521,614319,14
+1,Atlanta Falcons,0.9657,554203,17
+1,Indianapolis Colts,0.3401,659419,17
+1,Jacksonville Jaguars,0.5646,648572,20
+1,Cincinnati Bengals,0.8396,518209,20
+2,Tom Brady,1.0,4084883,2
+2,Aaron Rodgers,0.814,3356416,2
+2,Patrick Mahomes,0.5329,2238774,5
+2,Peyton Manning,0.2006,1861392,5
+2,Joe Flacco,0.091,2082153,5
+2,Jalen Hurts,0.341,1198682,8
+2,Eli Manning,0.0812,1265737,8
+2,Cooper Kupp,0.112,1197613,8
+2,Drew Brees,0.0711,1012748,11
+2,Ray Lewis,0.0491,759711,11
+2,Von Miller,0.0615,718112,14
+2,Julian Edelman,0.0133,514846,14
+2,Nick Foles,0.0147,468611,14
+2,Hines Ward,0.0009,330931,17
+2,Santonio Holmes,0.0,99140,17
+2,Deion Branch,0.0,92501,17
+2,Malcolm Smith,0.0,90665,20
+2,Dexter Jackson,0.0,45117,20
+3,Chicago Bears,8.5763,1186758,2
+3,Kansas City Chiefs,7.5951,1027774,2
+3,Cleveland Browns,5.5128,915514,5
+3,Detroit Lions,9.1562,685072,5
+3,San Francisco 49ers,2.4294,1117306,8
+3,Tampa Bay Buccaneers,3.0637,737146,8
+3,Miami Dolphins,6.7203,710283,8
+3,Los Angeles Rams,1.0,1231722,11
+3,Las Vegas Raiders,2.3635,950816,11
+3,Arizona Cardinals,2.2446,762016,11
+3,Houston Texans,2.6993,669166,14
+3,Carolina Panthers,2.9687,614319,14
+3,Atlanta Falcons,3.0104,554203,14
+3,Los Angeles Chargers,0.5807,724182,17
+3,Cincinnati Bengals,2.6221,518209,17
+3,Indianapolis Colts,1.1002,659419,20
+3,Jacksonville Jaguars,1.7714,648572,20
+4,Tom Brady,1.0,4084883,2
+4,Aaron Rodgers,0.814,3356416,5
+4,Patrick Mahomes,0.5329,2238774,5
+4,Matthew Stafford,0.193,2275480,8
+4,Russell Wilson,0.3364,1955619,8
+4,Joe Burrow,0.4179,1365012,11
+4,Peyton Manning,0.1963,1861392,11
+4,Lamar Jackson,0.3683,1237364,14
+4,Kurt Warner,0.0454,1041195,14
+4,Drew Brees,0.0711,1012748,17
+4,Andrew Luck,0.0156,675806,17
+4,Dan Marino,0.0229,650668,20
+5,Myles Garrett,1.0,1955167,2
+5,Aaron Donald,0.8715,988588,2
+5,Ray Lewis,0.5434,759711,5
+5,J. J. Watt,0.7542,713108,5
+5,T. J. Watt,0.7825,588067,5
+5,Nick Bosa,0.8478,529541,8
+5,Michael Strahan,,712448,8
+5,Troy Polamalu,0.2672,457579,8
+5,Luke Kuechly,0.1432,714470,11
+5,Khalil Mack,0.2539,372720,11
+5,Charles Woodson,0.1481,362583,11
+5,Patrick Surtain II,0.153,328383,11
+5,Jason Taylor,0.0637,411902,14
+5,Ed Reed,0.1671,300812,14
+5,Stephon Gilmore,0.2002,189005,14
+5,James Harrison,0.1406,327647,17
+5,Brian Urlacher,0.134,309968,17
+5,Terrell Suggs,0.0314,214074,17
+5,Derrick Brooks,0.0,97344,20
+5,Bob Sanders,0.0008,82926,20
