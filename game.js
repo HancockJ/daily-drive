@@ -230,7 +230,7 @@ function showReveal() {
 function showFinal() {
   const yards = totalYards();
   const streak = streaks();
-  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards${streak.current >= 2 ? ` · 🔥 ${streak.current}` : ""}\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
+  const share = `Daily Drive #${dayNumber}\n${yards === 100 ? "🏈 TOUCHDOWN! " : ""}${yards}/100 yards${streak.current >= 3 ? ` · 🔥 ${streak.current}` : ""}\n${results.map((r) => emoji(r.yards)).join("")}\n${(location.host + location.pathname).replace(/\/$/, "")}`;
   const card = (r, i) => `
     <div class="card mini">
       <div class="row"><span class="label">Play ${i + 1}</span><span class="yds">${emoji(r.yards)} +${r.yards}</span></div>
