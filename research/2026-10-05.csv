@@ -1,0 +1,97 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Buffalo Bills,3.2474,1105387,2
+1,Kansas City Chiefs,2.456,1027774,2
+1,Pittsburgh Steelers,1.7094,1056589,5
+1,New England Patriots,1.0,2044243,5
+1,Denver Broncos,1.73,926800,8
+1,Cleveland Browns,1.6889,915514,8
+1,Miami Dolphins,2.0823,710283,8
+1,Las Vegas Raiders,0.7675,950816,11
+1,Baltimore Ravens,1.0244,828040,11
+1,New York Jets,0.5,861431,14
+1,Houston Texans,0.8345,669166,14
+1,Tennessee Titans,0.6239,701747,14
+1,Los Angeles Chargers,0.1849,724182,17
+1,Cincinnati Bengals,0.8122,518209,17
+1,Jacksonville Jaguars,0.5487,648572,20
+1,Indianapolis Colts,0.3301,659419,20
+2,Aaron Donald,1.0,988588,2
+2,Micah Parsons,1.3027,860717,2
+2,Von Miller,0.7628,718112,5
+2,Sauce Gardner,0.511,570735,5
+2,Nick Bosa,0.9922,529541,5
+2,Luke Kuechly,0.1345,714470,8
+2,Joey Bosa,0.3635,569599,8
+2,DeMeco Ryans,0.1239,606574,8
+2,Will Anderson Jr.,0.1811,321130,11
+2,Chase Young,0.3389,268608,11
+2,Jared Verse,0.097,530744,11
+2,Jerod Mayo,0.119,296362,11
+2,Ndamukong Suh,0.0582,358562,14
+2,Marshon Lattimore,0.1113,134144,14
+2,Brian Cushing,0.0142,204201,14
+2,Patrick Willis,0.0181,162030,17
+2,Shaquille Leonard,0.0789,118099,17
+2,Shawne Merriman,0.0026,135517,17
+2,Marcus Peters,0.0233,110466,20
+2,Sheldon Richardson,0.0,28567,20
+3,Tom Brady,1.0,4084883,2
+3,Patrick Mahomes,0.5298,2238774,2
+3,Russell Wilson,0.3353,1955619,5
+3,Joe Burrow,0.4179,1365012,5
+3,Peyton Manning,0.1963,1861392,5
+3,Jalen Hurts,0.3404,1198682,8
+3,Cam Newton,0.161,1474605,8
+3,Brock Purdy,0.2633,1234221,8
+3,Colin Kaepernick,0.0876,931332,11
+3,Jared Goff,0.1115,797285,11
+3,Kurt Warner,0.0454,1041195,11
+3,Jimmy Garoppolo,0.1312,727474,11
+3,Ben Roethlisberger,0.0835,786462,14
+3,Matt Ryan,0.0431,482209,14
+3,Donovan McNabb,0.0023,363166,14
+3,Rich Gannon,0.0005,265194,17
+3,Matt Hasselbeck,0.0005,206594,17
+3,Rex Grossman,0.0,144275,17
+3,Kerry Collins,0.0,143486,20
+3,Jake Delhomme,0.0,133176,20
+4,Tom Brady,1.0,4084883,2
+4,Josh Allen,0.4142,3276398,2
+4,Patrick Mahomes,0.5298,2238774,5
+4,Christian McCaffrey,0.2422,1572340,5
+4,Odell Beckham Jr.,0.3631,1269788,5
+4,Lamar Jackson,0.3714,1237364,8
+4,Rob Gronkowski,0.1679,1390294,8
+4,Antonio Brown,0.2328,978610,8
+4,Saquon Barkley,0.2344,888795,11
+4,Drew Brees,0.0453,1012748,11
+4,John Madden,0.0913,900860,11
+4,Adrian Peterson,0.0271,601677,14
+4,Larry Fitzgerald,,578887,14
+4,Barry Sanders,0.0362,512295,14
+4,Richard Sherman,0.0206,468600,17
+4,Calvin Johnson,0.0083,469620,17
+4,Terrell Owens,0.0142,446633,17
+4,Troy Polamalu,0.0037,457579,20
+4,Peyton Hillis,0.0101,156815,20
+5,Tom Brady,1.0,4084883,2
+5,Patrick Mahomes,0.5298,2238774,2
+5,Christian McCaffrey,0.2422,1572340,5
+5,Peyton Manning,0.1963,1861392,5
+5,Derrick Henry,0.2033,1213308,5
+5,Cam Newton,0.161,1474605,8
+5,Saquon Barkley,0.2345,888795,8
+5,Justin Jefferson,0.2083,651334,8
+5,Cooper Kupp,0.112,1197613,8
+5,Drew Brees,0.0711,1012748,11
+5,Adrian Peterson,0.0271,601677,11
+5,Matt Ryan,0.0431,482209,11
+5,Chris Johnson,0.0124,579777,14
+5,Shaun Alexander,0.0014,399496,14
+5,Michael Thomas,0.0257,254403,14
+5,LaDainian Tomlinson,0.0005,355252,14
+5,Todd Gurley,0.0078,308633,17
+5,Marshall Faulk,0.0,314973,17
+5,Jamal Lewis,0.0,150752,17
+5,DeMarco Murray,0.0,142471,20
+5,Priest Holmes,0.0,140095,20
