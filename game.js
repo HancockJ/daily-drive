@@ -1,22 +1,47 @@
 const SECONDS = 40;
 const GA_ID = "G-6QHLTKHKL5"; // Google Analytics Measurement ID (G-XXXXXXXXXX); analytics stay off while empty
 
-if (GA_ID) {
-  const s = document.createElement("script");
-  s.async = true;
-  s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
-  document.head.append(s);
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = function () { dataLayer.push(arguments); };
-  // No cookies for EU/EEA, UK, and Swiss visitors (they'd need a consent banner); cookieless pings only.
-  gtag("consent", "default", {
-    analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied",
-    region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],
-  });
-  gtag("js", new Date());
-  gtag("config", GA_ID);
-}
-const track = (name, params) => window.gtag && gtag("event", name, { game: dayNumber, ...params });
+// Storage helpers that never throw (some private-browsing modes block localStorage).
+const load = (key, fallback) => { try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; } };
+const save = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} };
+
+// ?internal=1 marks this device as Jack's own so GA filters it out; ?internal=0 clears it. The param is then removed from the URL.
+try {
+  const url = new URL(location.href);
+  const flag = url.searchParams.get("internal");
+  if (flag === "1") localStorage.setItem("dd_internal", "1");
+  if (flag === "0") localStorage.removeItem("dd_internal");
+  if (flag !== null) {
+    url.searchParams.delete("internal");
+    history.replaceState(null, "", url.pathname + url.search + url.hash);
+  }
+} catch {}
+
+// Anonymous device id, groundwork for a future optional sign-in. Stays on this device; never sent anywhere.
+try { if (!localStorage.getItem("dd_player_id")) localStorage.setItem("dd_player_id", crypto.randomUUID()); } catch {}
+
+// Analytics is best-effort: if it's blocked or fails, the game behaves exactly the same.
+try {
+  if (GA_ID) {
+    const s = document.createElement("script");
+    s.async = true;
+    s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+    document.head.append(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    // No cookies for EU/EEA, UK, and Swiss visitors (they'd need a consent banner); cookieless pings only.
+    gtag("consent", "default", {
+      analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied",
+      region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],
+    });
+    gtag("js", new Date());
+    gtag("config", GA_ID, load("dd_internal", 0) === 1 ? { traffic_type: "internal" } : {});
+  }
+} catch {}
+const track = (name, params) => {
+  try { if (window.gtag) gtag("event", name, { game: dayNumber, ...params }); } catch {}
+};
+
 // Everyone plays the same game: the day rolls over at midnight US Eastern time.
 const TZ = "America/New_York";
 const today = new Date().toLocaleDateString("en-CA", { timeZone: TZ }); // YYYY-MM-DD in Eastern time
@@ -141,7 +166,7 @@ function finishRound(guess, punted = false) {
   results.push({ answer: match ? match.name : guess, yards: match ? match.yards : 0, ...(punted && { punt: true }) });
   localStorage.setItem(today, JSON.stringify(results));
   track("play_result", { play: results.length, yards: results.at(-1).yards, result: match ? "correct" : punted ? "punt" : "timeout" });
-  if (results.length === 5) track("game_complete", { yards: totalYards() });
+  if (results.length === 5) track("game_complete", { total_yards: totalYards() });
   showReveal();
 }
 
@@ -188,11 +213,23 @@ function showFinal() {
     </div>
     ${results.map(card).join("")}`);
   document.getElementById("share").onclick = (e) => {
-    track("share_click", { yards });
+    track("share_click", { total_yards: yards });
     if (navigator.share) return navigator.share({ text: share }).catch(() => {});
     navigator.clipboard.writeText(share);
     e.target.textContent = "Copied!";
   };
+}
+
+// Which game numbers this device has started, to tell brand-new players (1) from returning ones (2+).
+// Games finished before this list existed are counted from their saved results.
+function markStarted() {
+  const dates = Object.keys(GAMES);
+  const started = new Set(load("dd_started", []));
+  dates.forEach((date, i) => { if (load(date, []).length) started.add(i + 1); });
+  const isNew = !started.has(dayNumber);
+  started.add(dayNumber);
+  save("dd_started", [...started].sort((a, b) => a - b));
+  return { isNew, days: started.size };
 }
 
 function showStart() {
@@ -209,7 +246,8 @@ function showStart() {
       <button id="start">Kick off</button>
     </div>`);
   document.getElementById("start").onclick = () => {
-    track("game_start");
+    const { isNew, days } = markStarted();
+    if (isNew) track("game_start", { days_played: days }); // once per game per device, even after refreshes
     startRound();
   };
 }
