@@ -1,18 +1,19 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Buffalo Bills,11.4084,1105387,2
-1,Philadelphia Eagles,6.6597,1103844,2
-1,Kansas City Chiefs,8.6283,1027774,5
-1,Pittsburgh Steelers,6.0052,1056589,5
-1,Green Bay Packers,7.4199,1019755,8
-1,Los Angeles Rams,1.0,1231722,8
-1,Detroit Lions,9.1538,685072,11
-1,Denver Broncos,5.5051,926800,11
-1,Washington Commanders,3.5556,978991,14
-1,Baltimore Ravens,3.2554,828040,14
-1,Tampa Bay Buccaneers,3.0443,737146,17
-1,Minnesota Vikings,4.296,680570,17
-1,Los Angeles Chargers,0.5105,724182,20
-1,Houston Texans,2.6806,669166,20
+1,Odell Beckham Jr.,1.0,1269788,2
+1,Mike Evans,0.2815,574096,2
+1,Brandin Cooks,0.0691,335308,5
+1,Amari Cooper,0.1772,309456,5
+1,Nelson Agholor,0.0075,112490,8
+1,Sammy Watkins,0.0158,82089,8
+1,Corey Coleman,0.0015,104265,11
+1,Laquon Treadwell,0.0015,81442,11
+1,DeVante Parker,0.018,45415,11
+1,Kevin White,0.0023,50051,14
+1,Will Fuller,0.0015,56642,14
+1,Kelvin Benjamin,0.0,68912,17
+1,Phillip Dorsett,0.0008,50767,17
+1,Breshad Perriman,0.0008,24824,20
+1,Josh Doctson,0.0,18828,20
 2,Tom Brady,1.0,4084883,2
 2,Patrick Mahomes,0.5307,2238774,2
 2,Joe Burrow,0.4179,1365012,5

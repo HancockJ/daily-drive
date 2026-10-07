@@ -1,16 +1,18 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Chicago Bears,2.8001,1186758,2
-1,Seattle Seahawks,1.0,2183206,5
-1,Philadelphia Eagles,1.9036,1103844,5
-1,Green Bay Packers,2.4186,1019755,8
-1,San Francisco 49ers,0.794,1117306,8
-1,Los Angeles Rams,0.3266,1231722,11
-1,New York Giants,0.7847,1106508,11
-1,Tampa Bay Buccaneers,0.9704,737146,14
-1,Carolina Panthers,0.9521,614319,14
-1,Atlanta Falcons,0.9653,554203,17
-1,Arizona Cardinals,0.7173,762016,17
-1,New Orleans Saints,0.675,506995,20
+1,Troy Aikman,1.0,1258008,2
+1,Joe Montana,0.9013,1054715,2
+1,Terry Bradshaw,1.145,874741,5
+1,John Elway,0.5429,1236832,5
+1,Kurt Warner,0.8109,1041195,8
+1,Joe Namath,0.5617,695037,8
+1,Steve Young,0.347,562029,11
+1,Roger Staubach,0.2154,437631,11
+1,Doug Williams,0.1296,241759,14
+1,Phil Simms,0.131,209661,14
+1,Jim Plunkett,0.0797,298503,17
+1,Bart Starr,0.1052,182666,17
+1,Len Dawson,0.1054,93806,20
+1,Mark Rypien,0.0201,106088,20
 2,Brock Bowers,1.0,268598,2
 2,Kyle Pitts,0.7395,256121,5
 2,David Njoku,0.5915,220416,5
@@ -43,19 +45,15 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 4,Treylon Burks,0.245,157007,17
 4,Jahan Dotson,0.2956,134105,17
 4,Quentin Johnston,0.2231,117854,20
-5,Dallas Cowboys,1.0,1256159,2
-5,Philadelphia Eagles,0.3203,1103844,2
-5,Pittsburgh Steelers,0.2868,1056589,5
-5,Cleveland Browns,0.2931,915514,5
-5,Washington Commanders,0.195,978991,8
-5,San Francisco 49ers,0.1351,1117306,8
-5,Miami Dolphins,0.3629,710283,8
-5,New York Giants,0.1344,1106508,11
-5,Los Angeles Rams,0.0531,1231722,11
-5,Baltimore Ravens,0.1771,828040,14
-5,Tampa Bay Buccaneers,0.1652,737146,14
-5,New York Jets,0.087,861431,14
-5,Houston Texans,0.145,669166,17
-5,Cincinnati Bengals,0.14,518209,17
-5,Los Angeles Chargers,0.0265,724182,20
-5,Jacksonville Jaguars,0.0978,648572,20
+5,Emmitt Smith,1.0,811132,2
+5,Barry Sanders,1.3716,512295,5
+5,LaDainian Tomlinson,0.3816,355252,5
+5,Marshall Faulk,0.2341,314973,8
+5,Jerome Bettis,,246853,8
+5,Terrell Davis,0.2629,239518,11
+5,Marcus Allen,0.365,225106,11
+5,Edgerrin James,0.1288,159996,14
+5,Thurman Thomas,0.1167,130120,14
+5,Curtis Martin,0.0893,111452,17
+5,Fritz Pollard,0.0338,49140,17
+5,Floyd Little,0.0231,47588,20

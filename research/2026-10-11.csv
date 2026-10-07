@@ -50,17 +50,19 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 4,Doug Pederson,0.1328,258322,17
 4,Shane Steichen,0.0266,315835,20
 4,Antonio Pierce,0.1234,140718,20
-5,Dallas Cowboys,1.0,1256159,2
-5,Buffalo Bills,0.5522,1105387,2
-5,Kansas City Chiefs,0.4193,1027774,5
-5,Philadelphia Eagles,0.3224,1103844,5
-5,Green Bay Packers,0.4067,1019755,8
-5,Pittsburgh Steelers,0.287,1056589,8
-5,Los Angeles Rams,0.0484,1231722,11
-5,San Francisco 49ers,0.1381,1117306,11
-5,Detroit Lions,0.4944,685072,14
-5,Cleveland Browns,0.2933,915514,14
-5,Miami Dolphins,0.363,710283,17
-5,Baltimore Ravens,0.1771,828040,17
-5,Tampa Bay Buccaneers,0.1652,737146,20
-5,Houston Texans,0.145,669166,20
+5,Tom Brady,1.0,4084883,2
+5,Russell Wilson,0.3341,1955619,2
+5,Jalen Hurts,0.3387,1198682,5
+5,Joe Montana,0.0525,1054715,5
+5,Drew Brees,0.0718,1012748,8
+5,Brett Favre,0.116,979116,8
+5,Kurt Warner,0.0456,1041195,8
+5,Nick Foles,0.0147,468611,11
+5,Roger Staubach,0.0018,437631,11
+5,Johnny Unitas,0.0,291675,14
+5,Ken Stabler,0.0005,191941,14
+5,Joe Theismann,0.0,270473,14
+5,Brad Johnson,0.0,183609,17
+5,Bart Starr,0.0,182666,17
+5,Mark Rypien,0.0,106088,20
+5,Jeff Hostetler,0.0,100935,20
