@@ -1,0 +1,11 @@
+<!-- Concept 2: monogram. A bold "D" whose open center is a forward chevron (first-down arrow). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0b1017"/>
+  <path fill-rule="evenodd" fill="#c7f36b"
+        d="M120 96 H260 C362 96 424 168 424 256 C424 344 362 416 260 416 H120 Z
+           M196 176 L196 336 L300 256 Z"/>
+  <!-- end-zone stripe accents -->
+  <g stroke="#0b1017" stroke-width="10">
+    <line x1="150" y1="104" x2="150" y2="408"/>
+  </g>
+</svg>

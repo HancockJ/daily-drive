@@ -1,0 +1,20 @@
+<!-- Concept 3: wordmark. "DAILY DRIVE" over a yard-line ruler with the ball marker, echoing the in-game field. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap'); text { font-family: 'Bebas Neue', Impact, sans-serif; }</style>
+  <rect width="1200" height="420" rx="40" fill="#0b1017"/>
+  <text x="600" y="215" text-anchor="middle" font-size="200" letter-spacing="8" fill="#f4f7fb">DAILY <tspan fill="#c7f36b">DRIVE</tspan></text>
+  <!-- ruler -->
+  <line x1="150" y1="290" x2="1050" y2="290" stroke="#f4f7fb" stroke-opacity="0.35" stroke-width="4"/>
+  <g stroke="#f4f7fb" stroke-opacity="0.35" stroke-width="4">
+    <line x1="150" y1="272" x2="150" y2="308"/><line x1="240" y1="280" x2="240" y2="300"/><line x1="330" y1="280" x2="330" y2="300"/>
+    <line x1="420" y1="280" x2="420" y2="300"/><line x1="510" y1="280" x2="510" y2="300"/><line x1="600" y1="272" x2="600" y2="308"/>
+    <line x1="690" y1="280" x2="690" y2="300"/><line x1="780" y1="280" x2="780" y2="300"/><line x1="870" y1="280" x2="870" y2="300"/>
+    <line x1="960" y1="280" x2="960" y2="300"/><line x1="1050" y1="272" x2="1050" y2="308"/>
+  </g>
+  <line x1="150" y1="290" x2="880" y2="290" stroke="#c7f36b" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(900 290)">
+    <path d="M-34 0 C -20 -24, 20 -24, 34 0 C 20 24, -20 24, -34 0 Z" fill="#c7f36b"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#0b1017" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="365" text-anchor="middle" font-size="40" letter-spacing="10" fill="#9aabbf">FIND THE DEEP CUTS</text>
+</svg>
