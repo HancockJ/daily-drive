@@ -1,0 +1,81 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Randy Moss,1.0,907568,2
+1,Emmitt Smith,0.5452,811132,2
+1,Barry Sanders,0.7511,512295,5
+1,Eddie George,0.199,289507,5
+1,Marshall Faulk,0.1491,314973,5
+1,Jerome Bettis,,246853,8
+1,Eric Dickerson,0.199,245033,8
+1,Marcus Allen,,225106,8
+1,Edgerrin James,0.0399,159996,11
+1,Warrick Dunn,0.0262,122835,11
+1,Curtis Martin,0.0106,111452,11
+1,Billy Sims,0.0094,73716,11
+1,Carl Pickens,0.0019,37970,14
+1,George Rogers,0.0006,66097,14
+1,Louis Lipps,0.0012,15519,14
+1,John Stephens,0.0,14190,17
+1,Eddie Brown,0.0,12320,17
+1,Rueben Mayes,0.0,11413,17
+1,Leonard Russell,0.0,6150,20
+1,Troy Stradford,0.0,2966,20
+2,Jim Harbaugh,1.0,1480156,2
+2,Kyle Shanahan,0.1922,680130,5
+2,Chip Kelly,0.1686,666202,5
+2,Mike Singletary,0.0295,212438,8
+2,Bill Walsh,0.0081,178390,11
+2,George Seifert,0.0007,110014,11
+2,Steve Mariucci,0.0022,100196,14
+2,Dennis Erickson,0.0,92676,17
+2,Jim Tomsula,0.0,45952,17
+2,Mike Nolan,0.0,45503,20
+3,Sean Taylor,1.0,420289,2
+3,Julius Peppers,0.31,255962,2
+3,Justin Smith,0.0918,277053,5
+3,A. J. Hawk,,244261,5
+3,LaVar Arrington,0.1205,141708,8
+3,Chris Long,,233649,8
+3,Mario Williams,0.0893,96219,8
+3,Quentin Jammer,0.0093,91861,11
+3,Aaron Curry,0.0042,33033,11
+3,Courtney Brown,0.0,42395,14
+3,Gaines Adams,0.0017,32274,14
+3,Terence Newman,0.0008,30610,14
+3,Glenn Dorsey,0.0,25016,17
+3,Gerard Warren,0.0,10705,17
+3,Tyson Jackson,0.0,10323,20
+3,Dewayne Robertson,0.0,6327,20
+4,Sean Payton,1.0,942536,2
+4,Josh McDaniels,0.3501,598448,5
+4,Mike Shanahan,0.1335,587950,5
+4,Vic Fangio,0.1251,220117,8
+4,Nathaniel Hackett,0.1606,144632,8
+4,Gary Kubiak,0.0271,547415,11
+4,Vance Joseph,0.0373,225082,11
+4,Dan Reeves,0.0663,194273,14
+4,Wade Phillips,0.0149,136115,14
+4,John Fox,0.0075,131285,17
+4,Eric Studesville,0.0,24271,17
+4,Jerry Rosburg,0.0047,11083,20
+5,Houston Oilers,hand-tiered,,2
+5,Oakland Raiders,hand-tiered,,2
+5,San Diego Chargers,hand-tiered,,2
+5,Washington Redskins,hand-tiered,,2
+5,St. Louis Rams,hand-tiered,,5
+5,Baltimore Colts,hand-tiered,,5
+5,Los Angeles Raiders,hand-tiered,,8
+5,St. Louis Cardinals,hand-tiered,,8
+5,Washington Football Team,hand-tiered,,8
+5,Phoenix Cardinals,hand-tiered,,11
+5,Boston Patriots,hand-tiered,,11
+5,Tennessee Oilers,hand-tiered,,14
+5,Dallas Texans,hand-tiered,,14
+5,New York Titans,hand-tiered,,14
+5,Chicago Cardinals,hand-tiered,,14
+5,Cleveland Rams,hand-tiered,,14
+5,Boston Redskins,hand-tiered,,17
+5,Decatur Staleys,hand-tiered,,17
+5,Chicago Staleys,hand-tiered,,20
+5,Boston Braves,hand-tiered,,20
+5,Portsmouth Spartans,hand-tiered,,20
+5,Pittsburgh Pirates,hand-tiered,,20
