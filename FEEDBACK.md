@@ -6,3 +6,4 @@
 | 2026-10-01 | Shared link opened as http:// and was flagged as an insecure site | Fixed: site always redirects to https |
 | 2026-10-01 | Questions too hard, too few answers (4-5) | Fixed from Oct 2: 10-20+ answers per prompt, broader timelines, always an obvious answer |
 | 2026-10-07 | "Name a team in this conference" is lame: no skill, just guess the less popular team | Fixed from Oct 8: replaced guessable team-list prompts with player prompts; rule saved for future games |
+| 2026-10-13 | Typing just "Smith" scored points (matched Akili Smith / Bruce Smith) | Fixed: common surnames alone no longer score; player is asked to add a first name |

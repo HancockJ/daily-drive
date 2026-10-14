@@ -109,10 +109,20 @@ function typos(a, b) {
 // but "Calvin Johnson" never becomes "Chris Johnson".
 const close = (g, n) => g.length === n.length && g.every((w, i) => typos(w, n[i]) <= Math.round((n[i].length - 1) * 0.4));
 
+// Surnames too common to count on their own: "Smith" alone shouldn't score Bruce Smith. Players are asked for a first name instead.
+const COMMON_SURNAMES = new Set(("smith johnson williams brown jones davis miller wilson moore taylor anderson thomas jackson white harris martin " +
+  "thompson robinson clark lewis lee walker hall allen young king wright scott green baker adams nelson hill campbell mitchell roberts carter " +
+  "phillips evans turner parker collins edwards stewart morris murphy cook rogers morgan peterson cooper reed bailey bell kelly howard ward cox " +
+  "richardson wood watson brooks bennett gray james hughes price myers long foster sanders ross powell sullivan russell jenkins perry butler " +
+  "barnes fisher henderson coleman simmons patterson jordan reynolds hamilton graham alexander wallace griffin west cole hayes gibson bryant " +
+  "ellis stevens murray ford marshall owens harrison wells washington freeman henry simpson gordon hunter holmes mason rice palmer grant " +
+  "daniels gardner hunt johnston ryan moss bush george lynch little black stone woods").split(" "));
+const isCommonSurname = (guess) => { const g = words(guess); return g.length === 1 && COMMON_SURNAMES.has(g[0]); };
+
 function findAnswer(guess, answers) {
   const g = words(guess);
   const last = (a) => words(a.name).slice(-1);
-  const lastIsUnique = (a) => answers.filter((b) => last(b)[0] === last(a)[0]).length === 1;
+  const lastIsUnique = (a) => answers.filter((b) => last(b)[0] === last(a)[0]).length === 1 && !COMMON_SURNAMES.has(last(a)[0]);
   const names = (a) => [...[a.name, ...(a.aliases || [])].map(words), ...(lastIsUnique(a) ? [last(a)] : [])];
   const exact = answers.find((a) => names(a).some((n) => n.join("") === g.join("")));
   if (exact) return exact;
@@ -186,7 +196,9 @@ function startRound() {
     const guess = input.value.trim();
     if (!guess) return;
     if (findAnswer(guess, round.answers)) return finishRound(guess);
-    document.getElementById("msg").textContent = `"${guess}" isn't on the board. Keep trying!`;
+    document.getElementById("msg").textContent = isCommonSurname(guess)
+      ? `Lots of players are named ${guess}. Add a first name!`
+      : `"${guess}" isn't on the board. Keep trying!`;
     input.value = "";
   };
 }
