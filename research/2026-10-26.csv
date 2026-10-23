@@ -1,0 +1,86 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Andy Reid,1.0,869097,2
+1,Marty Schottenheimer,0.0225,434189,5
+1,Marv Levy,0.0213,245098,5
+1,Herm Edwards,0.0451,122021,8
+1,Dick Vermeil,0.0213,233130,8
+1,Todd Haley,0.0025,107770,11
+1,Romeo Crennel,0.0013,85808,11
+1,Paul Wiggin,0.0,28065,14
+1,John Mackovic,0.0,20374,14
+1,Gunther Cunningham,0.0,15950,17
+1,Frank Gansz,0.0,9130,17
+1,Tom Bettis,0.0,2489,20
+2,Jordan Love,1.0,950223,2
+2,Jaire Alexander,0.1564,271904,2
+2,Matthew Golden,0.1108,198071,5
+2,Rashan Gary,0.025,156400,5
+2,Kenny Clark,0.0313,121281,8
+2,Quay Walker,0.0304,106429,8
+2,Ha Ha Clinton-Dix,0.0054,123822,8
+2,Lukas Van Ness,0.0206,88295,11
+2,Darnell Savage,,82076,11
+2,Devonte Wyatt,0.0063,41287,11
+2,Eric Stokes,0.0018,51459,14
+2,Jordan Morgan,,29967,14
+2,Bryan Bulaga,0.0009,22727,14
+2,Nick Perry,0.0,12646,17
+2,Damarious Randall,0.0,10987,17
+2,Datone Jones,0.0,8264,20
+2,Derek Sherrod,0.0,5417,20
+3,Michael Irvin,,968746,2
+3,Randy Moss,1.0,907568,2
+3,Jerry Rice,0.7802,761695,5
+3,Calvin Johnson,0.4724,469620,5
+3,Terrell Owens,0.4991,446633,5
+3,Marvin Harrison,0.3678,273828,8
+3,Sterling Sharpe,0.2056,259072,8
+3,Cris Carter,0.1492,210875,8
+3,Andre Johnson,0.1616,202220,8
+3,Lynn Swann,0.026,238068,11
+3,Tim Brown,0.1015,128715,11
+3,Isaac Bruce,0.0056,91418,11
+3,Drew Pearson,0.0198,79320,14
+3,Art Monk,0.0056,86402,14
+3,Andre Reed,0.0043,87924,14
+3,Harold Carmichael,0.0074,69920,14
+3,Bob Hayes,0.0056,80172,17
+3,Cliff Branch,0.0118,52965,17
+3,James Lofton,0.0037,53712,17
+3,John Stallworth,0.0,44902,20
+3,Mac Speedie,0.0,8627,20
+4,Tom Brady,1.0,4084883,2
+4,Peyton Manning,0.1919,1861392,2
+4,Aaron Rodgers,0.8202,3356416,5
+4,Brett Favre,0.1168,979116,5
+4,Drew Brees,0.0739,1012748,5
+4,Ben Roethlisberger,0.0841,786462,8
+4,Dan Marino,0.0238,650668,8
+4,Matthew Stafford,0.1955,2275480,11
+4,Philip Rivers,0.0506,3221906,11
+4,Eli Manning,0.0832,1265737,11
+4,Russell Wilson,0.3333,1955619,14
+4,John Elway,,1236832,14
+4,Matt Ryan,0.0442,482209,17
+4,Fran Tarkenton,0.0,300887,20
+5,Flea Flicker,hand-tiered,,2
+5,Hook and Ladder,hand-tiered,,2
+5,Philly Special,hand-tiered,,2
+5,Fake Punt,hand-tiered,,5
+5,Fake Field Goal,hand-tiered,,5
+5,Reverse,hand-tiered,,5
+5,Double Reverse,hand-tiered,,8
+5,Halfback Pass,hand-tiered,,8
+5,Statue of Liberty,hand-tiered,,8
+5,Onside Kick,hand-tiered,,8
+5,End Around,hand-tiered,,11
+5,Wildcat,hand-tiered,,11
+5,Fumblerooski,hand-tiered,,11
+5,Wide Receiver Pass,hand-tiered,,11
+5,Throwback Pass,hand-tiered,,14
+5,Fake Spike,hand-tiered,,14
+5,Double Pass,hand-tiered,,14
+5,Swinging Gate,hand-tiered,,14
+5,Fake Kneel,hand-tiered,,17
+5,Muddle Huddle,hand-tiered,,20
+5,Bumerooski,hand-tiered,,20
