@@ -1,0 +1,105 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Ray Lewis,1.0,759711,2
+1,Von Miller,1.2253,718112,5
+1,Malcolm Smith,0.0019,90665,5
+1,Randy White,0.0067,87850,8
+1,Chuck Howley,0.0082,46146,11
+1,Richard Dent,0.001,73005,11
+1,Dexter Jackson,0.0,45117,14
+1,Larry Brown,,41869,17
+1,Harvey Martin,0.0,34642,17
+1,Jake Scott,,31752,20
+2,Patrick Mahomes,1.0,2238774,2
+2,Christian McCaffrey,0.4803,1572340,2
+2,Myles Garrett,0.2102,1955167,2
+2,Deshaun Watson,0.4292,786831,5
+2,T. J. Watt,0.1521,588067,5
+2,Mitchell Trubisky,0.0505,358190,5
+2,Leonard Fournette,0.0569,250099,5
+2,David Njoku,0.0482,220416,5
+2,Jamal Adams,0.0145,256029,8
+2,Jabrill Peppers,0.0081,216943,8
+2,Marshon Lattimore,0.0145,134144,8
+2,Haason Reddick,0.0221,121583,8
+2,Evan Engram,0.0232,104744,8
+2,Tre'Davious White,0.0075,121978,11
+2,Garett Bolles,0.0012,124728,11
+2,Marlon Humphrey,0.0035,114932,11
+2,Jonathan Allen,0.0046,97192,11
+2,Mike Williams,,99427,11
+2,Adoree' Jackson,0.0012,110829,11
+2,John Ross,0.0046,86564,14
+2,Corey Davis,0.0041,63679,14
+2,Solomon Thomas,0.0012,90219,14
+2,O. J. Howard,0.0023,51782,14
+2,Reuben Foster,0.0,84151,14
+2,Derek Barnett,0.0012,53838,17
+2,Malik Hooker,0.0,56619,17
+2,Taco Charlton,0.0,45758,17
+2,Takkarist McKinley,,22860,17
+2,Ryan Ramczyk,0.0,21716,17
+2,Gareon Conley,0.0,20542,20
+2,Jarrad Davis,0.0,13550,20
+2,Charles Harris,0.0,12648,20
+3,O. J. Simpson,,3245065,2
+3,Troy Polamalu,,457579,2
+3,Junior Seau,,382550,5
+3,Frank Gifford,,275545,8
+3,Ronnie Lott,,245101,8
+3,Lynn Swann,,238068,8
+3,Marcus Allen,,225106,11
+3,Anthony Muñoz,,108482,14
+3,Bruce Matthews,,76822,14
+3,Tony Boselli,,66109,14
+3,Ron Yary,,18554,17
+3,Willie Wood,,12977,20
+3,Red Badgro,,4709,20
+4,Chip Kelly,1.0,666202,2
+4,Urban Meyer,1.95,597272,2
+4,Jerod Mayo,0.5204,296362,5
+4,Bobby Petrino,0.3182,524322,5
+4,Frank Reich,0.3409,339582,5
+4,Jim L. Mora,,296713,8
+4,Lovie Smith,0.4372,173237,8
+4,Nathaniel Hackett,0.4715,144632,8
+4,Marty Schottenheimer,0.0909,434189,11
+4,Antonio Pierce,0.4223,140718,11
+4,Steve Wilks,0.2434,139870,11
+4,Freddie Kitchens,0.0392,151776,14
+4,Hue Jackson,0.176,116682,14
+4,Cam Cameron,0.0841,61713,14
+4,Romeo Crennel,0.0259,85808,17
+4,David Culley,0.0587,42562,17
+4,Jim Tomsula,0.0132,45952,17
+4,Mike Mularkey,0.0083,39486,20
+4,Rob Chudzinski,0.0015,35438,20
+5,Quarterback,hand-tiered,,2
+5,Running Back,hand-tiered,,2
+5,Wide Receiver,hand-tiered,,2
+5,Tight End,hand-tiered,,5
+5,Linebacker,hand-tiered,,5
+5,Cornerback,hand-tiered,,5
+5,Safety,hand-tiered,,5
+5,Kicker,hand-tiered,,5
+5,Punter,hand-tiered,,8
+5,Center,hand-tiered,,8
+5,Defensive End,hand-tiered,,8
+5,Defensive Tackle,hand-tiered,,8
+5,Offensive Tackle,hand-tiered,,11
+5,Guard,hand-tiered,,11
+5,Fullback,hand-tiered,,11
+5,Middle Linebacker,hand-tiered,,11
+5,Outside Linebacker,hand-tiered,,11
+5,Nose Tackle,hand-tiered,,14
+5,Long Snapper,hand-tiered,,14
+5,Free Safety,hand-tiered,,14
+5,Strong Safety,hand-tiered,,14
+5,Kick Returner,hand-tiered,,14
+5,Slot Receiver,hand-tiered,,14
+5,Edge Rusher,hand-tiered,,14
+5,Punt Returner,hand-tiered,,17
+5,Holder,hand-tiered,,17
+5,Nickelback,hand-tiered,,17
+5,Dime Back,hand-tiered,,20
+5,Gunner,hand-tiered,,20
+5,H-Back,hand-tiered,,20

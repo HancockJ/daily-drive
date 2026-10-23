@@ -1,0 +1,96 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Michael Irvin,,968746,2
+1,Randy Moss,1.0,907568,2
+1,Jerry Rice,0.7802,761695,5
+1,Calvin Johnson,0.4724,469620,5
+1,Terrell Owens,0.4991,446633,5
+1,Marvin Harrison,0.3678,273828,8
+1,Sterling Sharpe,0.2056,259072,8
+1,Cris Carter,0.1492,210875,8
+1,Andre Johnson,0.1616,202220,8
+1,Lynn Swann,0.026,238068,11
+1,Tim Brown,0.1015,128715,11
+1,Isaac Bruce,0.0056,91418,11
+1,Drew Pearson,0.0198,79320,14
+1,Art Monk,0.0056,86402,14
+1,Andre Reed,0.0043,87924,14
+1,Harold Carmichael,0.0074,69920,14
+1,Bob Hayes,0.0056,80172,17
+1,Cliff Branch,0.0118,52965,17
+1,James Lofton,0.0037,53712,17
+1,John Stallworth,0.0,44902,20
+1,Mac Speedie,0.0,8627,20
+2,Russell Wilson,1.0,1955619,2
+2,Justin Fields,0.5269,815035,2
+2,Michael Vick,0.1549,938910,5
+2,Ben Roethlisberger,0.2937,786462,5
+2,Kenny Pickett,0.2713,421384,8
+2,Devlin Hodges,0.0141,699748,8
+2,Mason Rudolph,0.0678,379749,11
+2,Mitchell Trubisky,0.1033,358190,11
+2,Byron Leftwich,0.0198,157810,11
+2,Kordell Stewart,0.0042,216765,14
+2,Charlie Batch,0.0005,68413,14
+2,Tommy Maddox,0.0,55334,17
+2,Landry Jones,0.0,41408,17
+2,Dennis Dixon,0.0,33481,20
+2,Kent Graham,0.0,15175,20
+3,Derrick Henry,1.0,1213308,2
+3,Saquon Barkley,1.1114,888795,2
+3,Ezekiel Elliott,,654689,5
+3,Marshawn Lynch,0.3289,1034630,5
+3,Josh Jacobs,0.5533,398197,8
+3,Nick Chubb,0.4523,405833,8
+3,Adrian Peterson,0.1772,601677,11
+3,Dalvin Cook,0.3599,367384,11
+3,Jonathan Taylor,0.4577,143258,14
+3,LeSean McCoy,0.0727,251667,14
+3,Arian Foster,0.0121,171847,17
+3,DeMarco Murray,0.0075,142471,17
+3,Maurice Jones-Drew,0.0082,132185,20
+3,Alfred Morris,0.0,45853,20
+4,NFL Combine,hand-tiered,,2
+4,Pro Day,hand-tiered,,2
+4,Senior Bowl,hand-tiered,,2
+4,East-West Shrine Bowl,hand-tiered,,5
+4,Top 30 Visit,hand-tiered,,8
+4,Private Workout,hand-tiered,,8
+4,NFLPA Collegiate Bowl,hand-tiered,,11
+4,HBCU Legacy Bowl,hand-tiered,,11
+4,Hula Bowl,hand-tiered,,11
+4,Interviews,hand-tiered,,11
+4,Wonderlic,hand-tiered,,11
+4,Regional Combine,hand-tiered,,14
+4,Tropical Bowl,hand-tiered,,17
+4,Medical Recheck,hand-tiered,,17
+4,Blue-Grey Game,hand-tiered,,17
+4,FCS Bowl,hand-tiered,,20
+4,Japan Bowl,hand-tiered,,20
+4,Gridiron Classic,hand-tiered,,20
+5,Oakland,hand-tiered,,2
+5,San Diego,hand-tiered,,2
+5,St. Louis,hand-tiered,,2
+5,Canton,hand-tiered,,8
+5,Boston,hand-tiered,,8
+5,Portsmouth,hand-tiered,,11
+5,Akron,hand-tiered,,11
+5,Dayton,hand-tiered,,11
+5,Columbus,hand-tiered,,11
+5,Milwaukee,hand-tiered,,11
+5,Pottsville,hand-tiered,,14
+5,Duluth,hand-tiered,,14
+5,Providence,hand-tiered,,14
+5,Toledo,hand-tiered,,14
+5,Louisville,hand-tiered,,14
+5,Rochester,hand-tiered,,14
+5,Hartford,hand-tiered,,17
+5,Rock Island,hand-tiered,,17
+5,Racine,hand-tiered,,17
+5,Hammond,hand-tiered,,17
+5,Evansville,hand-tiered,,17
+5,Newark,hand-tiered,,17
+5,Kenosha,hand-tiered,,20
+5,Muncie,hand-tiered,,20
+5,Tonawanda,hand-tiered,,20
+5,Orange,hand-tiered,,20
+5,LaRue,hand-tiered,,20

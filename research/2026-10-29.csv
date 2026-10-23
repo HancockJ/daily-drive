@@ -1,91 +1,90 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Jon Gruden,1.0,862447,2
-1,Tony Dungy,0.4718,367172,2
-1,Raheem Morris,0.2709,626289,5
-1,Todd Bowles,0.3156,352446,8
-1,Bruce Arians,0.3597,322055,8
-1,Lovie Smith,0.3013,173237,8
-1,Greg Schiano,0.0748,145419,11
-1,John McKay,0.0021,54793,14
-1,Sam Wyche,0.0071,50738,14
-1,Dirk Koetter,0.0084,39534,14
-1,Ray Perkins,0.0006,31959,17
-1,Leeman Bennett,0.0,8290,20
-1,Richard Williamson,,3922,20
-2,T. J. Watt,1.0,588067,2
-2,Kenny Pickett,0.9935,421384,2
-2,Cameron Heyward,0.1883,362784,5
-2,Najee Harris,0.7406,289017,5
-2,Devin Bush,0.0666,145699,8
-2,Ryan Shazier,0.122,136957,8
-2,Broderick Jones,0.0425,87584,11
-2,Terrell Edmunds,0.0306,79346,11
-2,Maurkice Pouncey,0.0155,84356,11
-2,Bud Dupree,0.0274,43842,14
-2,Troy Fautanu,0.0183,37839,14
-2,Derrick Harmon,0.0407,7852,17
-2,Artie Burns,0.0037,27572,17
-2,Jarvis Jones,0.0027,26551,20
-2,David DeCastro,0.0005,25546,20
-3,Deion Sanders,1.0,1775671,2
-3,Troy Polamalu,0.0792,457579,2
-3,Charles Woodson,0.0185,362583,2
-3,Ed Reed,0.0165,300812,5
-3,John Lynch,0.0106,249337,5
-3,Darrelle Revis,0.0046,228763,5
-3,Brian Dawkins,0.0092,203082,5
-3,Ronnie Lott,0.0007,245101,8
-3,Ronde Barber,0.0033,127356,8
-3,Kenny Easley,0.002,177661,8
-3,Champ Bailey,0.0,196980,8
-3,Rod Woodson,0.0,190427,11
-3,LeRoy Butler,0.0026,45802,11
-3,Darrell Green,0.0007,104366,11
-3,Eric Allen,0.002,46362,11
-3,Ty Law,0.0,121376,11
-3,Dick LeBeau,0.0,105735,14
-3,Ken Riley,0.0013,18665,14
-3,Steve Atwater,0.0,68704,14
-3,Aeneas Williams,0.0,51012,14
-3,Cliff Harris,0.0,30497,17
-3,Donnie Shell,0.0,24862,17
-3,Emmitt Thomas,0.0,18003,17
-3,Roger Wehrli,0.0,14912,17
-3,Johnny Robinson,0.0,12497,20
-3,Bobby Dillon,0.0,6303,20
-3,Jack Butler,0.0,5612,20
-4,Tom Brady,1.0,4084883,2
-4,Patrick Mahomes,0.5329,2238774,2
-4,Peyton Manning,0.1919,1861392,5
-4,Troy Aikman,0.0684,1258008,8
-4,John Elway,,1236832,8
-4,Joe Montana,0.0561,1054715,8
-4,Terry Bradshaw,0.0756,874741,11
-4,Ben Roethlisberger,0.0841,786462,14
-4,Kurt Warner,0.0501,1041195,14
-4,Roger Staubach,0.0017,437631,14
-4,Jim Kelly,0.003,395679,17
-4,Fran Tarkenton,0.0,300887,20
-4,Bob Griese,0.0,123222,20
-5,Lady Gaga,hand-tiered,,2
-5,Christina Aguilera,hand-tiered,,2
-5,Carrie Underwood,hand-tiered,,5
-5,Kelly Clarkson,hand-tiered,,5
-5,Demi Lovato,hand-tiered,,5
-5,Chris Stapleton,hand-tiered,,5
-5,Reba McEntire,hand-tiered,,5
-5,Alicia Keys,hand-tiered,,8
-5,Billy Joel,hand-tiered,,8
-5,Pink,hand-tiered,,8
-5,Jennifer Hudson,hand-tiered,,8
-5,Idina Menzel,hand-tiered,,11
-5,Luke Bryan,hand-tiered,,11
-5,Gladys Knight,hand-tiered,,11
-5,Aretha Franklin,hand-tiered,,11
-5,Jon Batiste,hand-tiered,,14
-5,Jordin Sparks,hand-tiered,,14
-5,Eric Church,hand-tiered,,14
-5,Jazmine Sullivan,hand-tiered,,17
-5,Mickey Guyton,hand-tiered,,17
-5,Aaron Neville,hand-tiered,,17
-5,Renée Fleming,hand-tiered,,20
+1,Joe Flacco,,2082153,2
+1,Joe Burrow,,1365012,2
+1,Joe Montana,,1054715,2
+1,Joe Namath,,695037,5
+1,Joe Theismann,,270473,8
+1,Joey Harrington,,79104,8
+1,Joe Kapp,,69746,11
+1,Joe Gilliam,,34481,11
+1,Joe Ferguson,,33947,11
+1,Joe Webb,,25388,14
+1,Joe Pisarcik,,11405,14
+1,Joe Reed,,2714,17
+1,Joe Francis,,1934,17
+1,Joe Dufek,,1806,20
+1,Joe Geri,,1063,20
+2,Travis Hunter,1.0,642440,2
+2,Marvin Harrison Jr.,0.4468,285582,5
+2,Ricky Pearsall,0.2012,306707,5
+2,Malik Nabers,0.2414,295745,8
+2,Xavier Worthy,0.3697,243590,8
+2,Emeka Egbuka,0.1618,393228,11
+2,Tetairoa McMillan,0.1257,408332,14
+2,Rome Odunze,0.1903,206063,14
+2,Xavier Legette,0.1299,234960,17
+2,Brian Thomas Jr.,0.1819,169745,17
+2,Matthew Golden,0.1115,198071,20
+3,Antonio Brown,7.6047,978610,2
+3,Kurt Warner,1.0,1041195,2
+3,Michael Irvin,,968746,2
+3,Von Miller,1.2528,718112,5
+3,Jerry Rice,0.7674,761695,5
+3,Ray Lewis,0.6744,759711,5
+3,Emmitt Smith,0.186,811132,5
+3,Adrian Peterson,0.8255,601677,8
+3,Lawrence Taylor,0.5632,645020,8
+3,Chad Ochocinco,0.3538,676181,8
+3,Calvin Johnson,0.5818,469620,8
+3,Terrell Owens,0.6284,446633,8
+3,Doug Flutie,0.2912,498829,11
+3,Danny Amendola,0.4009,265313,11
+3,Jason Taylor,0.2108,411902,14
+3,Warren Sapp,0.2711,297368,14
+3,Hines Ward,0.2062,330931,14
+3,Jacoby Jones,0.2797,236904,14
+3,Vernon Davis,0.143,293231,14
+3,Keyshawn Johnson,0.1521,177173,17
+3,DeMarcus Ware,0.0455,161066,17
+3,Donald Driver,0.0862,93996,17
+3,Josh Norman,0.1212,75276,20
+3,Michael Sam,0.0122,160624,20
+3,Rashad Jennings,0.0207,94810,20
+4,Zac Taylor,1.0,267144,2
+4,Paul Brown,0.2667,157816,5
+4,Dick LeBeau,0.1105,105735,5
+4,Marvin Lewis,0.1928,105245,8
+4,Dave Shula,0.0113,131108,11
+4,Forrest Gregg,0.0204,54254,11
+4,Sam Wyche,0.0317,50738,14
+4,Bruce Coslet,0.0007,15591,17
+4,Homer Rice,0.0014,4684,17
+4,Bill Johnson,,4645,20
+5,Lambeau Leap,hand-tiered,,2
+5,Spike,hand-tiered,,2
+5,Griddy,hand-tiered,,2
+5,Ickey Shuffle,hand-tiered,,5
+5,Gronk Spike,hand-tiered,,5
+5,Discount Double Check,hand-tiered,,5
+5,Dirty Bird,hand-tiered,,8
+5,Mile High Salute,hand-tiered,,8
+5,Sharpie,hand-tiered,,8
+5,Goal Post Dunk,hand-tiered,,8
+5,Dab,hand-tiered,,8
+5,Superman,hand-tiered,,8
+5,Tebowing,hand-tiered,,8
+5,Dougie,hand-tiered,,11
+5,Sack Dance,hand-tiered,,11
+5,Group Celebration,hand-tiered,,11
+5,Prayer,hand-tiered,,11
+5,Bow and Arrow,hand-tiered,,11
+5,Fun Bunch,hand-tiered,,14
+5,Squirrel Dance,hand-tiered,,14
+5,Popcorn,hand-tiered,,14
+5,Bob Sled,hand-tiered,,14
+5,Cell Phone,hand-tiered,,14
+5,Funky Chicken,hand-tiered,,17
+5,Moon,hand-tiered,,17
+5,Riverdance,hand-tiered,,17
+5,Duck Duck Goose,hand-tiered,,17
+5,Proposal,hand-tiered,,20

@@ -1,0 +1,66 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Patrick Mahomes,,2238774,2
+1,Eli Manning,,1265737,2
+1,Russell Wilson,,1955619,5
+1,Kurt Warner,,1041195,8
+1,Jared Goff,,797285,11
+1,Matt Ryan,,482209,14
+1,Nick Foles,,468611,14
+1,Donovan McNabb,,363166,17
+1,Jake Delhomme,,133176,20
+2,Jerry Jones,,1104810,2
+2,Emmitt Smith,,811132,2
+2,Jim Brown,,672700,2
+2,Jimmy Johnson,,652729,5
+2,Calvin Johnson,,469620,5
+2,Andre Johnson,,202220,8
+2,Bruce Smith,,161572,8
+2,Paul Brown,,157816,8
+2,Tim Brown,,128715,11
+2,Deacon Jones,,105088,11
+2,Walter Jones,,58171,14
+2,Aeneas Williams,,51012,14
+2,Willie Brown,,28864,14
+2,Jackie Smith,,23064,17
+2,Bob Brown,,18743,17
+2,John Henry Johnson,,15668,17
+2,Rosey Brown,,14081,20
+2,Stan Jones,,5477,20
+3,Referee,hand-tiered,,2
+3,Umpire,hand-tiered,,2
+3,Line Judge,hand-tiered,,5
+3,Head Linesman,hand-tiered,,5
+3,Down Judge,hand-tiered,,8
+3,Back Judge,hand-tiered,,8
+3,Side Judge,hand-tiered,,8
+3,Field Judge,hand-tiered,,8
+3,Replay Official,hand-tiered,,11
+3,Chain Crew,hand-tiered,,14
+3,Timekeeper,hand-tiered,,17
+3,Head of Officiating,hand-tiered,,20
+4,Bill Belichick,1.0,1993798,2
+4,Andy Reid,0.402,869097,2
+4,Jimmy Johnson,0.1638,652729,5
+4,Bill Cowher,0.0215,456207,5
+4,Marty Schottenheimer,0.0072,434189,8
+4,Bill Parcells,0.0114,416974,8
+4,Dan Reeves,0.0193,194273,11
+4,Dick Vermeil,0.0064,233130,11
+4,Dom Capers,0.0007,53231,14
+4,Jim Fassel,0.0,54133,14
+4,Dick Jauron,0.0021,46701,17
+4,Ray Rhodes,0.0,52490,17
+4,Wayne Fontes,0.0007,40065,20
+4,Jim Haslett,0.0,40606,20
+5,London,hand-tiered,,2
+5,Mexico City,hand-tiered,,2
+5,Toronto,hand-tiered,,5
+5,Munich,hand-tiered,,5
+5,Frankfurt,hand-tiered,,8
+5,São Paulo,hand-tiered,,8
+5,Berlin,hand-tiered,,8
+5,Dublin,hand-tiered,,8
+5,Madrid,hand-tiered,,11
+5,Melbourne,hand-tiered,,11
+5,Rio de Janeiro,hand-tiered,,14
+5,Paris,hand-tiered,,14

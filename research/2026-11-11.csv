@@ -1,0 +1,124 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Tom Brady,1.0,4084883,2
+1,Travis Kelce,0.9022,3576328,2
+1,Aaron Rodgers,0.8182,3356416,2
+1,Bill Belichick,0.2406,1993798,2
+1,Tyreek Hill,0.3244,1087398,2
+1,Rob Gronkowski,0.162,1390294,5
+1,Antonio Brown,0.2356,978610,5
+1,Aaron Donald,0.0875,988588,5
+1,Pete Carroll,0.0446,1171107,5
+1,Marshawn Lynch,0.0652,1034630,5
+1,Von Miller,0.0483,718112,5
+1,J. J. Watt,0.0656,713108,5
+1,Adrian Peterson,0.0294,601677,5
+1,Larry Fitzgerald,,578887,5
+1,Justin Tucker,0.0358,549847,8
+1,Richard Sherman,0.0189,468600,8
+1,Julio Jones,0.0429,361774,8
+1,Bobby Wagner,0.0189,437167,8
+1,Luke Kuechly,0.0029,714470,8
+1,Calvin Johnson,0.0122,469620,8
+1,Khalil Mack,0.0151,372720,8
+1,Chandler Jones,0.0101,377630,8
+1,Tyrann Mathieu,0.0172,266189,8
+1,Frank Gore,0.0101,276468,11
+1,Calais Campbell,0.0034,336326,11
+1,Ndamukong Suh,0.0025,358562,11
+1,Eric Weddle,0.0189,119215,11
+1,Devin Hester,0.0025,268756,11
+1,Cordarrelle Patterson,0.0147,111567,11
+1,Fletcher Cox,0.0046,148067,11
+1,Earl Thomas,0.0021,191410,11
+1,Julius Peppers,0.0017,255962,14
+1,Cameron Jordan,0.0013,275226,14
+1,Darrelle Revis,0.0017,228763,14
+1,LeSean McCoy,0.0008,251667,14
+1,Patrick Peterson,0.0021,115907,14
+1,Joe Thomas,0.0017,155630,14
+1,Patrick Willis,0.0004,162030,14
+1,Darren Sproles,0.0,170873,14
+1,Tyron Smith,0.0021,67117,14
+1,Zack Martin,0.0017,88474,17
+1,Jason Peters,0.0021,64767,17
+1,Maurkice Pouncey,0.0004,84356,17
+1,Eric Berry,0.0,103964,17
+1,Stephen Gostkowski,0.0,75628,17
+1,Logan Mankins,0.0,55191,17
+1,Joe Staley,0.0004,41854,17
+1,Johnny Hekker,,55046,17
+1,Shane Lechler,0.0,51735,17
+1,Marshal Yanda,0.0,51038,20
+1,Chris Harris Jr.,0.0,47426,20
+1,Geno Atkins,0.0,41087,20
+1,Jahri Evans,0.0,40815,20
+1,Alex Mack,,38821,20
+2,Dan Quinn,1.75,364482,2
+2,Mike Shanahan,1.0,587950,5
+2,Joe Gibbs,1.536,284167,5
+2,Marty Schottenheimer,0.3813,434189,8
+2,Steve Spurrier,0.7932,303156,8
+2,Ron Rivera,1.0493,211019,11
+2,Bill Callahan,,194910,11
+2,Jay Gruden,0.2144,115884,14
+2,Norv Turner,0.087,89221,14
+2,Jim Zorn,0.0932,74890,17
+2,Terry Robiskie,0.0026,20239,17
+2,Richie Petitbon,0.002,13144,20
+3,Bad Bunny,,9810336,2
+3,Lady Gaga,,4195026,2
+3,Bruno Mars,,3802693,2
+3,Nicki Minaj,,3659479,5
+3,Beyoncé,,2634876,5
+3,50 Cent,,2511266,5
+3,Travis Scott,,2233281,5
+3,Red Hot Chili Peppers,,2118437,8
+3,Ricky Martin,,1806844,8
+3,Lenny Kravitz,,1796171,8
+3,Slash,,1389123,8
+3,Alicia Keys,,1327299,11
+3,Mark Ronson,,1301330,11
+3,Usher,,1045630,11
+3,SZA,,1039853,11
+3,M.I.A.,,1029188,11
+3,Serena Williams,,2556289,14
+3,Samuel L. Jackson,,1889466,14
+3,Destiny's Child,,787790,14
+3,Anderson .Paak,,784998,14
+3,Ludacris,,743275,14
+3,will.i.am,,630504,14
+3,CeeLo Green,,583292,14
+3,Lil Jon,,527263,17
+3,Missy Elliott,,526134,17
+3,LMFAO,,508571,17
+3,H.E.R.,,465594,17
+3,Jermaine Dupri,,448642,17
+3,J Balvin,,306674,20
+3,Big Boi,,303244,20
+3,Mustard,,165206,20
+4,Joe Montana,1.0,1054715,2
+4,Brett Favre,1.7222,979116,2
+4,Jerry Rice,0.8889,761695,5
+4,Dan Marino,0.6359,650668,5
+4,Barry Sanders,0.8445,512295,8
+4,Steve Young,0.3923,562029,8
+4,Eric Dickerson,0.2008,245033,8
+4,Joe Theismann,0.1666,270473,11
+4,Roger Craig,0.0856,391025,11
+4,Marshall Faulk,0.147,314973,11
+4,Warren Moon,0.1555,310830,14
+4,Terrell Davis,0.1575,239518,14
+4,Earl Campbell,0.1915,222877,14
+4,Marcus Allen,,225106,17
+4,Dan Fouts,0.0564,139370,17
+4,Thurman Thomas,0.0807,130120,20
+4,Ken Anderson,0.0353,112021,20
+5,Roger Goodell,hand-tiered,,2
+5,Pete Rozelle,hand-tiered,,5
+5,Paul Tagliabue,hand-tiered,,8
+5,Bert Bell,hand-tiered,,11
+5,Jim Thorpe,hand-tiered,,14
+5,Elmer Layden,hand-tiered,,17
+5,Joe Carr,hand-tiered,,17
+5,Austin Gunsel,hand-tiered,,20
+5,Carl Storck,hand-tiered,,20

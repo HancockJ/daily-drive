@@ -1,78 +1,130 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Sean McDermott,1.0,811412,2
-1,Rex Ryan,0.5327,259073,2
-1,Marv Levy,0.1161,245098,5
-1,Wade Phillips,0.0536,136115,8
-1,Anthony Lynn,0.0417,114310,8
-1,Gregg Williams,0.003,108257,8
-1,Doug Marrone,0.0119,81970,11
-1,Dick Jauron,0.0208,46701,14
-1,Chan Gailey,0.0,47572,14
-1,Mike Mularkey,0.003,39486,14
-1,Perry Fewell,0.0,13957,17
-1,Hank Bullough,0.0,6008,20
-1,Kay Stephenson,0.0,5588,20
-2,Lamar Jackson,1.0,1237364,2
-2,Marquise Brown,,325101,2
-2,Zay Flowers,0.1594,263026,5
-2,Kyle Hamilton,0.0453,220103,5
-2,Tyler Linderbaum,,182483,8
-2,Marlon Humphrey,0.0186,114932,8
-2,Patrick Queen,0.0196,100982,8
-2,Hayden Hurst,0.0204,73656,11
-2,Rashod Bateman,0.0453,70758,11
-2,Odafe Oweh,0.0047,152571,11
-2,C. J. Mosley,0.0059,69618,14
-2,Nate Wiggins,0.0075,55649,14
-2,Ronnie Stanley,0.0033,64868,14
-2,Malaki Starks,0.0045,59533,17
-2,Breshad Perriman,0.0026,24824,17
-2,Matt Elam,0.0002,19930,20
-2,Jimmy Smith,,19759,20
-3,Terry Bradshaw,1.0,874741,2
-3,Joe Namath,0.5019,695037,2
-3,Roger Staubach,0.1951,437631,5
-3,Fran Tarkenton,0.1043,300887,5
-3,Johnny Unitas,0.104,291675,5
-3,Bart Starr,0.0979,182666,8
-3,George Blanda,0.0531,228734,8
-3,Sonny Jurgensen,0.0188,259715,8
-3,Dan Fouts,0.0437,139370,11
-3,Len Dawson,0.0943,93806,11
-3,Bob Griese,0.0314,123222,11
-3,Otto Graham,0.0159,129610,14
-3,Y. A. Tittle,0.0146,120580,14
-3,Norm Van Brocklin,0.0006,82730,14
-3,Sammy Baugh,0.0029,76281,17
-3,Bobby Layne,0.0107,67012,17
-3,Bob Waterfield,0.0,62527,17
-3,Arnie Herber,0.0003,21287,20
-3,Sid Luckman,0.0,47020,20
-4,Travis Hunter,1.0,642440,2
-4,Marvin Harrison Jr.,0.4468,285582,5
-4,Ricky Pearsall,0.2012,306707,5
-4,Malik Nabers,0.2414,295745,8
-4,Xavier Worthy,0.3697,243590,8
-4,Emeka Egbuka,0.1618,393228,11
-4,Tetairoa McMillan,0.1257,408332,14
-4,Rome Odunze,0.1903,206063,14
-4,Xavier Legette,0.1299,234960,17
-4,Brian Thomas Jr.,0.1819,169745,17
-4,Matthew Golden,0.1115,198071,20
-5,Tecmo Bowl,hand-tiered,,2
-5,NFL Blitz,hand-tiered,,2
-5,NFL 2K,hand-tiered,,5
-5,NFL Street,hand-tiered,,5
-5,Retro Bowl,hand-tiered,,5
-5,NFL GameDay,hand-tiered,,8
-5,NFL Quarterback Club,hand-tiered,,11
-5,Joe Montana Football,hand-tiered,,11
-5,Blitz: The League,hand-tiered,,14
-5,Backbreaker,hand-tiered,,14
-5,Mutant League Football,hand-tiered,,14
-5,NFL Fever,hand-tiered,,14
-5,NFL Head Coach,hand-tiered,,14
-5,Axis Football,hand-tiered,,17
-5,NFL Tour,hand-tiered,,17
-5,Front Office Football,hand-tiered,,20
-5,John Elway's Quarterback,hand-tiered,,20
+1,Drake Maye,,4328805,2
+1,Sam Darnold,,3624213,2
+1,Aaron Rodgers,,3356416,2
+1,Josh Allen,,3276398,2
+1,Philip Rivers,,3221906,2
+1,Matthew Stafford,,2275480,2
+1,Patrick Mahomes,,2238774,2
+1,Joe Burrow,,1365012,2
+1,Lamar Jackson,,1237364,2
+1,Jalen Hurts,,1198682,2
+1,Joe Flacco,,2082153,5
+1,Jaxson Dart,,2000166,5
+1,Russell Wilson,,1955619,5
+1,Bo Nix,,1784926,5
+1,Baker Mayfield,,1712873,5
+1,Caleb Williams,,1672755,5
+1,J. J. McCarthy,,1556135,5
+1,Jarrett Stidham,,1497760,5
+1,Dak Prescott,,1048063,5
+1,Jared Goff,,797285,5
+1,Justin Herbert,,1274856,8
+1,Brock Purdy,,1234221,8
+1,Jayden Daniels,,1115879,8
+1,Kyler Murray,,1105596,8
+1,Kirk Cousins,,1069964,8
+1,Mac Jones,,1063512,8
+1,Trevor Lawrence,,1044542,8
+1,Jameis Winston,,987016,11
+1,C. J. Stroud,,968641,11
+1,Tua Tagovailoa,,967535,11
+1,Jordan Love,,950223,11
+1,Daniel Jones,,901039,11
+1,Bryce Young,,888394,11
+1,Shedeur Sanders,,878215,11
+1,Geno Smith,,864617,11
+1,Carson Wentz,,852911,11
+1,Marcus Mariota,,827885,11
+1,Cam Ward,,821299,14
+1,Justin Fields,,815035,14
+1,Josh Johnson,,751430,14
+1,Dillon Gabriel,,717038,14
+1,Tyler Shough,,713469,14
+1,Max Brosmer,,570105,14
+1,Jacoby Brissett,,551023,14
+1,Michael Penix Jr.,,543680,14
+1,Chris Oladokun,,473215,14
+1,Trey Lance,,456838,17
+1,Spencer Rattler,,447530,17
+1,Kenny Pickett,,421384,17
+1,Riley Leonard,,415958,17
+1,Tyrod Taylor,,406045,17
+1,Gardner Minshew,,388893,17
+1,Quinn Ewers,,384492,17
+1,Mason Rudolph,,379749,17
+1,Andy Dalton,,358067,17
+1,Jake Browning,,344429,17
+1,Tyler Huntley,,328935,20
+1,Davis Mills,,290302,20
+1,Brady Cook,,237034,20
+1,Cooper Rush,,175732,20
+1,Tanner McKee,,157541,20
+1,Clayton Tune,,136018,20
+2,California,hand-tiered,,2
+2,Florida,hand-tiered,,2
+2,Texas,hand-tiered,,2
+2,Ohio,hand-tiered,,5
+2,Pennsylvania,hand-tiered,,5
+2,New Jersey,hand-tiered,,14
+2,Maryland,hand-tiered,,17
+3,Caleb Williams,1.0,1672755,2
+3,Justin Fields,0.8749,815035,2
+3,Mitchell Trubisky,0.1852,358190,5
+3,Colston Loveland,0.1203,436320,8
+3,Rome Odunze,0.1688,206063,8
+3,Kyle Long,0.0053,216889,8
+3,Roquan Smith,0.0755,129991,11
+3,Darnell Wright,,81429,14
+3,Leonard Floyd,0.0135,79649,14
+3,Kevin White,0.0043,50051,14
+3,Kyle Fuller,0.0043,42207,17
+3,Shea McClellin,0.0,14120,20
+3,Gabe Carimi,0.0,13016,20
+4,Michael Jackson,,16538405,2
+4,Phil Collins,,3432457,2
+4,Diana Ross,,2410224,2
+4,Stevie Wonder,,1903107,5
+4,Christina Aguilera,,1527715,5
+4,Enrique Iglesias,,1412327,5
+4,ZZ Top,,1369763,5
+4,Queen Latifah,,1267936,8
+4,James Brown,,1224567,8
+4,New Kids on the Block,,908679,8
+4,Gloria Estefan,,890961,8
+4,Toni Braxton,,717934,11
+4,Boyz II Men,,701603,11
+4,The Temptations,,665470,11
+4,Tony Bennett,,652953,11
+4,Smokey Robinson,,631337,11
+4,Patti LaBelle,,567494,14
+4,Tanya Tucker,,399673,14
+4,Teddy Pendergrass,,387733,14
+4,The Blues Brothers,,338454,14
+4,Clint Black,,338330,17
+4,Martha Reeves,,244747,17
+4,Travis Tritt,,233304,17
+4,The Judds,,150978,17
+4,Miami Sound Machine,,110704,20
+4,Big Bad Voodoo Daddy,,76520,20
+4,Arturo Sandoval,,51311,20
+5,Steel Curtain,hand-tiered,,2
+5,Legion of Boom,hand-tiered,,2
+5,Purple People Eaters,hand-tiered,,5
+5,Greatest Show on Turf,hand-tiered,,5
+5,Monsters of the Midway,hand-tiered,,5
+5,Doomsday Defense,hand-tiered,,8
+5,Fearsome Foursome,hand-tiered,,8
+5,Orange Crush,hand-tiered,,8
+5,The Hogs,hand-tiered,,11
+5,New York Sack Exchange,hand-tiered,,11
+5,No-Name Defense,hand-tiered,,11
+5,Air Coryell,hand-tiered,,14
+5,The Triplets,hand-tiered,,14
+5,Big Blue Wrecking Crew,hand-tiered,,14
+5,Dome Patrol,hand-tiered,,17
+5,Fun Bunch,hand-tiered,,17
+5,Killer B's,hand-tiered,,17
+5,Marks Brothers,hand-tiered,,17
+5,Electric Company,hand-tiered,,20
+5,Gritz Blitz,hand-tiered,,20

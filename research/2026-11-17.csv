@@ -1,0 +1,89 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Josh Allen,,3276398,2
+1,Cam Newton,1.0,1474605,2
+1,Lamar Jackson,2.3085,1237364,5
+1,Dan Marino,0.2647,650668,5
+1,Matt Ryan,0.3805,482209,8
+1,Steve McNair,,532599,8
+1,Fran Tarkenton,0.0357,300887,11
+1,Boomer Esiason,,404215,11
+1,Rich Gannon,0.0065,265194,11
+1,Roman Gabriel,0.0086,181378,14
+1,John Brodie,0.0015,148353,14
+1,Ken Anderson,0.004,112021,17
+1,Y. A. Tittle,0.0,120580,17
+1,Bert Jones,0.0,71199,20
+1,Brian Sipe,0.0,60208,20
+2,Jon Gruden,1.0,862447,2
+2,Tony Dungy,0.4718,367172,2
+2,Raheem Morris,0.2709,626289,5
+2,Todd Bowles,0.3156,352446,8
+2,Bruce Arians,0.3597,322055,8
+2,Lovie Smith,0.3013,173237,8
+2,Greg Schiano,0.0748,145419,11
+2,John McKay,0.0021,54793,14
+2,Sam Wyche,0.0071,50738,14
+2,Dirk Koetter,0.0084,39534,14
+2,Ray Perkins,0.0006,31959,17
+2,Leeman Bennett,0.0,8290,20
+2,Richard Williamson,,3922,20
+3,Super Bowl,hand-tiered,,2
+3,Lombardi Trophy,hand-tiered,,2
+3,AFC Championship Game,hand-tiered,,2
+3,NFC Championship Game,hand-tiered,,2
+3,Grey Cup,hand-tiered,,5
+3,NFL Championship Game,hand-tiered,,8
+3,AFL Championship Game,hand-tiered,,8
+3,ArenaBowl,hand-tiered,,8
+3,Lamar Hunt Trophy,hand-tiered,,8
+3,George Halas Trophy,hand-tiered,,8
+3,World Bowl,hand-tiered,,11
+3,USFL Championship Game,hand-tiered,,11
+3,XFL Championship Game,hand-tiered,,11
+3,UFL Championship Game,hand-tiered,,11
+3,Ed Thorp Memorial Trophy,hand-tiered,,17
+3,AAFC Championship Game,hand-tiered,,17
+3,Playoff Bowl,hand-tiered,,20
+3,Brickley Trophy,hand-tiered,,20
+4,Philip Rivers,1.0,3221906,2
+4,Ezekiel Elliott,,654689,2
+4,Sauce Gardner,0.7483,570735,2
+4,Marvin Harrison Jr.,1.0136,285582,5
+4,Amari Cooper,0.9728,309456,5
+4,Trent Williams,0.4467,378362,5
+4,Anthony Richardson,,362178,5
+4,Kyle Pitts,0.5533,256121,8
+4,Matt Kalil,0.0499,411820,8
+4,Will Campbell,0.1746,344291,8
+4,Leonard Fournette,0.5057,250099,8
+4,Lane Johnson,0.2268,226150,11
+4,A. J. Green,0.3537,173198,11
+4,Justin Smith,0.0023,277053,11
+4,Denzel Ward,0.059,157151,11
+4,Sammy Watkins,0.102,82089,14
+4,Jamal Lewis,0.0023,150752,14
+4,Clelin Ferrell,0.0045,102249,14
+4,Darren McFadden,0.0,114755,14
+4,Andrew Thomas,0.0181,72560,17
+4,D'Brickashaw Ferguson,0.0,104672,17
+4,Cedric Benson,0.0,90135,17
+4,Aaron Curry,0.0,33033,17
+4,Gaines Adams,0.0,32274,20
+4,Dewayne Robertson,0.0,6327,20
+4,Mike Williams,,11246,20
+5,Kickoff,hand-tiered,,2
+5,Punt,hand-tiered,,2
+5,Field Goal,hand-tiered,,2
+5,Extra Point,hand-tiered,,2
+5,Onside Kick,hand-tiered,,5
+5,Squib Kick,hand-tiered,,5
+5,Pooch Kick,hand-tiered,,8
+5,Drop Kick,hand-tiered,,8
+5,Free Kick,hand-tiered,,11
+5,Fair Catch Kick,hand-tiered,,14
+5,Coffin Corner,hand-tiered,,14
+5,Rugby Punt,hand-tiered,,14
+5,Pop-Up Kick,hand-tiered,,14
+5,Sky Kick,hand-tiered,,17
+5,Quick Kick,hand-tiered,,17
+5,Directional Punt,hand-tiered,,17

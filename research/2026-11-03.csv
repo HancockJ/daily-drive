@@ -1,76 +1,90 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Kliff Kingsbury,3.5056,436195,2
-1,Jonathan Gannon,1.0,524765,5
-1,Bruce Arians,1.7486,322055,5
-1,Steve Wilks,0.7684,139870,8
-1,Buddy Ryan,0.2966,131609,8
-1,Dennis Green,0.3132,82872,11
-1,Gene Stallings,0.1497,80945,11
-1,Ken Whisenhunt,0.0629,76722,14
-1,Dave McGinnis,0.0239,45981,14
-1,Joe Bugel,0.0,15032,17
-1,Vince Tobin,0.0101,13452,17
-1,Hank Kuhlmann,0.0,1528,20
-2,O. J. Simpson,,3245065,2
-2,Terry Bradshaw,1.0,874741,2
-2,John Matuszak,,548994,5
-2,Jim Plunkett,0.0716,298503,5
-2,Earl Campbell,0.1536,222877,5
-2,Bubba Smith,,276985,8
-2,Ernie Davis,0.0635,140999,8
-2,Billy Cannon,0.0042,85790,8
-2,Ed Jones,,101504,11
-2,Ricky Bell,0.0029,72258,11
-2,Lee Roy Selmon,0.0023,71712,11
-2,Steve Bartkowski,0.0,33948,11
-2,Tommy Nobis,0.0,24932,14
-2,Terry Baker,0.0003,22831,14
-2,Tom Cousineau,0.0,23713,14
-2,Ron Yary,0.0,18554,17
-2,Tucker Frederickson,0.0,15017,17
-2,Tommy Mason,0.0,10835,17
-2,Dave Parks,0.0,9713,20
-2,Walt Patulski,0.0,7554,20
-3,Bill Belichick,1.0,1993798,2
-3,Andy Reid,0.402,869097,2
-3,Jimmy Johnson,0.1638,652729,5
-3,Bill Cowher,0.0215,456207,5
-3,Marty Schottenheimer,0.0072,434189,8
-3,Bill Parcells,0.0114,416974,8
-3,Dan Reeves,0.0193,194273,11
-3,Dick Vermeil,0.0064,233130,11
-3,Dom Capers,0.0007,53231,14
-3,Jim Fassel,0.0,54133,14
-3,Dick Jauron,0.0021,46701,17
-3,Ray Rhodes,0.0,52490,17
-3,Wayne Fontes,0.0007,40065,20
-3,Jim Haslett,0.0,40606,20
-4,Deion Sanders,1.0,1775671,2
-4,Troy Aikman,0.233,1258008,2
-4,Michael Irvin,,968746,5
-4,Emmitt Smith,0.13,811132,5
-4,Mike Ditka,0.066,615657,5
-4,Roger Staubach,0.0178,437631,8
-4,Tony Dorsett,0.0026,237663,8
-4,Charles Haley,0.004,218666,8
-4,Larry Allen,0.0178,213335,11
-4,Randy White,0.0007,87850,11
-4,Drew Pearson,0.0013,79320,11
-4,Bob Hayes,0.0,80172,11
-4,Chuck Howley,0.0013,46146,14
-4,Lance Alworth,0.0,65496,14
-4,Bob Lilly,0.0,61841,14
-4,Forrest Gregg,0.0,54254,17
-4,Rayfield Wright,0.0007,15285,17
-4,Cliff Harris,0.0,30497,17
-4,Herb Adderley,0.0,29029,20
-4,Mel Renfro,0.0,24733,20
-5,Roger Goodell,hand-tiered,,2
-5,Pete Rozelle,hand-tiered,,5
-5,Paul Tagliabue,hand-tiered,,8
-5,Bert Bell,hand-tiered,,11
-5,Jim Thorpe,hand-tiered,,14
-5,Elmer Layden,hand-tiered,,17
-5,Joe Carr,hand-tiered,,17
-5,Austin Gunsel,hand-tiered,,20
-5,Carl Storck,hand-tiered,,20
+1,Incomplete Pass,hand-tiered,,2
+1,Timeout,hand-tiered,,2
+1,Out of Bounds,hand-tiered,,2
+1,Two-Minute Warning,hand-tiered,,2
+1,Penalty,hand-tiered,,5
+1,Score,hand-tiered,,5
+1,Injury,hand-tiered,,5
+1,Spike,hand-tiered,,5
+1,Change of Possession,hand-tiered,,8
+1,End of Quarter,hand-tiered,,8
+1,Replay Review,hand-tiered,,8
+1,Measurement,hand-tiered,,11
+1,Fair Catch,hand-tiered,,11
+1,Safety,hand-tiered,,11
+1,Extra Point,hand-tiered,,11
+1,Commercial Break,hand-tiered,,11
+1,Kickoff,hand-tiered,,14
+1,Weather Delay,hand-tiered,,14
+1,Officials' Timeout,hand-tiered,,14
+1,Equipment Issue,hand-tiered,,17
+1,Inadvertent Whistle,hand-tiered,,17
+2,Walter Payton,1.0,539560,2
+2,William Perry,0.3871,428353,2
+2,Jim McMahon,0.2567,379567,2
+2,Mike Singletary,0.2158,212438,5
+2,Richard Dent,0.0128,73005,8
+2,Willie Gault,0.0026,54594,8
+2,Mike Tomczak,0.0026,52668,8
+2,Gary Fencik,0.0026,43768,8
+2,Dan Hampton,0.0251,54894,11
+2,Steve Fuller,0.0009,23167,11
+2,Otis Wilson,0.0018,22209,11
+2,Mike Richardson,,7704,11
+2,Leslie Frazier,0.0665,91829,14
+2,Dennis Gentry,0.0,6794,14
+2,Jim Morrissey,0.0,5379,14
+2,Maury Buford,0.0,4877,14
+2,Keith Ortego,0.0009,3626,14
+2,Tyrone Keys,0.0,4400,14
+2,Shaun Gayle,,74748,17
+2,Stefan Humphries,0.0,4399,17
+2,Reggie Phillips,0.0,3753,17
+2,Thomas Sanders,,3537,17
+2,Dan Rains,0.0,2612,20
+2,Calvin Thomas,,3240,20
+2,Ken Taylor,,2238,20
+3,Tyreek Hill,2.6229,1087398,2
+3,Antonio Brown,1.8229,978610,2
+3,Calvin Johnson,0.2604,469620,2
+3,Cooper Kupp,1.0,1197613,5
+3,Jerry Rice,0.1886,761695,5
+3,Justin Jefferson,1.6286,651334,8
+3,CeeDee Lamb,1.0336,498118,8
+3,Ja'Marr Chase,0.9969,514612,8
+3,Julio Jones,0.4206,361774,14
+3,Michael Thomas,0.3002,254403,14
+3,Marvin Harrison,0.1697,273828,17
+3,Isaac Bruce,0.0,91418,20
+3,Charley Hennigan,0.0,5783,20
+4,Reggie White,1.0,445163,2
+4,Donovan McNabb,0.8008,363166,5
+4,Brian Dawkins,0.7272,203082,8
+4,Jerome Brown,0.1206,86434,8
+4,Chuck Bednarik,0.1192,68362,11
+4,Steve Van Buren,0.0113,35162,14
+4,Tom Brookshier,0.0036,28774,14
+4,Pete Retzlaff,0.0023,13341,17
+4,Al Wistert,0.0,4350,20
+5,Flea Flicker,hand-tiered,,2
+5,Hook and Ladder,hand-tiered,,2
+5,Philly Special,hand-tiered,,2
+5,Fake Punt,hand-tiered,,5
+5,Fake Field Goal,hand-tiered,,5
+5,Reverse,hand-tiered,,5
+5,Double Reverse,hand-tiered,,8
+5,Halfback Pass,hand-tiered,,8
+5,Statue of Liberty,hand-tiered,,8
+5,Onside Kick,hand-tiered,,8
+5,End Around,hand-tiered,,11
+5,Wildcat,hand-tiered,,11
+5,Fumblerooski,hand-tiered,,11
+5,Wide Receiver Pass,hand-tiered,,11
+5,Throwback Pass,hand-tiered,,14
+5,Fake Spike,hand-tiered,,14
+5,Double Pass,hand-tiered,,14
+5,Swinging Gate,hand-tiered,,14
+5,Fake Kneel,hand-tiered,,17
+5,Muddle Huddle,hand-tiered,,20
+5,Bumerooski,hand-tiered,,20

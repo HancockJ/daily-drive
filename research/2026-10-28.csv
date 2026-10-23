@@ -1,129 +1,74 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Sean McVay,1.0,1029434,2
-1,Steve Spagnuolo,0.0911,237066,2
-1,Jeff Fisher,0.1163,203923,5
-1,Dick Vermeil,0.0827,233130,8
-1,Mike Martz,0.006,97464,8
-1,John Fassel,0.0024,44075,8
-1,Chuck Knox,0.0,42853,11
-1,Jim Haslett,0.0012,40606,14
-1,Joe Vitt,0.0,34631,14
-1,Rich Brooks,0.0,33862,14
-1,Scott Linehan,0.0,22505,17
-1,John Robinson,,17111,20
-1,Ray Malavasi,0.0,11146,20
-2,Jayden Daniels,1.0,1115879,2
-2,Saquon Barkley,1.4406,888795,2
-2,C. J. Stroud,0.9208,968641,2
-2,Travis Hunter,0.9431,642440,5
-2,Carson Wentz,0.5218,852911,5
-2,Von Miller,0.4711,718112,5
-2,Nick Bosa,0.5953,529541,5
-2,Zach Wilson,0.6506,524405,8
-2,Marcus Mariota,0.3492,827885,8
-2,Aidan Hutchinson,0.3537,416150,8
-2,Calvin Johnson,0.2343,469620,8
-2,Reggie Bush,0.2389,445839,11
-2,Robert Griffin III,0.2698,423654,11
-2,Ndamukong Suh,0.0422,358562,11
-2,Mitchell Trubisky,0.2108,358190,11
-2,Chase Young,0.2126,268608,14
-2,Julius Peppers,0.0236,255962,14
-2,Chris Long,,233649,14
-2,LaVar Arrington,0.005,141708,14
-2,Charles Rogers,0.0019,60833,17
-2,Robert Gallery,0.0006,92818,17
-2,Greg Robinson,0.0019,31937,17
-2,Ronnie Brown,0.0,58102,17
-2,Luke Joeckel,0.0,30555,20
-2,Jason Smith,,15444,20
-2,Leonard Davis,0.0,15257,20
-3,Russell Wilson,1.0,1955619,2
-3,Peyton Manning,0.5725,1861392,2
-3,Dak Prescott,0.8366,1048063,2
-3,Eli Manning,0.3058,1265737,5
-3,Kurt Warner,0.1884,1041195,5
-3,J. J. Watt,0.2704,713108,5
-3,Larry Fitzgerald,,578887,5
-3,Cameron Heyward,0.0339,362784,8
-3,Jason Taylor,0.012,411902,8
-3,LaDainian Tomlinson,0.024,355252,8
-3,Andrew Whitworth,0.0381,321717,8
-3,Calais Campbell,0.0157,336326,11
-3,Jerome Bettis,,246853,11
-3,Chris Long,,233649,11
-3,Jason Witten,0.0052,213994,11
-3,Charles Tillman,0.0031,192161,11
-3,Arik Armstead,0.0089,97867,14
-3,Warrick Dunn,0.0005,122835,14
-3,Anquan Boldin,0.0,162714,14
-3,Troy Vincent,0.0005,43060,14
-3,Derrick Brooks,0.0,97344,17
-3,Matt Birk,0.0005,40364,17
-3,Thomas Davis,,50446,17
-3,Will Shields,0.0,29623,17
-3,Brian Waters,0.0,14434,20
-3,Jim Flanigan,0.0,10610,20
-3,Madieu Williams,0.0,7263,20
-4,Baker Mayfield,2.3882,1712873,2
-4,Joe Flacco,1.0,2082153,2
-4,Deshaun Watson,2.2511,786831,2
-4,Johnny Manziel,0.7511,1002225,2
-4,Jameis Winston,0.7785,987016,5
-4,Jacoby Brissett,0.2202,551023,5
-4,Robert Griffin III,0.4172,423654,5
-4,Tyrod Taylor,0.1943,406045,5
-4,Case Keenum,0.21,272572,5
-4,Trent Dilfer,0.0592,313049,5
-4,Doug Pederson,0.1008,258322,8
-4,Brady Quinn,0.0555,335723,8
-4,Bailey Zappe,0.197,177116,8
-4,Colt McCoy,0.1267,178791,8
-4,Jeff Garcia,0.0204,251269,8
-4,Josh McCown,0.025,190088,8
-4,Dorian Thompson-Robinson,0.0814,105142,11
-4,Brian Hoyer,0.0296,149075,11
-4,Ken Dorsey,0.0463,145842,11
-4,Nick Mullens,0.0564,85155,11
-4,Jake Delhomme,0.0009,133176,11
-4,Tim Couch,0.0028,100840,11
-4,DeShone Kizer,0.0028,92307,11
-4,Ty Detmer,0.0,89083,14
-4,Brandon Weeden,0.0009,81306,14
-4,Cody Kessler,0.0,64837,14
-4,Connor Shaw,0.0056,33404,14
-4,Jason Campbell,0.0,63428,14
-4,P. J. Walker,,63403,14
-4,Derek Anderson,0.0,60094,17
-4,Luke McCown,0.0,43731,17
-4,Seneca Wallace,0.0,36424,17
-4,Bruce Gradkowski,0.0,35424,17
-4,Kevin Hogan,0.0,28993,17
-4,Charlie Frye,0.0,27947,17
-4,Thaddeus Lewis,,21914,20
-4,Kelly Holcomb,0.0,18002,20
-4,Austin Davis,,19132,20
-4,Spergon Wynn,0.0,17767,20
-5,Ice Bowl,hand-tiered,,2
-5,Immaculate Reception,hand-tiered,,2
-5,Tuck Rule Game,hand-tiered,,5
-5,Music City Miracle,hand-tiered,,5
-5,Minneapolis Miracle,hand-tiered,,5
-5,The Catch,hand-tiered,,5
-5,Greatest Game Ever Played,hand-tiered,,5
-5,The Drive,hand-tiered,,8
-5,Fog Bowl,hand-tiered,,8
-5,Freezer Bowl,hand-tiered,,8
-5,The Fumble,hand-tiered,,8
-5,Miracle at the Meadowlands,hand-tiered,,8
-5,13 Seconds,hand-tiered,,11
-5,The Comeback,hand-tiered,,11
-5,Heidi Game,hand-tiered,,11
-5,Epic in Miami,hand-tiered,,11
-5,Mile High Miracle,hand-tiered,,14
-5,Monday Night Miracle,hand-tiered,,14
-5,Bounty Bowl,hand-tiered,,14
-5,Snowplow Game,hand-tiered,,14
-5,Ghost to the Post,hand-tiered,,17
-5,Red Right 88,hand-tiered,,17
-5,Mud Bowl,hand-tiered,,17
+1,Tom Brady,1.0,4084883,2
+1,Patrick Mahomes,0.5329,2238774,2
+1,Peyton Manning,0.1919,1861392,5
+1,Troy Aikman,0.0684,1258008,8
+1,John Elway,,1236832,8
+1,Joe Montana,0.0561,1054715,8
+1,Terry Bradshaw,0.0756,874741,11
+1,Ben Roethlisberger,0.0841,786462,14
+1,Kurt Warner,0.0501,1041195,14
+1,Roger Staubach,0.0017,437631,14
+1,Jim Kelly,0.003,395679,17
+1,Fran Tarkenton,0.0,300887,20
+1,Bob Griese,0.0,123222,20
+2,Jahmyr Gibbs,1.0,643128,2
+2,Aidan Hutchinson,0.766,416150,2
+2,Terrion Arnold,0.2029,563241,5
+2,Jameson Williams,0.748,269937,5
+2,Penei Sewell,0.1334,217114,5
+2,Ndamukong Suh,0.0769,358562,8
+2,T. J. Hockenson,0.4237,106035,8
+2,Jack Campbell,0.0834,141140,8
+2,Jeff Okudah,0.0865,120449,11
+2,Frank Ragnow,0.0754,185407,11
+2,Taylor Decker,0.0546,117031,11
+2,Eric Ebron,0.0285,64219,14
+2,Jahvid Best,,52473,14
+2,Tyleik Williams,0.0146,42720,14
+2,Ezekiel Ansah,0.0025,44573,17
+2,Nick Fairley,0.0074,26559,17
+2,Laken Tomlinson,,35835,17
+2,Jarrad Davis,0.0071,13550,20
+2,Riley Reiff,0.0071,12712,20
+3,Kliff Kingsbury,3.5056,436195,2
+3,Jonathan Gannon,1.0,524765,5
+3,Bruce Arians,1.7486,322055,5
+3,Steve Wilks,0.7684,139870,8
+3,Buddy Ryan,0.2966,131609,8
+3,Dennis Green,0.3132,82872,11
+3,Gene Stallings,0.1497,80945,11
+3,Ken Whisenhunt,0.0629,76722,14
+3,Dave McGinnis,0.0239,45981,14
+3,Joe Bugel,0.0,15032,17
+3,Vince Tobin,0.0101,13452,17
+3,Hank Kuhlmann,0.0,1528,20
+4,Colin Allred,,261430,2
+4,Steve Largent,,178291,5
+4,Jack Kemp,,166833,5
+4,Tom Osborne,,152579,8
+4,Burgess Owens,,91110,11
+4,Anthony Gonzalez,,73113,14
+4,Heath Shuler,,54833,14
+4,Jon Runyan,,46508,17
+4,LaVern Dilweg,,2838,20
+5,End Zone,hand-tiered,,2
+5,Goal Line,hand-tiered,,2
+5,Hash Marks,hand-tiered,,2
+5,Sideline,hand-tiered,,2
+5,Goal Post,hand-tiered,,2
+5,Uprights,hand-tiered,,5
+5,Crossbar,hand-tiered,,5
+5,Yard Lines,hand-tiered,,5
+5,50-Yard Line,hand-tiered,,5
+5,Pylon,hand-tiered,,5
+5,End Line,hand-tiered,,8
+5,Red Zone,hand-tiered,,8
+5,Line of Scrimmage,hand-tiered,,8
+5,Yard Numbers,hand-tiered,,11
+5,Team Area,hand-tiered,,11
+5,Neutral Zone,hand-tiered,,11
+5,Midfield Logo,hand-tiered,,11
+5,Coaches Box,hand-tiered,,14
+5,Field Goal Net,hand-tiered,,17
+5,Restraining Line,hand-tiered,,20

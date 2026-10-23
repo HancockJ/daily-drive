@@ -1,94 +1,95 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Tony Dungy,1.0,367172,2
-1,Bruce Arians,0.7387,322055,2
-1,Frank Reich,0.6096,339582,5
-1,Jeff Saturday,0.6812,169708,5
-1,Shane Steichen,0.2613,315835,8
-1,Jim Mora,,142406,8
-1,Jim Caldwell,0.1764,97330,11
-1,Chuck Pagano,0.1152,79718,11
-1,Ted Marchibroda,0.002,51866,11
-1,Ron Meyer,0.002,34934,14
-1,Frank Kush,0.0,22588,14
-1,Lindy Infante,0.0,17824,17
-1,Rick Venturi,0.0,9510,17
-1,Rod Dowhower,0.0,6941,20
-1,Hal Hunter,0.0,1171,20
-2,Trevor Lawrence,1.4327,1044542,2
-2,Justin Fields,1.5575,815035,2
-2,Mac Jones,1.0,1063512,2
-2,Micah Parsons,1.1994,860717,5
-2,Ja'Marr Chase,1.3285,514612,5
-2,Zach Wilson,0.987,524405,5
-2,DeVonta Smith,0.7477,479943,5
-2,Trey Lance,0.6514,456838,5
-2,Travis Etienne,,373125,8
-2,Najee Harris,0.5937,289017,8
-2,Patrick Surtain II,0.1739,328383,8
-2,Jaylen Waddle,0.5845,281744,8
-2,Kyle Pitts,0.3732,256121,8
-2,Jaelan Phillips,0.0751,324995,11
-2,Kadarius Toney,0.4004,201739,11
-2,Penei Sewell,0.0901,217114,11
-2,Odafe Oweh,0.0247,152571,11
-2,Jaycee Horn,0.0566,139996,11
-2,Rashod Bateman,0.1686,70758,11
-2,Greg Newsome II,0.0247,113438,14
-2,Joe Tryon,,81129,14
-2,Rashawn Slater,0.0189,67312,14
-2,Alijah Vera-Tucker,0.0088,89309,14
-2,Alex Leatherwood,0.0197,50630,14
-2,Kwity Paye,0.0092,57135,17
-2,Eric Stokes,0.0122,51459,17
-2,Christian Darrisaw,0.0134,31458,17
-2,Jamin Davis,0.0067,49168,17
-2,Gregory Rousseau,,36211,17
-2,Payton Turner,0.0025,33632,20
-2,Caleb Farley,0.0034,30547,20
-2,Zaven Collins,0.0013,28456,20
-3,Vince Lombardi,1.0,422101,2
-3,Don Shula,0.5698,373138,2
-3,Joe Gibbs,1.031,284167,5
-3,George Halas,0.6685,303299,5
-3,Tom Landry,0.5588,370096,8
-3,Bill Walsh,0.3636,178390,8
-3,Chuck Noll,0.1782,228736,8
-3,Paul Brown,0.2266,157816,11
-3,Bud Grant,0.2631,91198,11
-3,Curly Lambeau,0.0515,122402,14
-3,Weeb Ewbank,0.0037,48313,14
-3,Ray Flaherty,0.0176,12350,14
-3,Greasy Neale,0.0027,16106,17
-3,Sid Gillman,0.0005,37418,17
-3,Jimmy Conzelman,0.0008,9100,20
-3,Steve Owen,,898,20
-4,Ray Lewis,1.0,759711,2
-4,Von Miller,1.2253,718112,5
-4,Malcolm Smith,0.0019,90665,5
-4,Randy White,0.0067,87850,8
-4,Chuck Howley,0.0082,46146,11
-4,Richard Dent,0.001,73005,11
-4,Dexter Jackson,0.0,45117,14
-4,Larry Brown,,41869,17
-4,Harvey Martin,0.0,34642,17
-4,Jake Scott,,31752,20
-5,End Zone,hand-tiered,,2
-5,Goal Line,hand-tiered,,2
-5,Hash Marks,hand-tiered,,2
-5,Sideline,hand-tiered,,2
-5,Goal Post,hand-tiered,,2
-5,Uprights,hand-tiered,,5
-5,Crossbar,hand-tiered,,5
-5,Yard Lines,hand-tiered,,5
-5,50-Yard Line,hand-tiered,,5
-5,Pylon,hand-tiered,,5
-5,End Line,hand-tiered,,8
-5,Red Zone,hand-tiered,,8
-5,Line of Scrimmage,hand-tiered,,8
-5,Yard Numbers,hand-tiered,,11
-5,Team Area,hand-tiered,,11
-5,Neutral Zone,hand-tiered,,11
-5,Midfield Logo,hand-tiered,,11
-5,Coaches Box,hand-tiered,,14
-5,Field Goal Net,hand-tiered,,17
-5,Restraining Line,hand-tiered,,20
+1,Deion Sanders,1.0,1775671,2
+1,Troy Aikman,0.233,1258008,2
+1,Michael Irvin,,968746,5
+1,Emmitt Smith,0.13,811132,5
+1,Mike Ditka,0.066,615657,5
+1,Roger Staubach,0.0178,437631,8
+1,Tony Dorsett,0.0026,237663,8
+1,Charles Haley,0.004,218666,8
+1,Larry Allen,0.0178,213335,11
+1,Randy White,0.0007,87850,11
+1,Drew Pearson,0.0013,79320,11
+1,Bob Hayes,0.0,80172,11
+1,Chuck Howley,0.0013,46146,14
+1,Lance Alworth,0.0,65496,14
+1,Bob Lilly,0.0,61841,14
+1,Forrest Gregg,0.0,54254,17
+1,Rayfield Wright,0.0007,15285,17
+1,Cliff Harris,0.0,30497,17
+1,Herb Adderley,0.0,29029,20
+1,Mel Renfro,0.0,24733,20
+2,John Elway,,1236832,2
+2,Dan Marino,,650668,5
+2,Jim Kelly,,395679,8
+2,Todd Blackledge,,119775,14
+2,Tony Eason,,57052,17
+2,Ken O'Brien,,51923,20
+3,Travis Kelce,1.0,3576328,2
+3,Jerry Rice,0.0436,761695,2
+3,Tony Gonzalez,0.0047,579227,5
+3,Larry Fitzgerald,,578887,5
+3,Terrell Owens,0.0147,446633,8
+3,Marvin Harrison,0.0147,273828,8
+3,Steve Smith Sr.,0.0047,278229,11
+3,Hines Ward,0.0,330931,11
+3,Jason Witten,0.0006,213994,14
+3,Andre Johnson,0.0012,202220,14
+3,Cris Carter,0.0,210875,17
+3,Anquan Boldin,0.0,162714,17
+3,Tim Brown,0.0,128715,20
+3,Reggie Wayne,0.0,126720,20
+4,Deion Sanders,1.0,1775671,2
+4,Bo Jackson,0.002,994608,2
+4,Jim Thorpe,,791094,2
+4,George Halas,0.0185,303299,5
+4,Drew Henson,,57274,5
+4,Chad Hutchinson,0.0,18732,5
+4,Brian Jordan,,45284,5
+4,Ernie Nevers,0.0,16189,5
+4,Vic Janowicz,0.0,15144,8
+4,Paddy Driscoll,0.0,13324,8
+4,Chuck Dressen,0.0,9346,8
+4,D. J. Dozier,,10281,8
+4,Ace Parker,0.0,8670,8
+4,Red Badgro,0.0,4709,8
+4,Garland Buckeye,0.0,3749,11
+4,Tom Brown,,4583,11
+4,Tom Yewcic,0.0,2256,11
+4,Carroll Hardy,,3307,11
+4,Charlie Berry,,2539,11
+4,Norm Bass,0.0,1481,14
+4,Pid Purdy,,2345,14
+4,Steve Filipowicz,0.0,1342,14
+4,Dean Look,,1936,14
+4,Matt Kinzer,,1836,14
+4,Ernie Vick,0.0,710,14
+4,Hinkey Haines,,1603,17
+4,Bruce Caldwell,0.0,304,17
+4,Wally Gilbert,,1139,17
+4,Ox Eckhardt,,1028,17
+4,Evar Swanson,,1027,17
+4,Walt Masters,,704,20
+4,Rex Johnston,,658,20
+4,Pete Layden,,601,20
+5,New Orleans,hand-tiered,,2
+5,Miami,hand-tiered,,2
+5,Los Angeles,hand-tiered,,2
+5,Tampa,hand-tiered,,5
+5,Houston,hand-tiered,,5
+5,Atlanta,hand-tiered,,5
+5,Minneapolis,hand-tiered,,5
+5,Las Vegas,hand-tiered,,5
+5,Glendale,hand-tiered,,8
+5,San Diego,hand-tiered,,8
+5,Detroit,hand-tiered,,8
+5,Arlington,hand-tiered,,8
+5,Indianapolis,hand-tiered,,8
+5,Pasadena,hand-tiered,,8
+5,Jacksonville,hand-tiered,,11
+5,Santa Clara,hand-tiered,,11
+5,East Rutherford,hand-tiered,,11
+5,Inglewood,hand-tiered,,11
+5,Tempe,hand-tiered,,11
+5,Pontiac,hand-tiered,,14
+5,Stanford,hand-tiered,,17

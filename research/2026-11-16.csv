@@ -1,0 +1,118 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Tom Brady,1.0,4084883,2
+1,Bill Belichick,0.2385,1993798,2
+1,Peyton Manning,0.1918,1861392,2
+1,Randy Moss,0.0753,907568,2
+1,Ray Lewis,0.0576,759711,2
+1,Michael Strahan,,712448,5
+1,Tony Gonzalez,0.0063,579227,5
+1,Terrell Owens,0.0156,446633,5
+1,Troy Polamalu,0.0042,457579,5
+1,Adam Vinatieri,,421631,5
+1,Tony Dungy,0.0055,367172,5
+1,Jason Taylor,0.0034,411902,5
+1,Marvin Harrison,0.013,273828,5
+1,Charles Woodson,0.0029,362583,5
+1,LaDainian Tomlinson,0.0004,355252,5
+1,Ed Reed,0.0038,300812,8
+1,Shaun Alexander,0.0013,399496,8
+1,Larry Allen,0.0063,213335,8
+1,Warren Sapp,0.0017,297368,8
+1,Devin Hester,0.0025,268756,8
+1,Brian Urlacher,0.0013,309968,8
+1,Julius Peppers,0.0017,255962,8
+1,Joey Porter,0.0025,135860,8
+1,Brian Dawkins,0.0008,203082,11
+1,Antonio Gates,0.0013,168315,11
+1,Zach Thomas,0.0017,136523,11
+1,DeMarcus Ware,0.0013,161066,11
+1,Darren Sharper,0.0,257139,11
+1,Champ Bailey,0.0,196980,11
+1,Ronde Barber,0.0008,127356,11
+1,Edgerrin James,0.0,159996,11
+1,Jamal Lewis,0.0,150752,11
+1,Richard Seymour,0.0008,73628,14
+1,Torry Holt,0.0,125492,14
+1,Ty Law,0.0,121376,14
+1,Derrick Brooks,0.0,97344,14
+1,Dante Hall,0.0004,51114,14
+1,Jonathan Ogden,0.0,89654,14
+1,Orlando Pace,0.0,87249,14
+1,Olin Kreutz,0.0004,47233,14
+1,Dwight Freeney,0.0,86457,14
+1,Lorenzo Neal,0.0,85132,17
+1,Walter Jones,,58171,17
+1,Steve Hutchinson,0.0,56283,17
+1,Shane Lechler,0.0,51735,17
+1,Alan Faneca,0.0,50328,17
+1,David Akers,0.0,48834,17
+1,Josh Cribbs,0.0,46106,17
+1,Kevin Mawae,0.0,40208,17
+1,Kevin Williams,0.0,40172,17
+1,Willie Roaf,0.0,38321,20
+1,Will Shields,0.0,29623,20
+1,La'Roi Glover,0.0,24673,20
+1,Brian Moorman,0.0,12617,20
+1,Tony Richardson,,14177,20
+2,Lamar Jackson,1.0,1237364,2
+2,Marquise Brown,,325101,2
+2,Zay Flowers,0.1594,263026,5
+2,Kyle Hamilton,0.0453,220103,5
+2,Tyler Linderbaum,,182483,8
+2,Marlon Humphrey,0.0186,114932,8
+2,Patrick Queen,0.0196,100982,8
+2,Hayden Hurst,0.0204,73656,11
+2,Rashod Bateman,0.0453,70758,11
+2,Odafe Oweh,0.0047,152571,11
+2,C. J. Mosley,0.0059,69618,14
+2,Nate Wiggins,0.0075,55649,14
+2,Ronnie Stanley,0.0033,64868,14
+2,Malaki Starks,0.0045,59533,17
+2,Breshad Perriman,0.0026,24824,17
+2,Matt Elam,0.0002,19930,20
+2,Jimmy Smith,,19759,20
+3,New York,hand-tiered,,2
+3,Las Vegas,hand-tiered,,2
+3,Detroit,hand-tiered,,5
+3,Green Bay,hand-tiered,,5
+3,Kansas City,hand-tiered,,5
+3,Nashville,hand-tiered,,5
+3,Philadelphia,hand-tiered,,8
+3,Chicago,hand-tiered,,8
+3,Pittsburgh,hand-tiered,,8
+3,Cleveland,hand-tiered,,11
+3,Arlington,hand-tiered,,14
+4,Dan Quinn,1.875,364482,2
+4,Raheem Morris,1.0,626289,2
+4,Bobby Petrino,1.0957,524322,5
+4,Arthur Smith,1.2656,277053,8
+4,Jim L. Mora,,296713,8
+4,Dan Reeves,0.5254,194273,8
+4,Wade Phillips,0.2654,136115,11
+4,Jerry Glanville,0.0293,60410,14
+4,June Jones,0.0425,58756,14
+4,Mike Smith,,42828,14
+4,Emmitt Thomas,0.0088,18003,17
+4,Marion Campbell,0.0,9387,20
+4,Jim Hanifan,0.0,6343,20
+5,Friday Night Lights,hand-tiered,,2
+5,Hard Knocks,hand-tiered,,2
+5,Ballers,hand-tiered,,5
+5,All American,hand-tiered,,5
+5,The League,hand-tiered,,5
+5,Quarterback,hand-tiered,,5
+5,Last Chance U,hand-tiered,,8
+5,Coach,hand-tiered,,8
+5,Blue Mountain State,hand-tiered,,8
+5,A Football Life,hand-tiered,,8
+5,Receiver,hand-tiered,,11
+5,All or Nothing,hand-tiered,,11
+5,Playmakers,hand-tiered,,14
+5,The Game,hand-tiered,,14
+5,1st & Ten,hand-tiered,,17
+5,Necessary Roughness,hand-tiered,,17
+5,Hang Time,hand-tiered,,17
+5,Titletown High,hand-tiered,,20
+5,Two-a-Days,hand-tiered,,20
+5,Shrinking,hand-tiered,,20
+5,Running Point,hand-tiered,,20

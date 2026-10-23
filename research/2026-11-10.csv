@@ -1,0 +1,88 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Joe Montana,,1054715,2
+1,Joe Namath,,695037,5
+1,Dan Marino,,650668,5
+1,Johnny Unitas,,291675,8
+1,Jim Kelly,,395679,14
+1,George Blanda,,228734,20
+2,Matthew Stafford,1.0,2275480,2
+2,Peyton Manning,0.9117,1861392,2
+2,Eli Manning,0.4995,1265737,5
+2,Troy Aikman,0.3945,1258008,5
+2,John Elway,,1236832,8
+2,Terry Bradshaw,0.4446,874741,8
+2,Drew Bledsoe,0.0736,400540,11
+2,Jim Plunkett,0.0,298503,11
+2,Keyshawn Johnson,0.0216,177173,14
+2,Bubba Smith,,276985,14
+2,Eric Fisher,0.001,91184,14
+2,John Matuszak,,548994,17
+2,Ed Jones,,101504,17
+2,Orlando Pace,0.0,87249,17
+2,George Rogers,0.0,66097,20
+2,Russell Maryland,0.0,46843,20
+3,The Tuna,hand-tiered,,2
+3,Papa Bear,hand-tiered,,2
+3,Iron Mike,hand-tiered,,5
+3,Big Red,hand-tiered,,5
+3,The Hoodie,hand-tiered,,5
+3,Chucky,hand-tiered,,5
+3,The Chin,hand-tiered,,8
+3,The Genius,hand-tiered,,11
+3,Bum,hand-tiered,,11
+3,Curly,hand-tiered,,11
+3,BA,hand-tiered,,14
+3,Weeb,hand-tiered,,14
+3,Greasy,hand-tiered,,17
+3,The Man in the Hat,hand-tiered,,17
+4,Sean McVay,1.0,1029434,2
+4,Steve Spagnuolo,0.0911,237066,2
+4,Jeff Fisher,0.1163,203923,5
+4,Dick Vermeil,0.0827,233130,8
+4,Mike Martz,0.006,97464,8
+4,John Fassel,0.0024,44075,8
+4,Chuck Knox,0.0,42853,11
+4,Jim Haslett,0.0012,40606,14
+4,Joe Vitt,0.0,34631,14
+4,Rich Brooks,0.0,33862,14
+4,Scott Linehan,0.0,22505,17
+4,John Robinson,,17111,20
+4,Ray Malavasi,0.0,11146,20
+5,Concussion,hand-tiered,,2
+5,Torn ACL,hand-tiered,,2
+5,Ankle Sprain,hand-tiered,,2
+5,Hamstring,hand-tiered,,2
+5,Achilles,hand-tiered,,5
+5,MCL,hand-tiered,,5
+5,Knee,hand-tiered,,5
+5,Broken Collarbone,hand-tiered,,8
+5,Turf Toe,hand-tiered,,8
+5,Meniscus,hand-tiered,,8
+5,Groin,hand-tiered,,8
+5,Broken Leg,hand-tiered,,8
+5,Stinger,hand-tiered,,11
+5,Shoulder Separation,hand-tiered,,11
+5,Dislocated Shoulder,hand-tiered,,11
+5,Torn Pec,hand-tiered,,11
+5,Quad,hand-tiered,,11
+5,Calf,hand-tiered,,11
+5,Broken Ribs,hand-tiered,,11
+5,Dislocated Finger,hand-tiered,,11
+5,PCL,hand-tiered,,11
+5,Foot,hand-tiered,,11
+5,Rotator Cuff,hand-tiered,,14
+5,Hip Pointer,hand-tiered,,14
+5,Lisfranc,hand-tiered,,14
+5,Bone Bruise,hand-tiered,,14
+5,Back Spasms,hand-tiered,,14
+5,Neck,hand-tiered,,14
+5,Thumb,hand-tiered,,14
+5,Elbow,hand-tiered,,14
+5,Wrist,hand-tiered,,14
+5,Torn Labrum,hand-tiered,,17
+5,Jones Fracture,hand-tiered,,17
+5,Plantar Fasciitis,hand-tiered,,17
+5,Sports Hernia,hand-tiered,,17
+5,Herniated Disc,hand-tiered,,17
+5,Ruptured Patellar Tendon,hand-tiered,,17
+5,Shin Splints,hand-tiered,,20

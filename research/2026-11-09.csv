@@ -1,87 +1,129 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Zac Taylor,1.0,267144,2
-1,Paul Brown,0.2667,157816,5
-1,Dick LeBeau,0.1105,105735,5
-1,Marvin Lewis,0.1928,105245,8
-1,Dave Shula,0.0113,131108,11
-1,Forrest Gregg,0.0204,54254,11
-1,Sam Wyche,0.0317,50738,14
-1,Bruce Coslet,0.0007,15591,17
-1,Homer Rice,0.0014,4684,17
-1,Bill Johnson,,4645,20
-2,Odell Beckham Jr.,3.5326,1269788,2
-2,Jaxson Dart,1.0,2000166,2
-2,Daniel Jones,1.1514,901039,5
-2,Saquon Barkley,2.3812,888795,5
-2,Dexter Lawrence,,347242,5
-2,Malik Nabers,0.3812,295745,8
-2,Kadarius Toney,0.4008,201739,8
-2,Abdul Carter,0.1643,285043,8
-2,Kayvon Thibodeaux,0.1472,155022,11
-2,Evan Engram,0.1537,104744,11
-2,Jason Pierre-Paul,0.0683,150955,11
-2,Eli Apple,0.1025,116803,11
-2,Evan Neal,0.0355,104649,14
-2,Andrew Thomas,0.0158,72560,14
-2,Deonte Banks,0.0026,55843,14
-2,Justin Pugh,0.0105,38894,17
-2,Prince Amukamara,0.0013,51271,17
-2,DeAndre Baker,0.0013,29932,17
-2,David Wilson,,24389,20
-2,Ereck Flowers,0.0,21424,20
-3,Tua Tagovailoa,8.2532,967535,2
-3,Mark Sanchez,1.0,1243003,2
-3,Ja'Marr Chase,5.0127,514612,2
-3,Jalen Ramsey,1.7215,446020,5
-3,Khalil Mack,0.7972,372720,5
-3,Sean Taylor,0.3797,420289,5
-3,LaDainian Tomlinson,0.2689,355252,5
-3,A. J. Hawk,,244261,8
-3,Bradley Chubb,0.2311,218049,8
-3,Kayvon Thibodeaux,0.3915,155022,8
-3,Devon Witherspoon,0.1509,306611,8
-3,Joe Alt,0.1745,210919,11
-3,Devin White,0.1887,158171,11
-3,Patrick Peterson,0.1415,115907,11
-3,Mason Graham,0.1038,100193,11
-3,Eric Berry,0.0047,103964,14
-3,Cadillac Williams,0.0943,98719,14
-3,Corey Davis,0.1085,63679,14
-3,Justin Blackmon,0.0236,81912,14
-3,Quentin Jammer,0.0047,91861,17
-3,Peter Warrick,,73493,17
-3,LaRon Landry,0.0,46842,17
-3,Ezekiel Ansah,0.0,44573,17
-3,Terence Newman,0.0,30610,20
-3,Brandon Scherff,,32991,20
-3,Glenn Dorsey,0.0,25016,20
-4,Mike Macdonald,1.0,1957981,2
-4,Pete Carroll,3.7931,1171107,5
-4,Jim L. Mora,,296713,8
-4,Mike Holmgren,0.1675,200819,8
-4,Tom Flores,0.0148,139920,11
-4,Dennis Erickson,0.0,92676,14
-4,Chuck Knox,0.0,42853,14
-4,Jack Patera,0.0,14220,17
-4,Mike McCormack,0.0,13198,20
-5,New Orleans,hand-tiered,,2
-5,Miami,hand-tiered,,2
-5,Los Angeles,hand-tiered,,2
-5,Tampa,hand-tiered,,5
-5,Houston,hand-tiered,,5
-5,Atlanta,hand-tiered,,5
-5,Minneapolis,hand-tiered,,5
-5,Las Vegas,hand-tiered,,5
-5,Glendale,hand-tiered,,8
-5,San Diego,hand-tiered,,8
-5,Detroit,hand-tiered,,8
-5,Arlington,hand-tiered,,8
-5,Indianapolis,hand-tiered,,8
-5,Pasadena,hand-tiered,,8
-5,Jacksonville,hand-tiered,,11
-5,Santa Clara,hand-tiered,,11
-5,East Rutherford,hand-tiered,,11
-5,Inglewood,hand-tiered,,11
-5,Tempe,hand-tiered,,11
-5,Pontiac,hand-tiered,,14
-5,Stanford,hand-tiered,,17
+1,Joe Burrow,1.0,1365012,2
+1,Tua Tagovailoa,0.5616,967535,2
+1,Justin Herbert,0.3376,1274856,2
+1,Jordan Love,0.3661,950223,5
+1,Justin Jefferson,0.4953,651334,5
+1,Henry Ruggs,,537239,5
+1,CeeDee Lamb,0.3658,498118,5
+1,Brandon Aiyuk,0.2226,498430,5
+1,Chase Young,0.0646,268608,8
+1,Jerry Jeudy,0.0975,191672,8
+1,Clyde Edwards-Helaire,0.0377,148335,8
+1,Isaiah Simmons,0.0054,123932,8
+1,Tristan Wirfs,0.0047,122684,8
+1,A. J. Terrell,,121559,11
+1,K'Lavon Chaisson,0.0007,151198,11
+1,Patrick Queen,0.0081,100982,11
+1,Jalen Reagor,0.0101,97912,11
+1,Jeff Okudah,0.0047,120449,11
+1,Mekhi Becton,,118790,11
+1,Damon Arnette,0.0134,54886,14
+1,Jeff Gladney,0.0148,45826,14
+1,Jordyn Brooks,0.0007,97647,14
+1,Jedrick Wills,,84437,14
+1,Andrew Thomas,0.002,72560,14
+1,Javon Kinlaw,0.0027,65323,17
+1,Isaiah Wilson,0.0007,73536,17
+1,Derrick Brown,0.0,74489,17
+1,C. J. Henderson,0.002,45749,17
+1,Kenneth Murray,,55988,17
+1,Noah Igbinoghene,0.0007,41412,20
+1,Austin Jackson,0.0,23180,20
+1,Cesar Ruiz,,27265,20
+2,40-Yard Dash,hand-tiered,,2
+2,Bench Press,hand-tiered,,2
+2,Vertical Jump,hand-tiered,,2
+2,Broad Jump,hand-tiered,,5
+2,Three-Cone Drill,hand-tiered,,5
+2,20-Yard Shuttle,hand-tiered,,8
+2,Wonderlic,hand-tiered,,8
+2,Interviews,hand-tiered,,8
+2,Hand Size,hand-tiered,,8
+2,Height and Weight,hand-tiered,,8
+2,Medical Exams,hand-tiered,,11
+2,Arm Length,hand-tiered,,11
+2,10-Yard Split,hand-tiered,,11
+2,Gauntlet,hand-tiered,,11
+2,Position Drills,hand-tiered,,11
+2,60-Yard Shuttle,hand-tiered,,14
+2,Wingspan,hand-tiered,,14
+2,Throwing,hand-tiered,,14
+2,S2 Cognition,hand-tiered,,17
+2,Drug Test,hand-tiered,,17
+2,Body Fat,hand-tiered,,20
+2,Psych Test,hand-tiered,,20
+3,Ray Lewis,1.0,759711,2
+3,Junior Seau,0.1795,382550,2
+3,Brian Urlacher,0.2399,309968,5
+3,Derrick Thomas,0.1257,167542,5
+3,Patrick Willis,0.1262,162030,5
+3,DeMarcus Ware,0.119,161066,8
+3,Zach Thomas,0.0998,136523,8
+3,Kevin Greene,0.0465,128505,8
+3,Derrick Brooks,0.0211,97344,8
+3,Sam Mills,0.0298,55525,11
+3,Chuck Howley,0.0082,46146,11
+3,Nick Buoniconti,0.0005,52958,11
+3,Randy Gradishar,0.0096,34052,14
+3,Rickey Jackson,0.0019,37878,14
+3,Harry Carson,0.0005,42193,14
+3,Andre Tippett,0.0,39138,14
+3,Dave Robinson,0.001,18997,17
+3,Dave Wilcox,0.0014,13168,17
+3,Robert Brazile,0.0,20338,17
+3,Chris Hanburger,0.0,18929,20
+3,Les Richter,0.0,6774,20
+4,Devin Hester,1.0,268756,2
+4,Jacoby Jones,1.9873,236904,5
+4,Desmond Howard,0.9494,260142,5
+4,Percy Harvin,0.1772,132186,8
+4,Jermaine Lewis,0.0041,13284,11
+4,Andre Coleman,0.0021,6392,11
+4,Tim Dwight,0.0,33895,14
+4,Fulton Walker,0.0021,5991,17
+4,Ron Dixon,0.0012,4622,17
+4,Stanford Jennings,0.0012,4082,20
+5,Jerry Jones,hand-tiered,,2
+5,Robert Kraft,hand-tiered,,2
+5,Mark Davis,hand-tiered,,5
+5,Jim Irsay,hand-tiered,,5
+5,Arthur Blank,hand-tiered,,5
+5,Stan Kroenke,hand-tiered,,5
+5,Art Rooney II,hand-tiered,,5
+5,David Tepper,hand-tiered,,8
+5,Jeffrey Lurie,hand-tiered,,8
+5,Woody Johnson,hand-tiered,,8
+5,Terry Pegula,hand-tiered,,8
+5,Kim Pegula,hand-tiered,,11
+5,Jimmy Haslam,hand-tiered,,8
+5,Dee Haslam,hand-tiered,,14
+5,Stephen Ross,hand-tiered,,8
+5,Steve Bisciotti,hand-tiered,,11
+5,Clark Hunt,hand-tiered,,8
+5,John Mara,hand-tiered,,11
+5,Steve Tisch,hand-tiered,,14
+5,Josh Harris,hand-tiered,,11
+5,Shad Khan,hand-tiered,,11
+5,Jed York,hand-tiered,,11
+5,Denise DeBartolo York,hand-tiered,,17
+5,John York,hand-tiered,,17
+5,Michael Bidwill,hand-tiered,,11
+5,Mike Brown,hand-tiered,,11
+5,Gayle Benson,hand-tiered,,11
+5,Dean Spanos,hand-tiered,,11
+5,Virginia McCaskey,hand-tiered,,14
+5,George McCaskey,hand-tiered,,17
+5,Zygi Wilf,hand-tiered,,14
+5,Mark Wilf,hand-tiered,,17
+5,Joel Glazer,hand-tiered,,14
+5,Bryan Glazer,hand-tiered,,17
+5,Ed Glazer,hand-tiered,,17
+5,Sheila Ford Hamp,hand-tiered,,14
+5,Cal McNair,hand-tiered,,14
+5,Janice McNair,hand-tiered,,20
+5,Greg Penner,hand-tiered,,14
+5,Rob Walton,hand-tiered,,14
+5,Carrie Walton Penner,hand-tiered,,20
+5,Amy Adams Strunk,hand-tiered,,17
+5,Jody Allen,hand-tiered,,17

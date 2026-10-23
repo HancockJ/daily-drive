@@ -1,92 +1,89 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Kevin O'Connell,1.0,472431,2
-1,Mike Zimmer,4.1361,109065,5
-1,Leslie Frazier,0.7337,91829,5
-1,Bud Grant,0.9231,91198,8
-1,Dennis Green,0.432,82872,11
-1,Norm Van Brocklin,0.1725,82730,11
-1,Mike Tice,0.0894,52902,14
-1,Jerry Burns,0.1935,25339,17
-1,Brad Childress,0.0489,46955,17
-1,Les Steckel,0.0058,14033,20
-2,Joe Burrow,1.0,1365012,2
-2,Tua Tagovailoa,0.5616,967535,2
-2,Justin Herbert,0.3376,1274856,2
-2,Jordan Love,0.3661,950223,5
-2,Justin Jefferson,0.4953,651334,5
-2,Henry Ruggs,,537239,5
-2,CeeDee Lamb,0.3658,498118,5
-2,Brandon Aiyuk,0.2226,498430,5
-2,Chase Young,0.0646,268608,8
-2,Jerry Jeudy,0.0975,191672,8
-2,Clyde Edwards-Helaire,0.0377,148335,8
-2,Isaiah Simmons,0.0054,123932,8
-2,Tristan Wirfs,0.0047,122684,8
-2,A. J. Terrell,,121559,11
-2,K'Lavon Chaisson,0.0007,151198,11
-2,Patrick Queen,0.0081,100982,11
-2,Jalen Reagor,0.0101,97912,11
-2,Jeff Okudah,0.0047,120449,11
-2,Mekhi Becton,,118790,11
-2,Damon Arnette,0.0134,54886,14
-2,Jeff Gladney,0.0148,45826,14
-2,Jordyn Brooks,0.0007,97647,14
-2,Jedrick Wills,,84437,14
-2,Andrew Thomas,0.002,72560,14
-2,Javon Kinlaw,0.0027,65323,17
-2,Isaiah Wilson,0.0007,73536,17
-2,Derrick Brown,0.0,74489,17
-2,C. J. Henderson,0.002,45749,17
-2,Kenneth Murray,,55988,17
-2,Noah Igbinoghene,0.0007,41412,20
-2,Austin Jackson,0.0,23180,20
-2,Cesar Ruiz,,27265,20
-3,Reggie White,1.0,445163,2
-3,Donovan McNabb,0.8008,363166,5
-3,Brian Dawkins,0.7272,203082,8
-3,Jerome Brown,0.1206,86434,8
-3,Chuck Bednarik,0.1192,68362,11
-3,Steve Van Buren,0.0113,35162,14
-3,Tom Brookshier,0.0036,28774,14
-3,Pete Retzlaff,0.0023,13341,17
-3,Al Wistert,0.0,4350,20
-4,Tyreek Hill,2.6229,1087398,2
-4,Antonio Brown,1.8229,978610,2
-4,Calvin Johnson,0.2604,469620,2
-4,Cooper Kupp,1.0,1197613,5
-4,Jerry Rice,0.1886,761695,5
-4,Justin Jefferson,1.6286,651334,8
-4,CeeDee Lamb,1.0336,498118,8
-4,Ja'Marr Chase,0.9969,514612,8
-4,Julio Jones,0.4206,361774,14
-4,Michael Thomas,0.3002,254403,14
-4,Marvin Harrison,0.1697,273828,17
-4,Isaac Bruce,0.0,91418,20
-4,Charley Hennigan,0.0,5783,20
-5,Man Coverage,hand-tiered,,2
-5,Zone Coverage,hand-tiered,,2
-5,Cover 2,hand-tiered,,2
-5,4-3,hand-tiered,,2
-5,Cover 3,hand-tiered,,5
-5,Cover 1,hand-tiered,,5
-5,3-4,hand-tiered,,5
-5,Cover 0,hand-tiered,,8
-5,Cover 4,hand-tiered,,8
-5,Tampa 2,hand-tiered,,8
-5,Nickel,hand-tiered,,8
-5,Prevent,hand-tiered,,8
-5,Blitz,hand-tiered,,8
-5,Dime,hand-tiered,,11
-5,46 Defense,hand-tiered,,11
-5,Zone Blitz,hand-tiered,,11
-5,Press Coverage,hand-tiered,,11
-5,Cover 6,hand-tiered,,14
-5,Wide 9,hand-tiered,,14
-5,3-3-5,hand-tiered,,14
-5,Goal Line Defense,hand-tiered,,14
-5,5-2,hand-tiered,,17
-5,Bear Front,hand-tiered,,17
-5,Robber,hand-tiered,,17
-5,Dollar,hand-tiered,,20
-5,Banjo,hand-tiered,,20
-5,Psycho,hand-tiered,,20
+1,Tom Brady,1.0,4084883,2
+1,Peyton Manning,0.1919,1861392,2
+1,Aaron Rodgers,0.8202,3356416,5
+1,Brett Favre,0.1168,979116,5
+1,Drew Brees,0.0739,1012748,5
+1,Ben Roethlisberger,0.0841,786462,8
+1,Dan Marino,0.0238,650668,8
+1,Matthew Stafford,0.1955,2275480,11
+1,Philip Rivers,0.0506,3221906,11
+1,Eli Manning,0.0832,1265737,11
+1,Russell Wilson,0.3333,1955619,14
+1,John Elway,,1236832,14
+1,Matt Ryan,0.0442,482209,17
+1,Fran Tarkenton,0.0,300887,20
+2,Tom Brady,1.0,4084883,2
+2,Matthew Stafford,0.1977,2275480,2
+2,Sam Darnold,0.1228,3624213,5
+2,Peyton Manning,0.1918,1861392,5
+2,Eli Manning,0.0837,1265737,8
+2,John Elway,,1236832,8
+2,Kurt Warner,0.0505,1041195,11
+2,Drew Brees,0.0745,1012748,11
+2,Steve Young,0.0063,562029,11
+2,Trent Dilfer,0.0021,313049,14
+2,Jim Plunkett,0.0,298503,14
+2,Doug Williams,0.0008,241759,17
+2,Len Dawson,0.0038,93806,17
+2,Johnny Unitas,0.0,291675,20
+2,Brad Johnson,,183609,20
+3,Tua Tagovailoa,8.2532,967535,2
+3,Mark Sanchez,1.0,1243003,2
+3,Ja'Marr Chase,5.0127,514612,2
+3,Jalen Ramsey,1.7215,446020,5
+3,Khalil Mack,0.7972,372720,5
+3,Sean Taylor,0.3797,420289,5
+3,LaDainian Tomlinson,0.2689,355252,5
+3,A. J. Hawk,,244261,8
+3,Bradley Chubb,0.2311,218049,8
+3,Kayvon Thibodeaux,0.3915,155022,8
+3,Devon Witherspoon,0.1509,306611,8
+3,Joe Alt,0.1745,210919,11
+3,Devin White,0.1887,158171,11
+3,Patrick Peterson,0.1415,115907,11
+3,Mason Graham,0.1038,100193,11
+3,Eric Berry,0.0047,103964,14
+3,Cadillac Williams,0.0943,98719,14
+3,Corey Davis,0.1085,63679,14
+3,Justin Blackmon,0.0236,81912,14
+3,Quentin Jammer,0.0047,91861,17
+3,Peter Warrick,,73493,17
+3,LaRon Landry,0.0,46842,17
+3,Ezekiel Ansah,0.0,44573,17
+3,Terence Newman,0.0,30610,20
+3,Brandon Scherff,,32991,20
+3,Glenn Dorsey,0.0,25016,20
+4,Kevin O'Connell,1.0,472431,2
+4,Mike Zimmer,4.1361,109065,5
+4,Leslie Frazier,0.7337,91829,5
+4,Bud Grant,0.9231,91198,8
+4,Dennis Green,0.432,82872,11
+4,Norm Van Brocklin,0.1725,82730,11
+4,Mike Tice,0.0894,52902,14
+4,Jerry Burns,0.1935,25339,17
+4,Brad Childress,0.0489,46955,17
+4,Les Steckel,0.0058,14033,20
+5,Spin Move,hand-tiered,,2
+5,Bull Rush,hand-tiered,,2
+5,Swim Move,hand-tiered,,5
+5,Rip Move,hand-tiered,,5
+5,Speed Rush,hand-tiered,,5
+5,Club,hand-tiered,,8
+5,Long Arm,hand-tiered,,8
+5,Stunt,hand-tiered,,8
+5,Chop,hand-tiered,,11
+5,Dip,hand-tiered,,11
+5,Cross Chop,hand-tiered,,11
+5,Hump Move,hand-tiered,,14
+5,Push-Pull,hand-tiered,,14
+5,Hand Swipe,hand-tiered,,14
+5,Bend,hand-tiered,,14
+5,Ghost,hand-tiered,,17
+5,Inside Counter,hand-tiered,,17
+5,Head Slap,hand-tiered,,17
+5,Arm Over,hand-tiered,,17
+5,Slap and Rip,hand-tiered,,17
+5,Euro Step,hand-tiered,,20
+5,Hesitation,hand-tiered,,20
+5,Ricochet,hand-tiered,,20

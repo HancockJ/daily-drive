@@ -1,55 +1,76 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Chip Kelly,1.0,666202,2
-1,Urban Meyer,1.95,597272,2
-1,Jerod Mayo,0.5204,296362,5
-1,Bobby Petrino,0.3182,524322,5
-1,Frank Reich,0.3409,339582,5
-1,Jim L. Mora,,296713,8
-1,Lovie Smith,0.4372,173237,8
-1,Nathaniel Hackett,0.4715,144632,8
-1,Marty Schottenheimer,0.0909,434189,11
-1,Antonio Pierce,0.4223,140718,11
-1,Steve Wilks,0.2434,139870,11
-1,Freddie Kitchens,0.0392,151776,14
-1,Hue Jackson,0.176,116682,14
-1,Cam Cameron,0.0841,61713,14
-1,Romeo Crennel,0.0259,85808,17
-1,David Culley,0.0587,42562,17
-1,Jim Tomsula,0.0132,45952,17
-1,Mike Mularkey,0.0083,39486,20
-1,Rob Chudzinski,0.0015,35438,20
-2,Patrick Mahomes,1.0,2238774,2
-2,Christian McCaffrey,0.4803,1572340,2
-2,Myles Garrett,0.2102,1955167,2
-2,Deshaun Watson,0.4292,786831,5
-2,T. J. Watt,0.1521,588067,5
-2,Mitchell Trubisky,0.0505,358190,5
-2,Leonard Fournette,0.0569,250099,5
-2,David Njoku,0.0482,220416,5
-2,Jamal Adams,0.0145,256029,8
-2,Jabrill Peppers,0.0081,216943,8
-2,Marshon Lattimore,0.0145,134144,8
-2,Haason Reddick,0.0221,121583,8
-2,Evan Engram,0.0232,104744,8
-2,Tre'Davious White,0.0075,121978,11
-2,Garett Bolles,0.0012,124728,11
-2,Marlon Humphrey,0.0035,114932,11
-2,Jonathan Allen,0.0046,97192,11
-2,Mike Williams,,99427,11
-2,Adoree' Jackson,0.0012,110829,11
-2,John Ross,0.0046,86564,14
-2,Corey Davis,0.0041,63679,14
-2,Solomon Thomas,0.0012,90219,14
-2,O. J. Howard,0.0023,51782,14
-2,Reuben Foster,0.0,84151,14
-2,Derek Barnett,0.0012,53838,17
-2,Malik Hooker,0.0,56619,17
-2,Taco Charlton,0.0,45758,17
-2,Takkarist McKinley,,22860,17
-2,Ryan Ramczyk,0.0,21716,17
-2,Gareon Conley,0.0,20542,20
-2,Jarrad Davis,0.0,13550,20
-2,Charles Harris,0.0,12648,20
+1,Tom Brady,1.0,4084883,2
+1,Patrick Mahomes,0.5329,2238774,2
+1,Matthew Stafford,0.1987,2275480,2
+1,Russell Wilson,0.3308,1955619,5
+1,Peyton Manning,0.1919,1861392,5
+1,Joe Flacco,0.0989,2082153,5
+1,Cam Newton,0.1686,1474605,5
+1,Philip Rivers,0.0522,3221906,5
+1,Eli Manning,0.0832,1265737,8
+1,John Elway,,1236832,8
+1,Brett Favre,0.1168,979116,8
+1,Drew Brees,0.0739,1012748,8
+1,Joe Montana,0.0561,1054715,8
+1,Tony Romo,0.0692,1046310,11
+1,Ben Roethlisberger,0.0841,786462,11
+1,Jameis Winston,0.0713,987016,11
+1,Derek Carr,0.1032,406953,11
+1,Joe Namath,0.0208,695037,11
+1,Dan Marino,0.0238,650668,11
+1,Matt Ryan,0.0442,482209,14
+1,Jay Cutler,0.0144,551208,14
+1,Jim Kelly,0.003,395679,14
+1,Donovan McNabb,0.0021,363166,14
+1,Warren Moon,0.0004,310830,14
+1,Fran Tarkenton,0.0,300887,17
+1,Joe Theismann,0.0,270473,17
+1,Jim Everett,0.0,162905,17
+1,Ken Anderson,0.0,112021,17
+1,Mark Brunell,0.0,104464,17
+1,Matt Schaub,0.0,101519,20
+1,Brian Sipe,0.0,60208,20
+1,Jim Hart,0.0,33553,20
+2,Salary Cap,hand-tiered,,2
+2,Franchise Tag,hand-tiered,,2
+2,Free Agency,hand-tiered,,2
+2,Signing Bonus,hand-tiered,,5
+2,Guaranteed Money,hand-tiered,,5
+2,Practice Squad,hand-tiered,,5
+2,Injured Reserve,hand-tiered,,5
+2,Trade Deadline,hand-tiered,,5
+2,Holdout,hand-tiered,,5
+2,Waivers,hand-tiered,,8
+2,Compensatory Pick,hand-tiered,,8
+2,Fifth-Year Option,hand-tiered,,8
+2,Rookie Contract,hand-tiered,,8
+2,Dead Money,hand-tiered,,8
+2,Release,hand-tiered,,8
+2,Contract Extension,hand-tiered,,8
+2,Transition Tag,hand-tiered,,11
+2,Restricted Free Agent,hand-tiered,,11
+2,Void Years,hand-tiered,,11
+2,PUP List,hand-tiered,,11
+2,Undrafted Free Agent,hand-tiered,,11
+2,Tampering,hand-tiered,,11
+2,Collective Bargaining Agreement,hand-tiered,,11
+2,Mr. Irrelevant,hand-tiered,,11
+2,War Room,hand-tiered,,11
+2,Supplemental Draft,hand-tiered,,14
+2,Cap Casualty,hand-tiered,,14
+2,Roster Bonus,hand-tiered,,14
+2,Post-June 1 Cut,hand-tiered,,14
+2,Green Room,hand-tiered,,14
+2,Rookie Wage Scale,hand-tiered,,14
+2,Incentives,hand-tiered,,14
+2,Minimum Salary,hand-tiered,,14
+2,Exclusive Rights Free Agent,hand-tiered,,17
+2,Non-Football Injury List,hand-tiered,,17
+2,Option Bonus,hand-tiered,,17
+2,Right of First Refusal,hand-tiered,,17
+2,Offset Language,hand-tiered,,20
+2,Split Contract,hand-tiered,,20
+2,Designated to Return,hand-tiered,,20
 3,Joe Montana,1.0,1054715,2
 3,Jerry Rice,0.8807,761695,5
 3,Jimmy Johnson,0.626,652729,5
@@ -62,45 +83,54 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 3,Leo Nomellini,0.0,13592,17
 3,Charlie Krueger,0.0003,5476,17
 3,Bob St. Clair,0.0,9302,20
-4,Cooper DeJean,1.0,552425,2
-4,James Harrison,0.1684,327647,2
-4,Ty Law,0.0026,121376,5
-4,Derrick Brooks,0.0,97344,5
-4,Malcolm Smith,0.0,90665,8
-4,Tracy Porter,0.0,31493,8
-4,Herb Adderley,0.0,29029,11
-4,Willie Brown,,28864,11
-4,Jack Squirek,0.0026,4676,14
-4,Nick Collins,0.0,24791,14
-4,Robert Alford,0.0,13427,17
-4,Duane Starks,0.0,12310,17
-4,Dwight Smith,,9503,20
-4,Reggie Phillips,0.0,3753,20
-5,Shotgun,hand-tiered,,2
-5,I Formation,hand-tiered,,2
-5,Spread,hand-tiered,,5
-5,Pistol,hand-tiered,,5
-5,Wildcat,hand-tiered,,5
-5,Victory Formation,hand-tiered,,5
-5,West Coast Offense,hand-tiered,,5
-5,Singleback,hand-tiered,,8
-5,Empty Backfield,hand-tiered,,8
-5,Goal Line,hand-tiered,,8
-5,Air Coryell,hand-tiered,,11
-5,Run and Shoot,hand-tiered,,11
-5,Pro Set,hand-tiered,,11
-5,T Formation,hand-tiered,,11
-5,Wishbone,hand-tiered,,11
-5,Trips,hand-tiered,,11
-5,Air Raid,hand-tiered,,11
-5,Single Wing,hand-tiered,,14
-5,Wing T,hand-tiered,,14
-5,Power I,hand-tiered,,14
-5,Jumbo,hand-tiered,,14
-5,Bunch,hand-tiered,,14
-5,Twins,hand-tiered,,14
-5,Triple Option,hand-tiered,,14
-5,Offset I,hand-tiered,,17
-5,Diamond,hand-tiered,,17
-5,Veer,hand-tiered,,17
-5,Erhardt-Perkins,hand-tiered,,20
+4,Russell Wilson,1.0,1955619,2
+4,Peyton Manning,0.5725,1861392,2
+4,Dak Prescott,0.8366,1048063,2
+4,Eli Manning,0.3058,1265737,5
+4,Kurt Warner,0.1884,1041195,5
+4,J. J. Watt,0.2704,713108,5
+4,Larry Fitzgerald,,578887,5
+4,Cameron Heyward,0.0339,362784,8
+4,Jason Taylor,0.012,411902,8
+4,LaDainian Tomlinson,0.024,355252,8
+4,Andrew Whitworth,0.0381,321717,8
+4,Calais Campbell,0.0157,336326,11
+4,Jerome Bettis,,246853,11
+4,Chris Long,,233649,11
+4,Jason Witten,0.0052,213994,11
+4,Charles Tillman,0.0031,192161,11
+4,Arik Armstead,0.0089,97867,14
+4,Warrick Dunn,0.0005,122835,14
+4,Anquan Boldin,0.0,162714,14
+4,Troy Vincent,0.0005,43060,14
+4,Derrick Brooks,0.0,97344,17
+4,Matt Birk,0.0005,40364,17
+4,Thomas Davis,,50446,17
+4,Will Shields,0.0,29623,17
+4,Brian Waters,0.0,14434,20
+4,Jim Flanigan,0.0,10610,20
+4,Madieu Williams,0.0,7263,20
+5,CBS,hand-tiered,,2
+5,Fox,hand-tiered,,2
+5,NBC,hand-tiered,,2
+5,ESPN,hand-tiered,,2
+5,ABC,hand-tiered,,5
+5,NFL Network,hand-tiered,,5
+5,Amazon Prime Video,hand-tiered,,5
+5,Netflix,hand-tiered,,5
+5,YouTube,hand-tiered,,8
+5,Peacock,hand-tiered,,8
+5,ESPN2,hand-tiered,,11
+5,Nickelodeon,hand-tiered,,11
+5,Paramount+,hand-tiered,,11
+5,ESPN+,hand-tiered,,11
+5,TNT,hand-tiered,,14
+5,Disney+,hand-tiered,,14
+5,Yahoo,hand-tiered,,17
+5,Twitter,hand-tiered,,17
+5,Fox Deportes,hand-tiered,,17
+5,Telemundo,hand-tiered,,17
+5,ESPN Deportes,hand-tiered,,17
+5,Twitch,hand-tiered,,17
+5,DuMont,hand-tiered,,20
+5,Universo,hand-tiered,,20

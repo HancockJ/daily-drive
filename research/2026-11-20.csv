@@ -1,0 +1,91 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Juke,hand-tiered,,2
+1,Spin Move,hand-tiered,,2
+1,Stiff Arm,hand-tiered,,2
+1,Hurdle,hand-tiered,,5
+1,Cutback,hand-tiered,,5
+1,Truck,hand-tiered,,5
+1,Jump Cut,hand-tiered,,8
+1,Hesitation,hand-tiered,,8
+1,Sidestep,hand-tiered,,8
+1,Dead Leg,hand-tiered,,11
+1,Stop and Go,hand-tiered,,11
+1,High Step,hand-tiered,,11
+1,Dive,hand-tiered,,11
+1,Lateral,hand-tiered,,11
+1,Head Fake,hand-tiered,,11
+1,Speed Burst,hand-tiered,,11
+1,Shimmy,hand-tiered,,14
+1,Bounce Outside,hand-tiered,,14
+1,Ball Fake,hand-tiered,,14
+1,Change of Pace,hand-tiered,,14
+1,Euro Step,hand-tiered,,17
+1,Wiggle,hand-tiered,,17
+1,Pivot,hand-tiered,,17
+1,Backpedal,hand-tiered,,20
+2,Andy Reid,1.0,869097,2
+2,Marty Schottenheimer,0.0225,434189,5
+2,Marv Levy,0.0213,245098,5
+2,Herm Edwards,0.0451,122021,8
+2,Dick Vermeil,0.0213,233130,8
+2,Todd Haley,0.0025,107770,11
+2,Romeo Crennel,0.0013,85808,11
+2,Paul Wiggin,0.0,28065,14
+2,John Mackovic,0.0,20374,14
+2,Gunther Cunningham,0.0,15950,17
+2,Frank Gansz,0.0,9130,17
+2,Tom Bettis,0.0,2489,20
+3,Terry Bradshaw,1.0,874741,2
+3,Joe Namath,0.5019,695037,2
+3,Roger Staubach,0.1951,437631,5
+3,Fran Tarkenton,0.1043,300887,5
+3,Johnny Unitas,0.104,291675,5
+3,Bart Starr,0.0979,182666,8
+3,George Blanda,0.0531,228734,8
+3,Sonny Jurgensen,0.0188,259715,8
+3,Dan Fouts,0.0437,139370,11
+3,Len Dawson,0.0943,93806,11
+3,Bob Griese,0.0314,123222,11
+3,Otto Graham,0.0159,129610,14
+3,Y. A. Tittle,0.0146,120580,14
+3,Norm Van Brocklin,0.0006,82730,14
+3,Sammy Baugh,0.0029,76281,17
+3,Bobby Layne,0.0107,67012,17
+3,Bob Waterfield,0.0,62527,17
+3,Arnie Herber,0.0003,21287,20
+3,Sid Luckman,0.0,47020,20
+4,Odell Beckham Jr.,3.5326,1269788,2
+4,Jaxson Dart,1.0,2000166,2
+4,Daniel Jones,1.1514,901039,5
+4,Saquon Barkley,2.3812,888795,5
+4,Dexter Lawrence,,347242,5
+4,Malik Nabers,0.3812,295745,8
+4,Kadarius Toney,0.4008,201739,8
+4,Abdul Carter,0.1643,285043,8
+4,Kayvon Thibodeaux,0.1472,155022,11
+4,Evan Engram,0.1537,104744,11
+4,Jason Pierre-Paul,0.0683,150955,11
+4,Eli Apple,0.1025,116803,11
+4,Evan Neal,0.0355,104649,14
+4,Andrew Thomas,0.0158,72560,14
+4,Deonte Banks,0.0026,55843,14
+4,Justin Pugh,0.0105,38894,17
+4,Prince Amukamara,0.0013,51271,17
+4,DeAndre Baker,0.0013,29932,17
+4,David Wilson,,24389,20
+4,Ereck Flowers,0.0,21424,20
+5,Sun Devil Stadium,hand-tiered,,2
+5,Husky Stadium,hand-tiered,,5
+5,Memorial Stadium (Champaign),hand-tiered,,5
+5,Huntington Bank Stadium,hand-tiered,,5
+5,Vanderbilt Stadium,hand-tiered,,8
+5,Franklin Field,hand-tiered,,8
+5,Tulane Stadium,hand-tiered,,8
+5,Memorial Stadium (Clemson),hand-tiered,,11
+5,Pitt Stadium,hand-tiered,,11
+5,Rice Stadium,hand-tiered,,11
+5,Yale Bowl,hand-tiered,,11
+5,Nippert Stadium,hand-tiered,,14
+5,Harvard Stadium,hand-tiered,,14
+5,Alumni Stadium,hand-tiered,,17
+5,Nickerson Field,hand-tiered,,20

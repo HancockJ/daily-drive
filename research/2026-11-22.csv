@@ -1,0 +1,107 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Deion Sanders,1.0,1775671,2
+1,Joe Montana,0.2343,1054715,5
+1,Jerry Rice,0.2,761695,8
+1,Steve Young,0.0568,562029,8
+1,Charles Haley,0.004,218666,11
+1,Ronnie Lott,0.0007,245101,14
+1,Bryant Young,0.002,44802,14
+1,Rickey Jackson,0.0,37878,17
+1,Fred Dean,0.0,24869,20
+2,TD,hand-tiered,,2
+2,FG,hand-tiered,,2
+2,NFL,hand-tiered,,2
+2,MVP,hand-tiered,,2
+2,PAT,hand-tiered,,5
+2,INT,hand-tiered,,5
+2,AFC,hand-tiered,,5
+2,NFC,hand-tiered,,5
+2,MNF,hand-tiered,,5
+2,YAC,hand-tiered,,8
+2,RPO,hand-tiered,,8
+2,SNF,hand-tiered,,8
+2,TNF,hand-tiered,,8
+2,IR,hand-tiered,,8
+2,PI,hand-tiered,,8
+2,GOAT,hand-tiered,,8
+2,HOF,hand-tiered,,8
+2,TFL,hand-tiered,,11
+2,QBR,hand-tiered,,11
+2,OTA,hand-tiered,,11
+2,NFLPA,hand-tiered,,11
+2,CBA,hand-tiered,,11
+2,PPR,hand-tiered,,11
+2,XP,hand-tiered,,11
+2,2PT,hand-tiered,,11
+2,OPOY,hand-tiered,,11
+2,DPOY,hand-tiered,,11
+2,ROY,hand-tiered,,11
+2,PUP,hand-tiered,,14
+2,UDFA,hand-tiered,,14
+2,YPC,hand-tiered,,14
+2,PFF,hand-tiered,,14
+2,DST,hand-tiered,,14
+2,EPA,hand-tiered,,17
+2,DVOA,hand-tiered,,17
+2,YPA,hand-tiered,,17
+2,FF,hand-tiered,,17
+2,PD,hand-tiered,,17
+2,IDP,hand-tiered,,17
+2,CPOE,hand-tiered,,20
+2,NFI,hand-tiered,,20
+2,ANY/A,hand-tiered,,20
+3,Mike Vrabel,1.0,3167260,2
+3,Bill Belichick,3.4265,1993798,5
+3,Pete Carroll,0.7574,1171107,5
+3,Bill Parcells,0.0392,416974,8
+3,Jerod Mayo,0.1667,296362,11
+3,Raymond Berry,0.0027,123329,11
+3,Ron Meyer,0.0,34934,14
+3,Dante Scarnecchia,0.0,29716,17
+3,Rod Rust,0.0,12244,17
+3,Dick MacPherson,0.0,11308,20
+4,Jordan Love,1.0,950223,2
+4,Jaire Alexander,0.1564,271904,2
+4,Matthew Golden,0.1108,198071,5
+4,Rashan Gary,0.025,156400,5
+4,Kenny Clark,0.0313,121281,8
+4,Quay Walker,0.0304,106429,8
+4,Ha Ha Clinton-Dix,0.0054,123822,8
+4,Lukas Van Ness,0.0206,88295,11
+4,Darnell Savage,,82076,11
+4,Devonte Wyatt,0.0063,41287,11
+4,Eric Stokes,0.0018,51459,14
+4,Jordan Morgan,,29967,14
+4,Bryan Bulaga,0.0009,22727,14
+4,Nick Perry,0.0,12646,17
+4,Damarious Randall,0.0,10987,17
+4,Datone Jones,0.0,8264,20
+4,Derek Sherrod,0.0,5417,20
+5,Helmet,hand-tiered,,2
+5,Shoulder Pads,hand-tiered,,2
+5,Cleats,hand-tiered,,2
+5,Football,hand-tiered,,2
+5,Jersey,hand-tiered,,5
+5,Mouthguard,hand-tiered,,5
+5,Facemask,hand-tiered,,5
+5,Chin Strap,hand-tiered,,5
+5,Gloves,hand-tiered,,5
+5,Thigh Pads,hand-tiered,,8
+5,Knee Pads,hand-tiered,,8
+5,Visor,hand-tiered,,8
+5,Eye Black,hand-tiered,,8
+5,Pants,hand-tiered,,11
+5,Hip Pads,hand-tiered,,11
+5,Wristband,hand-tiered,,11
+5,Guardian Cap,hand-tiered,,11
+5,Kicking Tee,hand-tiered,,11
+5,Socks,hand-tiered,,11
+5,Arm Sleeves,hand-tiered,,11
+5,Rib Protector,hand-tiered,,14
+5,Neck Roll,hand-tiered,,14
+5,Knee Brace,hand-tiered,,14
+5,Girdle,hand-tiered,,14
+5,Elbow Pads,hand-tiered,,14
+5,Tailbone Pad,hand-tiered,,17
+5,Towel,hand-tiered,,17
+5,Headset,hand-tiered,,17

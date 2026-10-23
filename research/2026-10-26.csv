@@ -1,86 +1,119 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Andy Reid,1.0,869097,2
-1,Marty Schottenheimer,0.0225,434189,5
-1,Marv Levy,0.0213,245098,5
-1,Herm Edwards,0.0451,122021,8
-1,Dick Vermeil,0.0213,233130,8
-1,Todd Haley,0.0025,107770,11
-1,Romeo Crennel,0.0013,85808,11
-1,Paul Wiggin,0.0,28065,14
-1,John Mackovic,0.0,20374,14
-1,Gunther Cunningham,0.0,15950,17
-1,Frank Gansz,0.0,9130,17
-1,Tom Bettis,0.0,2489,20
-2,Jordan Love,1.0,950223,2
-2,Jaire Alexander,0.1564,271904,2
-2,Matthew Golden,0.1108,198071,5
-2,Rashan Gary,0.025,156400,5
-2,Kenny Clark,0.0313,121281,8
-2,Quay Walker,0.0304,106429,8
-2,Ha Ha Clinton-Dix,0.0054,123822,8
-2,Lukas Van Ness,0.0206,88295,11
-2,Darnell Savage,,82076,11
-2,Devonte Wyatt,0.0063,41287,11
-2,Eric Stokes,0.0018,51459,14
-2,Jordan Morgan,,29967,14
-2,Bryan Bulaga,0.0009,22727,14
-2,Nick Perry,0.0,12646,17
-2,Damarious Randall,0.0,10987,17
-2,Datone Jones,0.0,8264,20
-2,Derek Sherrod,0.0,5417,20
-3,Michael Irvin,,968746,2
-3,Randy Moss,1.0,907568,2
-3,Jerry Rice,0.7802,761695,5
-3,Calvin Johnson,0.4724,469620,5
-3,Terrell Owens,0.4991,446633,5
-3,Marvin Harrison,0.3678,273828,8
-3,Sterling Sharpe,0.2056,259072,8
-3,Cris Carter,0.1492,210875,8
-3,Andre Johnson,0.1616,202220,8
-3,Lynn Swann,0.026,238068,11
-3,Tim Brown,0.1015,128715,11
-3,Isaac Bruce,0.0056,91418,11
-3,Drew Pearson,0.0198,79320,14
-3,Art Monk,0.0056,86402,14
-3,Andre Reed,0.0043,87924,14
-3,Harold Carmichael,0.0074,69920,14
-3,Bob Hayes,0.0056,80172,17
-3,Cliff Branch,0.0118,52965,17
-3,James Lofton,0.0037,53712,17
-3,John Stallworth,0.0,44902,20
-3,Mac Speedie,0.0,8627,20
-4,Tom Brady,1.0,4084883,2
-4,Peyton Manning,0.1919,1861392,2
-4,Aaron Rodgers,0.8202,3356416,5
-4,Brett Favre,0.1168,979116,5
-4,Drew Brees,0.0739,1012748,5
-4,Ben Roethlisberger,0.0841,786462,8
-4,Dan Marino,0.0238,650668,8
-4,Matthew Stafford,0.1955,2275480,11
-4,Philip Rivers,0.0506,3221906,11
-4,Eli Manning,0.0832,1265737,11
-4,Russell Wilson,0.3333,1955619,14
-4,John Elway,,1236832,14
-4,Matt Ryan,0.0442,482209,17
-4,Fran Tarkenton,0.0,300887,20
-5,Flea Flicker,hand-tiered,,2
-5,Hook and Ladder,hand-tiered,,2
-5,Philly Special,hand-tiered,,2
-5,Fake Punt,hand-tiered,,5
-5,Fake Field Goal,hand-tiered,,5
-5,Reverse,hand-tiered,,5
-5,Double Reverse,hand-tiered,,8
-5,Halfback Pass,hand-tiered,,8
-5,Statue of Liberty,hand-tiered,,8
-5,Onside Kick,hand-tiered,,8
-5,End Around,hand-tiered,,11
-5,Wildcat,hand-tiered,,11
-5,Fumblerooski,hand-tiered,,11
-5,Wide Receiver Pass,hand-tiered,,11
-5,Throwback Pass,hand-tiered,,14
-5,Fake Spike,hand-tiered,,14
-5,Double Pass,hand-tiered,,14
-5,Swinging Gate,hand-tiered,,14
-5,Fake Kneel,hand-tiered,,17
-5,Muddle Huddle,hand-tiered,,20
-5,Bumerooski,hand-tiered,,20
+1,Troy Aikman,,1258008,2
+1,Michael Irvin,,968746,2
+1,Emmitt Smith,,811132,5
+1,Jimmy Johnson,,652729,5
+1,Roger Staubach,,437631,5
+1,Tom Landry,,370096,5
+1,Tony Dorsett,,237663,8
+1,Charles Haley,,218666,8
+1,Larry Allen,,213335,8
+1,DeMarcus Ware,,161066,8
+1,Don Meredith,,116558,11
+1,Randy White,,87850,11
+1,Darren Woodson,,82439,11
+1,Bob Hayes,,80172,11
+1,Drew Pearson,,79320,14
+1,Bob Lilly,,61841,14
+1,Chuck Howley,,46146,14
+1,Lee Roy Jordan,,43962,14
+1,Tex Schramm,,37973,17
+1,Cliff Harris,,30497,17
+1,Mel Renfro,,24733,17
+1,Gil Brandt,,17047,17
+1,Rayfield Wright,,15285,20
+1,Don Perkins,,11550,20
+2,Drake Maye,1.0,4328805,2
+2,Sam Darnold,0.8448,3624213,2
+2,Larry Fitzgerald,,578887,2
+2,Joey Bosa,0.2248,569599,5
+2,Matt Ryan,0.3657,482209,5
+2,Trey Lance,0.4543,456838,5
+2,Vince Young,0.0524,398004,5
+2,Will Anderson Jr.,0.1162,321130,8
+2,Quinnen Williams,0.0467,342268,8
+2,Abdul Carter,0.1048,285043,8
+2,Blake Bortles,0.0314,239583,8
+2,Derek Stingley Jr.,0.0324,221369,11
+2,Andre Johnson,0.02,202220,11
+2,Joe Thomas,0.0229,155630,11
+2,Jeff Okudah,0.0124,120449,11
+2,Trent Richardson,0.0019,114557,14
+2,Gerald McCoy,0.001,99028,14
+2,Solomon Thomas,0.0048,90219,14
+2,Dante Fowler,,94552,14
+2,Joey Harrington,0.001,79104,17
+2,Chris Samuels,0.001,70042,17
+2,Braylon Edwards,0.001,62962,17
+2,Marcell Dareus,0.0,37397,17
+2,Dion Jordan,0.0,34817,20
+2,Gerard Warren,0.0,10705,20
+2,Tyson Jackson,0.0,10323,20
+3,Pancake,hand-tiered,,2
+3,Double Team,hand-tiered,,2
+3,Chip Block,hand-tiered,,5
+3,Cut Block,hand-tiered,,5
+3,Pull,hand-tiered,,5
+3,Zone Blocking,hand-tiered,,5
+3,Down Block,hand-tiered,,8
+3,Trap Block,hand-tiered,,8
+3,Reach Block,hand-tiered,,8
+3,Crack Block,hand-tiered,,8
+3,Chop Block,hand-tiered,,8
+3,Lead Block,hand-tiered,,8
+3,Blitz Pickup,hand-tiered,,8
+3,Kick Out,hand-tiered,,11
+3,Seal Block,hand-tiered,,11
+3,Combo Block,hand-tiered,,11
+3,Drive Block,hand-tiered,,11
+3,Pass Set,hand-tiered,,11
+3,Man Blocking,hand-tiered,,11
+3,Wedge,hand-tiered,,14
+3,Scoop Block,hand-tiered,,14
+3,Wham Block,hand-tiered,,14
+3,Slide Protection,hand-tiered,,14
+3,Peel Back,hand-tiered,,14
+3,Stalk Block,hand-tiered,,14
+3,Cross Block,hand-tiered,,17
+3,Fold Block,hand-tiered,,17
+3,Base Block,hand-tiered,,17
+3,Hinge,hand-tiered,,17
+3,Cutoff Block,hand-tiered,,17
+3,Influence Block,hand-tiered,,20
+4,Jim Harbaugh,1.0,1480156,2
+4,Marty Schottenheimer,0.0146,434189,2
+4,Brandon Staley,0.075,127317,5
+4,Mike McCoy,0.0051,223537,5
+4,Anthony Lynn,0.0066,114310,8
+4,June Jones,0.0022,58756,8
+4,Norv Turner,0.0015,89221,11
+4,Don Coryell,0.0015,48241,11
+4,Bobby Ross,0.0,43117,14
+4,Mike Riley,0.0007,21146,14
+4,Giff Smith,0.0022,10777,17
+4,Kevin Gilbride,0.0,24441,17
+4,Dan Henning,0.0,13005,20
+4,Al Saunders,0.0,11066,20
+5,Ice Bowl,hand-tiered,,2
+5,Immaculate Reception,hand-tiered,,2
+5,Tuck Rule Game,hand-tiered,,5
+5,Music City Miracle,hand-tiered,,5
+5,Minneapolis Miracle,hand-tiered,,5
+5,The Catch,hand-tiered,,5
+5,Greatest Game Ever Played,hand-tiered,,5
+5,The Drive,hand-tiered,,8
+5,Fog Bowl,hand-tiered,,8
+5,Freezer Bowl,hand-tiered,,8
+5,The Fumble,hand-tiered,,8
+5,Miracle at the Meadowlands,hand-tiered,,8
+5,13 Seconds,hand-tiered,,11
+5,The Comeback,hand-tiered,,11
+5,Heidi Game,hand-tiered,,11
+5,Epic in Miami,hand-tiered,,11
+5,Mile High Miracle,hand-tiered,,14
+5,Monday Night Miracle,hand-tiered,,14
+5,Bounty Bowl,hand-tiered,,14
+5,Snowplow Game,hand-tiered,,14
+5,Ghost to the Post,hand-tiered,,17
+5,Red Right 88,hand-tiered,,17
+5,Mud Bowl,hand-tiered,,17

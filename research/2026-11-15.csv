@@ -1,0 +1,134 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Head Coach,hand-tiered,,2
+1,Offensive Coordinator,hand-tiered,,2
+1,Defensive Coordinator,hand-tiered,,2
+1,General Manager,hand-tiered,,2
+1,Owner,hand-tiered,,5
+1,Special Teams Coordinator,hand-tiered,,5
+1,Quarterbacks Coach,hand-tiered,,5
+1,Position Coach,hand-tiered,,5
+1,Scout,hand-tiered,,5
+1,Offensive Line Coach,hand-tiered,,5
+1,Strength and Conditioning Coach,hand-tiered,,8
+1,Athletic Trainer,hand-tiered,,8
+1,Team Doctor,hand-tiered,,8
+1,Equipment Manager,hand-tiered,,8
+1,Running Backs Coach,hand-tiered,,8
+1,Wide Receivers Coach,hand-tiered,,8
+1,Linebackers Coach,hand-tiered,,8
+1,Defensive Backs Coach,hand-tiered,,8
+1,Tight Ends Coach,hand-tiered,,8
+1,Defensive Line Coach,hand-tiered,,8
+1,Assistant Head Coach,hand-tiered,,8
+1,Team President,hand-tiered,,8
+1,Passing Game Coordinator,hand-tiered,,11
+1,Run Game Coordinator,hand-tiered,,11
+1,Director of Player Personnel,hand-tiered,,11
+1,College Scout,hand-tiered,,11
+1,Analytics,hand-tiered,,11
+1,Public Relations,hand-tiered,,11
+1,Assistant General Manager,hand-tiered,,11
+1,Cheerleader,hand-tiered,,11
+1,Mascot,hand-tiered,,11
+1,Salary Cap Manager,hand-tiered,,14
+1,Video Coordinator,hand-tiered,,14
+1,Nutritionist,hand-tiered,,14
+1,Quality Control Coach,hand-tiered,,14
+1,Coaching Assistant,hand-tiered,,14
+1,Kicking Coach,hand-tiered,,14
+1,Chaplain,hand-tiered,,17
+1,Team Psychologist,hand-tiered,,17
+1,Head Groundskeeper,hand-tiered,,17
+1,Team Security,hand-tiered,,17
+1,Massage Therapist,hand-tiered,,17
+2,Deion Sanders,1.0,1775671,2
+2,Troy Polamalu,0.0792,457579,2
+2,Charles Woodson,0.0185,362583,2
+2,Ed Reed,0.0165,300812,5
+2,John Lynch,0.0106,249337,5
+2,Darrelle Revis,0.0046,228763,5
+2,Brian Dawkins,0.0092,203082,5
+2,Ronnie Lott,0.0007,245101,8
+2,Ronde Barber,0.0033,127356,8
+2,Kenny Easley,0.002,177661,8
+2,Champ Bailey,0.0,196980,8
+2,Rod Woodson,0.0,190427,11
+2,LeRoy Butler,0.0026,45802,11
+2,Darrell Green,0.0007,104366,11
+2,Eric Allen,0.002,46362,11
+2,Ty Law,0.0,121376,11
+2,Dick LeBeau,0.0,105735,14
+2,Ken Riley,0.0013,18665,14
+2,Steve Atwater,0.0,68704,14
+2,Aeneas Williams,0.0,51012,14
+2,Cliff Harris,0.0,30497,17
+2,Donnie Shell,0.0,24862,17
+2,Emmitt Thomas,0.0,18003,17
+2,Roger Wehrli,0.0,14912,17
+2,Johnny Robinson,0.0,12497,20
+2,Bobby Dillon,0.0,6303,20
+2,Jack Butler,0.0,5612,20
+3,Sam Darnold,1.0,3624213,2
+3,Zach Wilson,0.8321,524405,2
+3,Sauce Gardner,0.3951,570735,5
+3,Darron Lee,,378240,5
+3,Garrett Wilson,0.4196,189311,5
+3,Quinnen Williams,0.0705,342268,8
+3,Jamal Adams,0.1116,256029,8
+3,Jermaine Johnson,0.0317,128945,8
+3,Mekhi Becton,,118790,11
+3,Alijah Vera-Tucker,0.0055,89309,11
+3,Armand Membou,0.0063,63993,11
+3,Will McDonald IV,0.0127,54652,11
+3,Olu Fashanu,,46952,14
+3,Sheldon Richardson,0.0,28567,14
+3,Dee Milliner,0.0,17507,14
+3,Leonard Williams,0.0317,4034,8
+3,Muhammad Wilkerson,0.0,17130,17
+3,Calvin Pryor,0.0,11425,17
+3,Quinton Coples,0.0,8169,20
+3,Kyle Wilson,0.0,6766,20
+4,Jim Harbaugh,1.0,1480156,2
+4,Nick Saban,1.1731,1359586,2
+4,Pete Carroll,0.3506,1171107,5
+4,Lou Holtz,0.108,954830,5
+4,Jimmy Johnson,0.25,652729,8
+4,Urban Meyer,0.329,597272,8
+4,Barry Switzer,0.0138,345655,8
+4,Steve Spurrier,0.0291,303156,11
+4,Paul Brown,0.0031,157816,11
+4,Howard Schnellenberger,0.0,95624,14
+4,Dan Devine,0.0,95066,14
+4,Gene Stallings,0.0007,80945,14
+4,Dennis Erickson,0.0,92676,17
+4,John McKay,0.0,54793,17
+4,Bobby Ross,0.0,43117,20
+4,Bud Wilkinson,0.0,37206,20
+5,Shotgun,hand-tiered,,2
+5,I Formation,hand-tiered,,2
+5,Spread,hand-tiered,,5
+5,Pistol,hand-tiered,,5
+5,Wildcat,hand-tiered,,5
+5,Victory Formation,hand-tiered,,5
+5,West Coast Offense,hand-tiered,,5
+5,Singleback,hand-tiered,,8
+5,Empty Backfield,hand-tiered,,8
+5,Goal Line,hand-tiered,,8
+5,Air Coryell,hand-tiered,,11
+5,Run and Shoot,hand-tiered,,11
+5,Pro Set,hand-tiered,,11
+5,T Formation,hand-tiered,,11
+5,Wishbone,hand-tiered,,11
+5,Trips,hand-tiered,,11
+5,Air Raid,hand-tiered,,11
+5,Single Wing,hand-tiered,,14
+5,Wing T,hand-tiered,,14
+5,Power I,hand-tiered,,14
+5,Jumbo,hand-tiered,,14
+5,Bunch,hand-tiered,,14
+5,Twins,hand-tiered,,14
+5,Triple Option,hand-tiered,,14
+5,Offset I,hand-tiered,,17
+5,Diamond,hand-tiered,,17
+5,Veer,hand-tiered,,17
+5,Erhardt-Perkins,hand-tiered,,20

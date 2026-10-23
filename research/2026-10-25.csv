@@ -1,92 +1,122 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Russell Wilson,1.0,1955619,2
-1,Justin Fields,0.5269,815035,2
-1,Michael Vick,0.1549,938910,5
-1,Ben Roethlisberger,0.2937,786462,5
-1,Kenny Pickett,0.2713,421384,8
-1,Devlin Hodges,0.0141,699748,8
-1,Mason Rudolph,0.0678,379749,11
-1,Mitchell Trubisky,0.1033,358190,11
-1,Byron Leftwich,0.0198,157810,11
-1,Kordell Stewart,0.0042,216765,14
-1,Charlie Batch,0.0005,68413,14
-1,Tommy Maddox,0.0,55334,17
-1,Landry Jones,0.0,41408,17
-1,Dennis Dixon,0.0,33481,20
-1,Kent Graham,0.0,15175,20
-2,Derrick Henry,1.0,1213308,2
-2,Saquon Barkley,1.1114,888795,2
-2,Ezekiel Elliott,,654689,5
-2,Marshawn Lynch,0.3289,1034630,5
-2,Josh Jacobs,0.5533,398197,8
-2,Nick Chubb,0.4523,405833,8
-2,Adrian Peterson,0.1772,601677,11
-2,Dalvin Cook,0.3599,367384,11
-2,Jonathan Taylor,0.4577,143258,14
-2,LeSean McCoy,0.0727,251667,14
-2,Arian Foster,0.0121,171847,17
-2,DeMarco Murray,0.0075,142471,17
-2,Maurice Jones-Drew,0.0082,132185,20
-2,Alfred Morris,0.0,45853,20
-3,Sam Darnold,1.0,3624213,2
-3,Zach Wilson,0.8321,524405,2
-3,Sauce Gardner,0.3951,570735,5
-3,Darron Lee,,378240,5
-3,Garrett Wilson,0.4196,189311,5
-3,Quinnen Williams,0.0705,342268,8
-3,Jamal Adams,0.1116,256029,8
-3,Jermaine Johnson,0.0317,128945,8
-3,Mekhi Becton,,118790,11
-3,Alijah Vera-Tucker,0.0055,89309,11
-3,Armand Membou,0.0063,63993,11
-3,Will McDonald IV,0.0127,54652,11
-3,Olu Fashanu,,46952,14
-3,Sheldon Richardson,0.0,28567,14
-3,Dee Milliner,0.0,17507,14
-3,Leonard Williams,0.0317,4034,8
-3,Muhammad Wilkerson,0.0,17130,17
-3,Calvin Pryor,0.0,11425,17
-3,Quinton Coples,0.0,8169,20
-3,Kyle Wilson,0.0,6766,20
-4,Tom Brady,1.0,4084883,2
-4,Drew Brees,0.0739,1012748,5
-4,Steve Smith Sr.,0.0068,278229,5
-4,Doug Flutie,0.0008,498829,8
-4,Jon Kitna,0.0013,84779,8
-4,Tedy Bruschi,0.0,157122,11
-4,Chad Pennington,0.0,126269,11
-4,Bryant Young,0.0008,44802,14
-4,Tommy Maddox,0.0,55334,14
-4,Garrison Hearst,0.0,51420,17
-4,Greg Ellis,,22116,17
-4,Joe Johnson,,5032,20
-5,Quarterback,hand-tiered,,2
-5,Running Back,hand-tiered,,2
-5,Wide Receiver,hand-tiered,,2
-5,Tight End,hand-tiered,,5
-5,Linebacker,hand-tiered,,5
-5,Cornerback,hand-tiered,,5
-5,Safety,hand-tiered,,5
-5,Kicker,hand-tiered,,5
-5,Punter,hand-tiered,,8
-5,Center,hand-tiered,,8
-5,Defensive End,hand-tiered,,8
-5,Defensive Tackle,hand-tiered,,8
-5,Offensive Tackle,hand-tiered,,11
-5,Guard,hand-tiered,,11
-5,Fullback,hand-tiered,,11
-5,Middle Linebacker,hand-tiered,,11
-5,Outside Linebacker,hand-tiered,,11
-5,Nose Tackle,hand-tiered,,14
-5,Long Snapper,hand-tiered,,14
-5,Free Safety,hand-tiered,,14
-5,Strong Safety,hand-tiered,,14
-5,Kick Returner,hand-tiered,,14
-5,Slot Receiver,hand-tiered,,14
-5,Edge Rusher,hand-tiered,,14
-5,Punt Returner,hand-tiered,,17
-5,Holder,hand-tiered,,17
-5,Nickelback,hand-tiered,,17
-5,Dime Back,hand-tiered,,20
-5,Gunner,hand-tiered,,20
-5,H-Back,hand-tiered,,20
+1,Passing Yards,hand-tiered,,2
+1,Rushing Yards,hand-tiered,,2
+1,Touchdowns,hand-tiered,,2
+1,Sacks,hand-tiered,,2
+1,Interceptions,hand-tiered,,2
+1,Receiving Yards,hand-tiered,,2
+1,Receptions,hand-tiered,,5
+1,Tackles,hand-tiered,,5
+1,Completions,hand-tiered,,5
+1,Passer Rating,hand-tiered,,5
+1,Fumbles,hand-tiered,,5
+1,Points,hand-tiered,,5
+1,Pass Attempts,hand-tiered,,5
+1,Yards After Catch,hand-tiered,,8
+1,Targets,hand-tiered,,8
+1,Field Goals,hand-tiered,,8
+1,Forced Fumbles,hand-tiered,,8
+1,Yards per Carry,hand-tiered,,8
+1,Turnovers,hand-tiered,,8
+1,Rushing Attempts,hand-tiered,,8
+1,Pass Deflections,hand-tiered,,11
+1,Tackles for Loss,hand-tiered,,11
+1,Quarterback Hits,hand-tiered,,11
+1,QBR,hand-tiered,,11
+1,Yards per Attempt,hand-tiered,,11
+1,Time of Possession,hand-tiered,,11
+1,First Downs,hand-tiered,,11
+1,Third-Down Conversions,hand-tiered,,14
+1,Punting Average,hand-tiered,,14
+1,Return Yards,hand-tiered,,14
+1,All-Purpose Yards,hand-tiered,,14
+1,Pressures,hand-tiered,,14
+1,Drops,hand-tiered,,14
+1,Penalty Yards,hand-tiered,,14
+1,EPA,hand-tiered,,17
+1,Air Yards,hand-tiered,,17
+1,Red Zone Efficiency,hand-tiered,,17
+1,Snap Count,hand-tiered,,17
+1,Missed Tackles,hand-tiered,,17
+1,DVOA,hand-tiered,,20
+1,Completion Percentage Over Expected,hand-tiered,,20
+2,Tom Brady,,4084883,2
+2,Jerry Rice,,761695,2
+2,Peyton Manning,,1861392,5
+2,Emmitt Smith,,811132,5
+2,Myles Garrett,,1955167,8
+2,Randy Moss,,907568,8
+2,Calvin Johnson,,469620,11
+2,LaDainian Tomlinson,,355252,11
+2,Michael Thomas,,254403,14
+2,Eric Dickerson,,245033,14
+2,Bruce Smith,,161572,17
+2,Night Train Lane,,107293,20
+2,Paul Krause,,52249,20
+3,Michael Strahan,,712448,2
+3,Reggie White,1.0,445163,2
+3,Howie Long,0.9815,369269,2
+3,Jason Taylor,0.5813,411902,5
+3,Warren Sapp,0.7995,297368,5
+3,Jared Allen,0.6208,265370,5
+3,Steve McMichael,0.9066,204150,5
+3,Julius Peppers,0.4329,255962,8
+3,Alex Karras,0.2141,299814,8
+3,Charles Haley,0.2234,218666,8
+3,Bruce Smith,0.3826,161572,8
+3,DeMarcus Ware,0.3532,161066,8
+3,John Randle,0.1635,114105,11
+3,Joe Klecko,0.1658,108730,11
+3,Dwight Freeney,0.1405,86457,11
+3,Richard Seymour,0.1296,73628,11
+3,Jack Youngblood,0.1075,67706,14
+3,Richard Dent,0.0709,73005,14
+3,Dan Hampton,0.1016,54894,14
+3,Cortez Kennedy,0.0276,62645,14
+3,Bryant Young,0.079,44802,14
+3,Carl Eller,0.0276,47271,17
+3,Chris Doleman,0.014,38536,17
+3,Curley Culp,0.0208,24917,17
+3,Fred Dean,0.0059,24869,17
+3,Claude Humphrey,0.0095,14055,20
+3,Elvin Bethea,0.0005,12847,20
+3,Ed Sprinkle,0.0,5181,20
+4,Nick Bosa,12.7582,529541,2
+4,Brandon Aiyuk,12.3736,498430,2
+4,Aldon Smith,1.0,707107,5
+4,Trey Lance,9.4176,456838,5
+4,Ricky Pearsall,4.4286,306707,5
+4,DeForest Buckner,0.4706,98595,8
+4,Arik Armstead,0.6471,97867,8
+4,Solomon Thomas,0.2206,90219,8
+4,Mykel Williams,0.3676,75513,11
+4,Jimmie Ward,0.3824,43083,11
+4,Reuben Foster,0.1103,84151,14
+4,Javon Kinlaw,0.3235,65323,14
+4,Mike McGlinchey,0.1324,75323,14
+4,Eric Reid,0.0147,36674,17
+4,Mike Iupati,0.0,23596,17
+4,A. J. Jenkins,0.0,14917,17
+4,Anthony Davis,,12419,20
+4,Joshua Garnett,0.0,8693,20
+5,XFL,hand-tiered,,2
+5,USFL,hand-tiered,,2
+5,CFL,hand-tiered,,2
+5,AFL,hand-tiered,,5
+5,UFL,hand-tiered,,5
+5,Arena Football League,hand-tiered,,5
+5,AAF,hand-tiered,,8
+5,NFL Europe,hand-tiered,,8
+5,AAFC,hand-tiered,,11
+5,WFL,hand-tiered,,11
+5,European League of Football,hand-tiered,,14
+5,Fan Controlled Football,hand-tiered,,14
+5,Indoor Football League,hand-tiered,,14
+5,Legends Football League,hand-tiered,,14
+5,Continental Football League,hand-tiered,,17
+5,The Spring League,hand-tiered,,17
+5,Major League Football,hand-tiered,,17
+5,Arena Football One,hand-tiered,,17
+5,Ohio League,hand-tiered,,20
+5,Atlantic Coast Football League,hand-tiered,,20
+5,Pacific Coast Professional Football League,hand-tiered,,20

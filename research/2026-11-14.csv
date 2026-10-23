@@ -1,0 +1,75 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Tom Brady,6.3727,4084883,2
+1,Drake Maye,1.0,4328805,5
+1,Cam Newton,1.0831,1474605,5
+1,Mac Jones,0.6622,1063512,8
+1,Drew Bledsoe,0.1149,400540,8
+1,Jimmy Garoppolo,0.8418,727474,11
+1,Jacoby Brissett,0.1485,551023,11
+1,Bailey Zappe,0.1245,177116,17
+1,Matt Cassel,0.0019,154113,17
+1,Brian Hoyer,0.0192,149075,20
+2,Sean McDermott,1.0,811412,2
+2,Rex Ryan,0.5327,259073,2
+2,Marv Levy,0.1161,245098,5
+2,Wade Phillips,0.0536,136115,8
+2,Anthony Lynn,0.0417,114310,8
+2,Gregg Williams,0.003,108257,8
+2,Doug Marrone,0.0119,81970,11
+2,Dick Jauron,0.0208,46701,14
+2,Chan Gailey,0.0,47572,14
+2,Mike Mularkey,0.003,39486,14
+2,Perry Fewell,0.0,13957,17
+2,Hank Bullough,0.0,6008,20
+2,Kay Stephenson,0.0,5588,20
+3,Tom Brady,1.0,4084883,2
+3,Travis Kelce,0.9057,3576328,2
+3,Peyton Manning,0.2036,1861392,2
+3,O. J. Simpson,,3245065,5
+3,Deion Sanders,0.3475,1775671,8
+3,Eli Manning,0.0842,1265737,8
+3,John Madden,0.093,900860,11
+3,Joe Montana,0.0549,1054715,14
+3,Carl Weathers,,999860,14
+3,J. J. Watt,0.0713,713108,14
+3,Walter Payton,0.0239,539560,17
+3,Fran Tarkenton,0.0,300887,20
+3,Alex Karras,0.0,299814,20
+4,Peyton Manning,1.0,1861392,2
+4,Drew Brees,0.4227,1012748,5
+4,Nick Foles,0.1809,468611,8
+4,George Blanda,0.0229,228734,11
+4,Y. A. Tittle,0.0036,120580,11
+4,Joe Kapp,0.0021,69746,14
+4,Sid Luckman,0.0,47020,17
+4,Adrian Burk,0.0,3718,20
+5,Draw,hand-tiered,,2
+5,Sweep,hand-tiered,,2
+5,Quarterback Sneak,hand-tiered,,2
+5,Option,hand-tiered,,5
+5,Counter,hand-tiered,,5
+5,Toss,hand-tiered,,5
+5,Power,hand-tiered,,5
+5,Dive,hand-tiered,,5
+5,Trap,hand-tiered,,8
+5,Inside Zone,hand-tiered,,8
+5,Outside Zone,hand-tiered,,8
+5,Jet Sweep,hand-tiered,,8
+5,Reverse,hand-tiered,,8
+5,RPO,hand-tiered,,8
+5,Bootleg,hand-tiered,,11
+5,Wildcat,hand-tiered,,11
+5,Off Tackle,hand-tiered,,11
+5,Iso,hand-tiered,,11
+5,Quarterback Keeper,hand-tiered,,11
+5,Speed Option,hand-tiered,,14
+5,Pin and Pull,hand-tiered,,14
+5,Duo,hand-tiered,,14
+5,Lead,hand-tiered,,14
+5,Shovel Pass,hand-tiered,,14
+5,Wham,hand-tiered,,17
+5,Buck Sweep,hand-tiered,,17
+5,Student Body Right,hand-tiered,,17
+5,Split Zone,hand-tiered,,17
+5,Crack Toss,hand-tiered,,20
+5,Belly,hand-tiered,,20

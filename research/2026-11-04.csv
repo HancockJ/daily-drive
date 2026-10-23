@@ -1,89 +1,90 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Sean Payton,1.0,942536,2
-1,Mike Ditka,0.3945,615657,5
-1,Kellen Moore,0.3121,527456,5
-1,Dennis Allen,0.0896,159052,8
-1,Jim Mora,,142406,11
-1,Jim Haslett,0.0014,40606,11
-1,Darren Rizzi,0.0123,29327,14
-1,Joe Vitt,0.0,34631,17
-1,Aaron Kromer,0.0019,23284,17
-1,Rick Venturi,0.0,9510,20
-2,Jahmyr Gibbs,1.0,643128,2
-2,Aidan Hutchinson,0.766,416150,2
-2,Terrion Arnold,0.2029,563241,5
-2,Jameson Williams,0.748,269937,5
-2,Penei Sewell,0.1334,217114,5
-2,Ndamukong Suh,0.0769,358562,8
-2,T. J. Hockenson,0.4237,106035,8
-2,Jack Campbell,0.0834,141140,8
-2,Jeff Okudah,0.0865,120449,11
-2,Frank Ragnow,0.0754,185407,11
-2,Taylor Decker,0.0546,117031,11
-2,Eric Ebron,0.0285,64219,14
-2,Jahvid Best,,52473,14
-2,Tyleik Williams,0.0146,42720,14
-2,Ezekiel Ansah,0.0025,44573,17
-2,Nick Fairley,0.0074,26559,17
-2,Laken Tomlinson,,35835,17
-2,Jarrad Davis,0.0071,13550,20
-2,Riley Reiff,0.0071,12712,20
-3,Michael Strahan,,712448,2
-3,Reggie White,1.0,445163,2
-3,Howie Long,0.9815,369269,2
-3,Jason Taylor,0.5813,411902,5
-3,Warren Sapp,0.7995,297368,5
-3,Jared Allen,0.6208,265370,5
-3,Steve McMichael,0.9066,204150,5
-3,Julius Peppers,0.4329,255962,8
-3,Alex Karras,0.2141,299814,8
-3,Charles Haley,0.2234,218666,8
-3,Bruce Smith,0.3826,161572,8
-3,DeMarcus Ware,0.3532,161066,8
-3,John Randle,0.1635,114105,11
-3,Joe Klecko,0.1658,108730,11
-3,Dwight Freeney,0.1405,86457,11
-3,Richard Seymour,0.1296,73628,11
-3,Jack Youngblood,0.1075,67706,14
-3,Richard Dent,0.0709,73005,14
-3,Dan Hampton,0.1016,54894,14
-3,Cortez Kennedy,0.0276,62645,14
-3,Bryant Young,0.079,44802,14
-3,Carl Eller,0.0276,47271,17
-3,Chris Doleman,0.014,38536,17
-3,Curley Culp,0.0208,24917,17
-3,Fred Dean,0.0059,24869,17
-3,Claude Humphrey,0.0095,14055,20
-3,Elvin Bethea,0.0005,12847,20
-3,Ed Sprinkle,0.0,5181,20
-4,Josh Allen,,3276398,2
-4,Cam Newton,1.0,1474605,2
-4,Lamar Jackson,2.3085,1237364,5
-4,Dan Marino,0.2647,650668,5
-4,Matt Ryan,0.3805,482209,8
-4,Steve McNair,,532599,8
-4,Fran Tarkenton,0.0357,300887,11
-4,Boomer Esiason,,404215,11
-4,Rich Gannon,0.0065,265194,11
-4,Roman Gabriel,0.0086,181378,14
-4,John Brodie,0.0015,148353,14
-4,Ken Anderson,0.004,112021,17
-4,Y. A. Tittle,0.0,120580,17
-4,Bert Jones,0.0,71199,20
-4,Brian Sipe,0.0,60208,20
-5,Kickoff,hand-tiered,,2
-5,Punt,hand-tiered,,2
-5,Field Goal,hand-tiered,,2
-5,Extra Point,hand-tiered,,2
-5,Onside Kick,hand-tiered,,5
-5,Squib Kick,hand-tiered,,5
-5,Pooch Kick,hand-tiered,,8
-5,Drop Kick,hand-tiered,,8
-5,Free Kick,hand-tiered,,11
-5,Fair Catch Kick,hand-tiered,,14
-5,Coffin Corner,hand-tiered,,14
-5,Rugby Punt,hand-tiered,,14
-5,Pop-Up Kick,hand-tiered,,14
-5,Sky Kick,hand-tiered,,17
-5,Quick Kick,hand-tiered,,17
-5,Directional Punt,hand-tiered,,17
+1,Prime Time,hand-tiered,,2
+1,Megatron,hand-tiered,,2
+1,Beast Mode,hand-tiered,,2
+1,Sweetness,hand-tiered,,2
+1,Gronk,hand-tiered,,2
+1,The Bus,hand-tiered,,5
+1,Broadway Joe,hand-tiered,,5
+1,Mean Joe,hand-tiered,,5
+1,Joe Cool,hand-tiered,,5
+1,Big Ben,hand-tiered,,5
+1,Matty Ice,hand-tiered,,5
+1,The Fridge,hand-tiered,,5
+1,T.O.,hand-tiered,,5
+1,LT,hand-tiered,,5
+1,Night Train,hand-tiered,,8
+1,The Minister of Defense,hand-tiered,,8
+1,Too Tall,hand-tiered,,8
+1,Honey Badger,hand-tiered,,8
+1,Ochocinco,hand-tiered,,8
+1,CMC,hand-tiered,,8
+1,OBJ,hand-tiered,,8
+1,Air McNair,hand-tiered,,11
+1,The Snake,hand-tiered,,11
+1,Crazy Legs,hand-tiered,,11
+1,Captain Comeback,hand-tiered,,11
+1,The Playmaker,hand-tiered,,11
+1,Ickey,hand-tiered,,11
+1,Cheetah,hand-tiered,,11
+1,Sweet Feet,hand-tiered,,14
+1,Bullet Bob,hand-tiered,,14
+1,Galloping Ghost,hand-tiered,,14
+1,The Assassin,hand-tiered,,14
+1,Hollywood,hand-tiered,,14
+1,Edge,hand-tiered,,14
+1,Slingin' Sammy,hand-tiered,,17
+1,Kansas Comet,hand-tiered,,17
+1,The Mad Stork,hand-tiered,,17
+1,Jefferson Street Joe,hand-tiered,,20
+2,Mike Macdonald,1.0,1957981,2
+2,Pete Carroll,3.7931,1171107,5
+2,Jim L. Mora,,296713,8
+2,Mike Holmgren,0.1675,200819,8
+2,Tom Flores,0.0148,139920,11
+2,Dennis Erickson,0.0,92676,14
+2,Chuck Knox,0.0,42853,14
+2,Jack Patera,0.0,14220,17
+2,Mike McCormack,0.0,13198,20
+3,Brett Favre,1.0,979116,2
+3,Reggie White,0.1861,445163,2
+3,Charles Woodson,0.1598,362583,5
+3,Bart Starr,0.0501,182666,5
+3,Paul Hornung,0.002,95032,8
+3,Ray Nitschke,0.0005,72306,8
+3,LeRoy Butler,0.0089,45802,11
+3,Jerry Kramer,0.001,47462,11
+3,Forrest Gregg,0.0,54254,11
+3,Jim Taylor,,41300,14
+3,Herb Adderley,0.0,29029,14
+3,Willie Davis,,21642,17
+3,Dave Robinson,0.0,18997,17
+3,Henry Jordan,0.0,15750,20
+3,Willie Wood,0.0,12977,20
+4,Cooper DeJean,1.0,552425,2
+4,James Harrison,0.1684,327647,2
+4,Ty Law,0.0026,121376,5
+4,Derrick Brooks,0.0,97344,5
+4,Malcolm Smith,0.0,90665,8
+4,Tracy Porter,0.0,31493,8
+4,Herb Adderley,0.0,29029,11
+4,Willie Brown,,28864,11
+4,Jack Squirek,0.0026,4676,14
+4,Nick Collins,0.0,24791,14
+4,Robert Alford,0.0,13427,17
+4,Duane Starks,0.0,12310,17
+4,Dwight Smith,,9503,20
+4,Reggie Phillips,0.0,3753,20
+5,Penalty Flag,hand-tiered,,2
+5,Whistle,hand-tiered,,2
+5,Coin,hand-tiered,,5
+5,Bean Bag,hand-tiered,,8
+5,Microphone,hand-tiered,,8
+5,Striped Shirt,hand-tiered,,8
+5,Down Indicator,hand-tiered,,11
+5,Replay Monitor,hand-tiered,,11
+5,Hat,hand-tiered,,11
+5,Chains,hand-tiered,,11
+5,Game Card,hand-tiered,,14
+5,Stopwatch,hand-tiered,,14
+5,Headset,hand-tiered,,14

@@ -148,7 +148,7 @@ def stage_score(spec, date):
 
     def trends(names):
         names = [n for n in names if topics.get(n) != "WIKI_ONLY" and n not in spec.WIKI_ONLY]
-        if len(names) < 2:
+        if len(names) < 2 or os.environ.get("NO_TRENDS"):  # NO_TRENDS=1 when Google is rate-limiting: rank by Wikipedia views alone
             return {}
         terms = [term(n) for n in names]
         rel = {terms[0]: 1.0}
