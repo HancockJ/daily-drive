@@ -126,6 +126,7 @@ function findAnswer(guess, answers) {
   const names = (a) => [...[a.name, ...(a.aliases || [])].map(words), ...(lastIsUnique(a) ? [last(a)] : [])];
   const exact = answers.find((a) => names(a).some((n) => n.join("") === g.join("")));
   if (exact) return exact;
+  if (isCommonSurname(guess)) return undefined; // "Wilson" shouldn't typo its way into "Wilkerson"
   // known look-alikes (e.g. "North Carolina" for South Carolina) never count as typos
   if (answers.some((a) => (a.not || []).some((n) => words(n).join("") === g.join("")))) return undefined;
   const fuzzy = answers.filter((a) => names(a).some((n) => close(g, n)));
