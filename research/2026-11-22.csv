@@ -8,48 +8,25 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 1,Bryant Young,0.002,44802,14
 1,Rickey Jackson,0.0,37878,17
 1,Fred Dean,0.0,24869,20
-2,TD,hand-tiered,,2
-2,FG,hand-tiered,,2
-2,NFL,hand-tiered,,2
-2,MVP,hand-tiered,,2
-2,PAT,hand-tiered,,5
-2,INT,hand-tiered,,5
-2,AFC,hand-tiered,,5
-2,NFC,hand-tiered,,5
-2,MNF,hand-tiered,,5
-2,YAC,hand-tiered,,8
-2,RPO,hand-tiered,,8
-2,SNF,hand-tiered,,8
-2,TNF,hand-tiered,,8
-2,IR,hand-tiered,,8
-2,PI,hand-tiered,,8
-2,GOAT,hand-tiered,,8
-2,HOF,hand-tiered,,8
-2,TFL,hand-tiered,,11
-2,QBR,hand-tiered,,11
-2,OTA,hand-tiered,,11
-2,NFLPA,hand-tiered,,11
-2,CBA,hand-tiered,,11
-2,PPR,hand-tiered,,11
-2,XP,hand-tiered,,11
-2,2PT,hand-tiered,,11
-2,OPOY,hand-tiered,,11
-2,DPOY,hand-tiered,,11
-2,ROY,hand-tiered,,11
-2,PUP,hand-tiered,,14
-2,UDFA,hand-tiered,,14
-2,YPC,hand-tiered,,14
-2,PFF,hand-tiered,,14
-2,DST,hand-tiered,,14
-2,EPA,hand-tiered,,17
-2,DVOA,hand-tiered,,17
-2,YPA,hand-tiered,,17
-2,FF,hand-tiered,,17
-2,PD,hand-tiered,,17
-2,IDP,hand-tiered,,17
-2,CPOE,hand-tiered,,20
-2,NFI,hand-tiered,,20
-2,ANY/A,hand-tiered,,20
+2,Cam Newton,,1474605,2
+2,Andrew Luck,,675806,2
+2,Tim Tebow,,1017046,5
+2,Carson Wentz,,852911,5
+2,Jared Goff,,797285,5
+2,Robert Griffin III,,423654,5
+2,Johnny Manziel,,1002225,8
+2,Jameis Winston,,987016,8
+2,Marcus Mariota,,827885,8
+2,Teddy Bridgewater,,483274,11
+2,Ryan Tannehill,,287610,11
+2,Sam Bradford,,286852,14
+2,Blake Bortles,,239583,14
+2,EJ Manuel,,115987,14
+2,Christian Ponder,,103539,17
+2,Paxton Lynch,,95456,17
+2,Blaine Gabbert,,91497,17
+2,Brandon Weeden,,81306,20
+2,Jake Locker,,54670,20
 3,Mike Vrabel,1.0,3167260,2
 3,Bill Belichick,3.4265,1993798,5
 3,Pete Carroll,0.7574,1171107,5

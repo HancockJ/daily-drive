@@ -22,19 +22,20 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 2,Perry Fewell,0.0,13957,17
 2,Hank Bullough,0.0,6008,20
 2,Kay Stephenson,0.0,5588,20
-3,Tom Brady,1.0,4084883,2
-3,Travis Kelce,0.9057,3576328,2
-3,Peyton Manning,0.2036,1861392,2
-3,O. J. Simpson,,3245065,5
-3,Deion Sanders,0.3475,1775671,8
-3,Eli Manning,0.0842,1265737,8
-3,John Madden,0.093,900860,11
-3,Joe Montana,0.0549,1054715,14
-3,Carl Weathers,,999860,14
-3,J. J. Watt,0.0713,713108,14
-3,Walter Payton,0.0239,539560,17
-3,Fran Tarkenton,0.0,300887,20
-3,Alex Karras,0.0,299814,20
+3,Brock Bowers,,268598,2
+3,Kyle Pitts,,256121,2
+3,David Njoku,,220416,5
+3,Colston Loveland,,436320,8
+3,Tyler Warren,,205731,8
+3,Dalton Kincaid,,147555,8
+3,Evan Engram,,104744,8
+3,T. J. Hockenson,,106035,11
+3,Noah Fant,,95444,14
+3,Hayden Hurst,,73656,14
+3,Eric Ebron,,64219,17
+3,O. J. Howard,,51782,17
+3,Tyler Eifert,,43098,20
+3,Jermaine Gresham,,16749,20
 4,Peyton Manning,1.0,1861392,2
 4,Drew Brees,0.4227,1012748,5
 4,Nick Foles,0.1809,468611,8

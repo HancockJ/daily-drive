@@ -86,25 +86,20 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 3,Chris Tabor,0.0456,23914,20
 3,Mike Mularkey,0.0186,39486,20
 3,Perry Fewell,0.0,13957,20
-4,Cher,,3751681,2
-4,Mariah Carey,,3215725,2
-4,Whitney Houston,,2962290,2
-4,Neil Diamond,,3064347,5
-4,Beyoncé,,2634876,5
-4,Billy Joel,,2190352,8
-4,Backstreet Boys,,1357513,8
-4,Vanessa Williams,,1155377,8
-4,Luther Vandross,,1107248,11
-4,Jewel,,839695,11
-4,Garth Brooks,,801919,11
-4,Faith Hill,,794082,14
-4,The Chicks,,679982,14
-4,Kathie Lee Gifford,,637890,14
-4,Harry Connick Jr.,,599986,17
-4,Herb Alpert,,526991,17
-4,Natalie Cole,,486332,17
-4,Wynton Marsalis,,310871,20
-4,Aaron Neville,,244950,20
+4,Russell Wilson,,1955619,2
+4,Bo Nix,,1784926,2
+4,Joe Flacco,,2082153,5
+4,Drew Lock,,315328,5
+4,Teddy Bridgewater,,483274,8
+4,Case Keenum,,272572,11
+4,Brock Osweiler,,175277,11
+4,Trevor Siemian,,87396,11
+4,Jarrett Stidham,,1497760,14
+4,Brett Rypien,,142436,14
+4,Paxton Lynch,,95456,14
+4,Brandon Allen,,94475,17
+4,Jeff Driskel,,61711,20
+4,Kendall Hinton,,26631,20
 5,Tuck Rule,hand-tiered,,2
 5,Rooney Rule,hand-tiered,,2
 5,Brady Rule,hand-tiered,,5
