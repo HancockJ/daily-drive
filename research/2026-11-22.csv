@@ -1,84 +1,98 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Deion Sanders,1.0,1775671,2
-1,Joe Montana,0.2343,1054715,5
-1,Jerry Rice,0.2,761695,8
-1,Steve Young,0.0568,562029,8
-1,Charles Haley,0.004,218666,11
-1,Ronnie Lott,0.0007,245101,14
-1,Bryant Young,0.002,44802,14
-1,Rickey Jackson,0.0,37878,17
-1,Fred Dean,0.0,24869,20
-2,Cam Newton,,1474605,2
-2,Andrew Luck,,675806,2
-2,Tim Tebow,,1017046,5
-2,Carson Wentz,,852911,5
-2,Jared Goff,,797285,5
-2,Robert Griffin III,,423654,5
-2,Johnny Manziel,,1002225,8
-2,Jameis Winston,,987016,8
-2,Marcus Mariota,,827885,8
-2,Teddy Bridgewater,,483274,11
-2,Ryan Tannehill,,287610,11
-2,Sam Bradford,,286852,14
-2,Blake Bortles,,239583,14
-2,EJ Manuel,,115987,14
-2,Christian Ponder,,103539,17
-2,Paxton Lynch,,95456,17
-2,Blaine Gabbert,,91497,17
-2,Brandon Weeden,,81306,20
-2,Jake Locker,,54670,20
-3,Mike Vrabel,1.0,3167260,2
-3,Bill Belichick,3.4265,1993798,5
-3,Pete Carroll,0.7574,1171107,5
-3,Bill Parcells,0.0392,416974,8
-3,Jerod Mayo,0.1667,296362,11
-3,Raymond Berry,0.0027,123329,11
-3,Ron Meyer,0.0,34934,14
-3,Dante Scarnecchia,0.0,29716,17
-3,Rod Rust,0.0,12244,17
-3,Dick MacPherson,0.0,11308,20
-4,Jordan Love,1.0,950223,2
-4,Jaire Alexander,0.1564,271904,2
-4,Matthew Golden,0.1108,198071,5
-4,Rashan Gary,0.025,156400,5
-4,Kenny Clark,0.0313,121281,8
-4,Quay Walker,0.0304,106429,8
-4,Ha Ha Clinton-Dix,0.0054,123822,8
-4,Lukas Van Ness,0.0206,88295,11
-4,Darnell Savage,,82076,11
-4,Devonte Wyatt,0.0063,41287,11
-4,Eric Stokes,0.0018,51459,14
-4,Jordan Morgan,,29967,14
-4,Bryan Bulaga,0.0009,22727,14
-4,Nick Perry,0.0,12646,17
-4,Damarious Randall,0.0,10987,17
-4,Datone Jones,0.0,8264,20
-4,Derek Sherrod,0.0,5417,20
-5,Helmet,hand-tiered,,2
-5,Shoulder Pads,hand-tiered,,2
-5,Cleats,hand-tiered,,2
-5,Football,hand-tiered,,2
-5,Jersey,hand-tiered,,5
-5,Mouthguard,hand-tiered,,5
-5,Facemask,hand-tiered,,5
-5,Chin Strap,hand-tiered,,5
-5,Gloves,hand-tiered,,5
-5,Thigh Pads,hand-tiered,,8
-5,Knee Pads,hand-tiered,,8
-5,Visor,hand-tiered,,8
-5,Eye Black,hand-tiered,,8
-5,Pants,hand-tiered,,11
-5,Hip Pads,hand-tiered,,11
-5,Wristband,hand-tiered,,11
-5,Guardian Cap,hand-tiered,,11
-5,Kicking Tee,hand-tiered,,11
-5,Socks,hand-tiered,,11
-5,Arm Sleeves,hand-tiered,,11
-5,Rib Protector,hand-tiered,,14
-5,Neck Roll,hand-tiered,,14
-5,Knee Brace,hand-tiered,,14
-5,Girdle,hand-tiered,,14
-5,Elbow Pads,hand-tiered,,14
-5,Tailbone Pad,hand-tiered,,17
-5,Towel,hand-tiered,,17
-5,Headset,hand-tiered,,17
+1,Juke,hand-tiered,,2
+1,Spin Move,hand-tiered,,2
+1,Stiff Arm,hand-tiered,,2
+1,Hurdle,hand-tiered,,5
+1,Cutback,hand-tiered,,5
+1,Truck,hand-tiered,,5
+1,Jump Cut,hand-tiered,,8
+1,Hesitation,hand-tiered,,8
+1,Sidestep,hand-tiered,,8
+1,Dead Leg,hand-tiered,,11
+1,Stop and Go,hand-tiered,,11
+1,High Step,hand-tiered,,11
+1,Dive,hand-tiered,,11
+1,Lateral,hand-tiered,,11
+1,Head Fake,hand-tiered,,11
+1,Speed Burst,hand-tiered,,11
+1,Shimmy,hand-tiered,,14
+1,Bounce Outside,hand-tiered,,14
+1,Ball Fake,hand-tiered,,14
+1,Change of Pace,hand-tiered,,14
+1,Euro Step,hand-tiered,,17
+1,Wiggle,hand-tiered,,17
+1,Pivot,hand-tiered,,17
+1,Backpedal,hand-tiered,,20
+2,Ray Lewis,1.0,759711,2
+2,Von Miller,1.2253,718112,5
+2,Malcolm Smith,0.0019,90665,5
+2,Randy White,0.0067,87850,8
+2,Chuck Howley,0.0082,46146,11
+2,Richard Dent,0.001,73005,11
+2,Dexter Jackson,0.0,45117,14
+2,Larry Brown,,41869,17
+2,Harvey Martin,0.0,34642,17
+2,Jake Scott,,31752,20
+3,Patrick Mahomes,1.0,2238774,2
+3,Christian McCaffrey,0.4803,1572340,2
+3,Myles Garrett,0.2102,1955167,2
+3,Deshaun Watson,0.4292,786831,5
+3,T. J. Watt,0.1521,588067,5
+3,Mitchell Trubisky,0.0505,358190,5
+3,Leonard Fournette,0.0569,250099,5
+3,David Njoku,0.0482,220416,5
+3,Jamal Adams,0.0145,256029,8
+3,Jabrill Peppers,0.0081,216943,8
+3,Marshon Lattimore,0.0145,134144,8
+3,Haason Reddick,0.0221,121583,8
+3,Evan Engram,0.0232,104744,8
+3,Tre'Davious White,0.0075,121978,11
+3,Garett Bolles,0.0012,124728,11
+3,Marlon Humphrey,0.0035,114932,11
+3,Jonathan Allen,0.0046,97192,11
+3,Mike Williams,,99427,11
+3,Adoree' Jackson,0.0012,110829,11
+3,John Ross,0.0046,86564,14
+3,Corey Davis,0.0041,63679,14
+3,Solomon Thomas,0.0012,90219,14
+3,O. J. Howard,0.0023,51782,14
+3,Reuben Foster,0.0,84151,14
+3,Derek Barnett,0.0012,53838,17
+3,Malik Hooker,0.0,56619,17
+3,Taco Charlton,0.0,45758,17
+3,Takkarist McKinley,,22860,17
+3,Ryan Ramczyk,0.0,21716,17
+3,Gareon Conley,0.0,20542,20
+3,Jarrad Davis,0.0,13550,20
+3,Charles Harris,0.0,12648,20
+4,O. J. Simpson,,3245065,2
+4,Troy Polamalu,,457579,2
+4,Junior Seau,,382550,5
+4,Frank Gifford,,275545,8
+4,Ronnie Lott,,245101,8
+4,Lynn Swann,,238068,8
+4,Marcus Allen,,225106,11
+4,Anthony Muñoz,,108482,14
+4,Bruce Matthews,,76822,14
+4,Tony Boselli,,66109,14
+4,Ron Yary,,18554,17
+4,Willie Wood,,12977,20
+4,Red Badgro,,4709,20
+5,Little Brown Jug,hand-tiered,,5
+5,Paul Bunyan's Axe,hand-tiered,,5
+5,Commander-in-Chief's Trophy,hand-tiered,,5
+5,Old Oaken Bucket,hand-tiered,,8
+5,Floyd of Rosedale,hand-tiered,,8
+5,Governor's Cup,hand-tiered,,8
+5,Golden Egg,hand-tiered,,11
+5,Jeweled Shillelagh,hand-tiered,,11
+5,Victory Bell,hand-tiered,,11
+5,Stanford Axe,hand-tiered,,11
+5,Paul Bunyan Trophy,hand-tiered,,14
+5,Land Grant Trophy,hand-tiered,,14
+5,Megaphone Trophy,hand-tiered,,14
+5,Golden Boot,hand-tiered,,14
+5,Old Brass Spittoon,hand-tiered,,17
+5,Golden Hat,hand-tiered,,17
+5,Bronze Boot,hand-tiered,,17
+5,Keg of Nails,hand-tiered,,20

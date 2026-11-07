@@ -1,91 +1,89 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Juke,hand-tiered,,2
-1,Spin Move,hand-tiered,,2
-1,Stiff Arm,hand-tiered,,2
-1,Hurdle,hand-tiered,,5
-1,Cutback,hand-tiered,,5
-1,Truck,hand-tiered,,5
-1,Jump Cut,hand-tiered,,8
-1,Hesitation,hand-tiered,,8
-1,Sidestep,hand-tiered,,8
-1,Dead Leg,hand-tiered,,11
-1,Stop and Go,hand-tiered,,11
-1,High Step,hand-tiered,,11
-1,Dive,hand-tiered,,11
-1,Lateral,hand-tiered,,11
-1,Head Fake,hand-tiered,,11
-1,Speed Burst,hand-tiered,,11
-1,Shimmy,hand-tiered,,14
-1,Bounce Outside,hand-tiered,,14
-1,Ball Fake,hand-tiered,,14
-1,Change of Pace,hand-tiered,,14
-1,Euro Step,hand-tiered,,17
-1,Wiggle,hand-tiered,,17
-1,Pivot,hand-tiered,,17
-1,Backpedal,hand-tiered,,20
-2,Andy Reid,1.0,869097,2
-2,Marty Schottenheimer,0.0225,434189,5
-2,Marv Levy,0.0213,245098,5
-2,Herm Edwards,0.0451,122021,8
-2,Dick Vermeil,0.0213,233130,8
-2,Todd Haley,0.0025,107770,11
-2,Romeo Crennel,0.0013,85808,11
-2,Paul Wiggin,0.0,28065,14
-2,John Mackovic,0.0,20374,14
-2,Gunther Cunningham,0.0,15950,17
-2,Frank Gansz,0.0,9130,17
-2,Tom Bettis,0.0,2489,20
-3,Terry Bradshaw,1.0,874741,2
-3,Joe Namath,0.5019,695037,2
-3,Roger Staubach,0.1951,437631,5
-3,Fran Tarkenton,0.1043,300887,5
-3,Johnny Unitas,0.104,291675,5
-3,Bart Starr,0.0979,182666,8
-3,George Blanda,0.0531,228734,8
-3,Sonny Jurgensen,0.0188,259715,8
-3,Dan Fouts,0.0437,139370,11
-3,Len Dawson,0.0943,93806,11
-3,Bob Griese,0.0314,123222,11
-3,Otto Graham,0.0159,129610,14
-3,Y. A. Tittle,0.0146,120580,14
-3,Norm Van Brocklin,0.0006,82730,14
-3,Sammy Baugh,0.0029,76281,17
-3,Bobby Layne,0.0107,67012,17
-3,Bob Waterfield,0.0,62527,17
-3,Arnie Herber,0.0003,21287,20
-3,Sid Luckman,0.0,47020,20
-4,Odell Beckham Jr.,3.5326,1269788,2
-4,Jaxson Dart,1.0,2000166,2
-4,Daniel Jones,1.1514,901039,5
-4,Saquon Barkley,2.3812,888795,5
-4,Dexter Lawrence,,347242,5
-4,Malik Nabers,0.3812,295745,8
-4,Kadarius Toney,0.4008,201739,8
-4,Abdul Carter,0.1643,285043,8
-4,Kayvon Thibodeaux,0.1472,155022,11
-4,Evan Engram,0.1537,104744,11
-4,Jason Pierre-Paul,0.0683,150955,11
-4,Eli Apple,0.1025,116803,11
-4,Evan Neal,0.0355,104649,14
-4,Andrew Thomas,0.0158,72560,14
-4,Deonte Banks,0.0026,55843,14
-4,Justin Pugh,0.0105,38894,17
-4,Prince Amukamara,0.0013,51271,17
-4,DeAndre Baker,0.0013,29932,17
-4,David Wilson,,24389,20
-4,Ereck Flowers,0.0,21424,20
-5,Sun Devil Stadium,hand-tiered,,2
-5,Husky Stadium,hand-tiered,,5
-5,Memorial Stadium (Champaign),hand-tiered,,5
-5,Huntington Bank Stadium,hand-tiered,,5
-5,Vanderbilt Stadium,hand-tiered,,8
-5,Franklin Field,hand-tiered,,8
-5,Tulane Stadium,hand-tiered,,8
-5,Memorial Stadium (Clemson),hand-tiered,,11
-5,Pitt Stadium,hand-tiered,,11
-5,Rice Stadium,hand-tiered,,11
-5,Yale Bowl,hand-tiered,,11
-5,Nippert Stadium,hand-tiered,,14
-5,Harvard Stadium,hand-tiered,,14
-5,Alumni Stadium,hand-tiered,,17
-5,Nickerson Field,hand-tiered,,20
+1,Michael Irvin,,968746,2
+1,Randy Moss,1.0,907568,2
+1,Jerry Rice,0.7802,761695,5
+1,Calvin Johnson,0.4724,469620,5
+1,Terrell Owens,0.4991,446633,5
+1,Marvin Harrison,0.3678,273828,8
+1,Sterling Sharpe,0.2056,259072,8
+1,Cris Carter,0.1492,210875,8
+1,Andre Johnson,0.1616,202220,8
+1,Lynn Swann,0.026,238068,11
+1,Tim Brown,0.1015,128715,11
+1,Isaac Bruce,0.0056,91418,11
+1,Drew Pearson,0.0198,79320,14
+1,Art Monk,0.0056,86402,14
+1,Andre Reed,0.0043,87924,14
+1,Harold Carmichael,0.0074,69920,14
+1,Bob Hayes,0.0056,80172,17
+1,Cliff Branch,0.0118,52965,17
+1,James Lofton,0.0037,53712,17
+1,John Stallworth,0.0,44902,20
+1,Mac Speedie,0.0,8627,20
+2,Cam Newton,,1474605,2
+2,Joe Burrow,,1365012,5
+2,Jameis Winston,,987016,5
+2,DeVonta Smith,,479943,8
+2,Matt Leinart,,479776,11
+2,Charles Woodson,,362583,11
+2,Mark Ingram II,,246043,14
+2,Charlie Ward,,202803,14
+2,Tony Dorsett,,237663,17
+2,Danny Wuerffel,,72353,20
+3,Lamar Jackson,1.0,1237364,2
+3,Marquise Brown,,325101,2
+3,Zay Flowers,0.1594,263026,5
+3,Kyle Hamilton,0.0453,220103,5
+3,Tyler Linderbaum,,182483,8
+3,Marlon Humphrey,0.0186,114932,8
+3,Patrick Queen,0.0196,100982,8
+3,Hayden Hurst,0.0204,73656,11
+3,Rashod Bateman,0.0453,70758,11
+3,Odafe Oweh,0.0047,152571,11
+3,C. J. Mosley,0.0059,69618,14
+3,Nate Wiggins,0.0075,55649,14
+3,Ronnie Stanley,0.0033,64868,14
+3,Malaki Starks,0.0045,59533,17
+3,Breshad Perriman,0.0026,24824,17
+3,Matt Elam,0.0002,19930,20
+3,Jimmy Smith,,19759,20
+4,Jon Gruden,1.0,862447,2
+4,Tony Dungy,0.4718,367172,2
+4,Raheem Morris,0.2709,626289,5
+4,Todd Bowles,0.3156,352446,8
+4,Bruce Arians,0.3597,322055,8
+4,Lovie Smith,0.3013,173237,8
+4,Greg Schiano,0.0748,145419,11
+4,John McKay,0.0021,54793,14
+4,Sam Wyche,0.0071,50738,14
+4,Dirk Koetter,0.0084,39534,14
+4,Ray Perkins,0.0006,31959,17
+4,Leeman Bennett,0.0,8290,20
+4,Richard Williamson,,3922,20
+5,Oakland,hand-tiered,,2
+5,San Diego,hand-tiered,,2
+5,St. Louis,hand-tiered,,2
+5,Canton,hand-tiered,,8
+5,Boston,hand-tiered,,8
+5,Portsmouth,hand-tiered,,11
+5,Akron,hand-tiered,,11
+5,Dayton,hand-tiered,,11
+5,Columbus,hand-tiered,,11
+5,Milwaukee,hand-tiered,,11
+5,Pottsville,hand-tiered,,14
+5,Duluth,hand-tiered,,14
+5,Providence,hand-tiered,,14
+5,Toledo,hand-tiered,,14
+5,Louisville,hand-tiered,,14
+5,Rochester,hand-tiered,,14
+5,Hartford,hand-tiered,,17
+5,Rock Island,hand-tiered,,17
+5,Racine,hand-tiered,,17
+5,Hammond,hand-tiered,,17
+5,Evansville,hand-tiered,,17
+5,Newark,hand-tiered,,17
+5,Kenosha,hand-tiered,,20
+5,Muncie,hand-tiered,,20
+5,Tonawanda,hand-tiered,,20
+5,Orange,hand-tiered,,20
+5,LaRue,hand-tiered,,20

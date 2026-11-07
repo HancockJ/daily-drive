@@ -9,57 +9,62 @@ prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
 1,Ted Hendricks,,87790,17
 1,Jim Otto,,87232,17
 1,Cortez Kennedy,,62645,20
-2,Jayden Daniels,1.0,1115879,2
-2,Saquon Barkley,1.4406,888795,2
-2,C. J. Stroud,0.9208,968641,2
-2,Travis Hunter,0.9431,642440,5
-2,Carson Wentz,0.5218,852911,5
-2,Von Miller,0.4711,718112,5
-2,Nick Bosa,0.5953,529541,5
-2,Zach Wilson,0.6506,524405,8
-2,Marcus Mariota,0.3492,827885,8
-2,Aidan Hutchinson,0.3537,416150,8
-2,Calvin Johnson,0.2343,469620,8
-2,Reggie Bush,0.2389,445839,11
-2,Robert Griffin III,0.2698,423654,11
-2,Ndamukong Suh,0.0422,358562,11
-2,Mitchell Trubisky,0.2108,358190,11
-2,Chase Young,0.2126,268608,14
-2,Julius Peppers,0.0236,255962,14
-2,Chris Long,,233649,14
-2,LaVar Arrington,0.005,141708,14
-2,Charles Rogers,0.0019,60833,17
-2,Robert Gallery,0.0006,92818,17
-2,Greg Robinson,0.0019,31937,17
-2,Ronnie Brown,0.0,58102,17
-2,Luke Joeckel,0.0,30555,20
-2,Jason Smith,,15444,20
-2,Leonard Davis,0.0,15257,20
-3,Joe Greene,1.0,258078,2
-3,Merlin Olsen,0.4732,239008,5
-3,Rosey Grier,0.4345,205532,5
-3,Alan Page,,149286,5
-3,Mark Gastineau,0.8899,254987,8
-3,Joe Klecko,0.2143,108730,8
-3,Deacon Jones,0.3968,105088,8
-3,Jim Marshall,0.2035,64247,8
-3,L. C. Greenwood,0.0387,61403,11
-3,Carl Eller,0.0602,47271,11
-3,Marty Lyons,0.0383,32030,14
-3,Abdul Salaam,0.0377,26186,14
-3,Dwight White,0.0173,20800,14
-3,Ernie Holmes,0.0043,26744,17
-3,Gary Larsen,0.0062,17699,17
-3,Doug Sutherland,0.0164,3618,17
-3,Lamar Lundy,0.0015,15094,20
-3,Roger Brown,,10314,20
-4,Andy Reid,,869097,2
-4,Bill Parcells,,416974,5
-4,Don Shula,,373138,8
-4,Dick Vermeil,,233130,11
-4,Mike Holmgren,,200819,14
-4,Dan Reeves,,194273,17
-4,John Fox,,131285,20
+2,Texas,hand-tiered,,2
+2,Oklahoma,hand-tiered,,2
+2,USC,hand-tiered,,2
+2,UCLA,hand-tiered,,5
+2,Oregon,hand-tiered,,5
+2,Texas A&M,hand-tiered,,5
+2,Washington,hand-tiered,,8
+2,Nebraska,hand-tiered,,8
+2,Missouri,hand-tiered,,8
+2,Rutgers,hand-tiered,,11
+2,Maryland,hand-tiered,,11
+3,J. J. McCarthy,,1556135,2
+3,Cam Newton,,1474605,2
+3,Joe Burrow,,1365012,5
+3,Jalen Hurts,,1198682,5
+3,Mac Jones,,1063512,5
+3,Tim Tebow,,1017046,5
+3,Tua Tagovailoa,,967535,5
+3,Trevor Lawrence,,1044542,8
+3,Jameis Winston,,987016,8
+3,Deshaun Watson,,786831,11
+3,Stetson Bennett,,398066,11
+3,Vince Young,,398004,14
+3,Will Howard,,384528,14
+3,AJ McCarron,,331845,14
+3,Greg McElroy,,155701,17
+3,Cardale Jones,,108857,17
+3,Matt Flynn,,89828,17
+3,Chris Leak,,62485,20
+3,Jake Coker,,37079,20
+4,Jayden Daniels,1.0,1115879,2
+4,Saquon Barkley,1.4406,888795,2
+4,C. J. Stroud,0.9208,968641,2
+4,Travis Hunter,0.9431,642440,5
+4,Carson Wentz,0.5218,852911,5
+4,Von Miller,0.4711,718112,5
+4,Nick Bosa,0.5953,529541,5
+4,Zach Wilson,0.6506,524405,8
+4,Marcus Mariota,0.3492,827885,8
+4,Aidan Hutchinson,0.3537,416150,8
+4,Calvin Johnson,0.2343,469620,8
+4,Reggie Bush,0.2389,445839,11
+4,Robert Griffin III,0.2698,423654,11
+4,Ndamukong Suh,0.0422,358562,11
+4,Mitchell Trubisky,0.2108,358190,11
+4,Chase Young,0.2126,268608,14
+4,Julius Peppers,0.0236,255962,14
+4,Chris Long,,233649,14
+4,LaVar Arrington,0.005,141708,14
+4,Charles Rogers,0.0019,60833,17
+4,Robert Gallery,0.0006,92818,17
+4,Greg Robinson,0.0019,31937,17
+4,Ronnie Brown,0.0,58102,17
+4,Luke Joeckel,0.0,30555,20
+4,Jason Smith,,15444,20
+4,Leonard Davis,0.0,15257,20
 5,Lambeau Field,hand-tiered,,2
 5,Paul Brown Stadium,hand-tiered,,5
 5,Ralph Wilson Stadium,hand-tiered,,5

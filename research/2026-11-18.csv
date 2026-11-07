@@ -1,96 +1,102 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Michael Irvin,,968746,2
-1,Randy Moss,1.0,907568,2
-1,Jerry Rice,0.7802,761695,5
-1,Calvin Johnson,0.4724,469620,5
-1,Terrell Owens,0.4991,446633,5
-1,Marvin Harrison,0.3678,273828,8
-1,Sterling Sharpe,0.2056,259072,8
-1,Cris Carter,0.1492,210875,8
-1,Andre Johnson,0.1616,202220,8
-1,Lynn Swann,0.026,238068,11
-1,Tim Brown,0.1015,128715,11
-1,Isaac Bruce,0.0056,91418,11
-1,Drew Pearson,0.0198,79320,14
-1,Art Monk,0.0056,86402,14
-1,Andre Reed,0.0043,87924,14
-1,Harold Carmichael,0.0074,69920,14
-1,Bob Hayes,0.0056,80172,17
-1,Cliff Branch,0.0118,52965,17
-1,James Lofton,0.0037,53712,17
-1,John Stallworth,0.0,44902,20
-1,Mac Speedie,0.0,8627,20
-2,Russell Wilson,1.0,1955619,2
-2,Justin Fields,0.5269,815035,2
-2,Michael Vick,0.1549,938910,5
-2,Ben Roethlisberger,0.2937,786462,5
-2,Kenny Pickett,0.2713,421384,8
-2,Devlin Hodges,0.0141,699748,8
-2,Mason Rudolph,0.0678,379749,11
-2,Mitchell Trubisky,0.1033,358190,11
-2,Byron Leftwich,0.0198,157810,11
-2,Kordell Stewart,0.0042,216765,14
-2,Charlie Batch,0.0005,68413,14
-2,Tommy Maddox,0.0,55334,17
-2,Landry Jones,0.0,41408,17
-2,Dennis Dixon,0.0,33481,20
-2,Kent Graham,0.0,15175,20
-3,Derrick Henry,1.0,1213308,2
-3,Saquon Barkley,1.1114,888795,2
-3,Ezekiel Elliott,,654689,5
-3,Marshawn Lynch,0.3289,1034630,5
-3,Josh Jacobs,0.5533,398197,8
-3,Nick Chubb,0.4523,405833,8
-3,Adrian Peterson,0.1772,601677,11
-3,Dalvin Cook,0.3599,367384,11
-3,Jonathan Taylor,0.4577,143258,14
-3,LeSean McCoy,0.0727,251667,14
-3,Arian Foster,0.0121,171847,17
-3,DeMarco Murray,0.0075,142471,17
-3,Maurice Jones-Drew,0.0082,132185,20
-3,Alfred Morris,0.0,45853,20
-4,NFL Combine,hand-tiered,,2
-4,Pro Day,hand-tiered,,2
-4,Senior Bowl,hand-tiered,,2
-4,East-West Shrine Bowl,hand-tiered,,5
-4,Top 30 Visit,hand-tiered,,8
-4,Private Workout,hand-tiered,,8
-4,NFLPA Collegiate Bowl,hand-tiered,,11
-4,HBCU Legacy Bowl,hand-tiered,,11
-4,Hula Bowl,hand-tiered,,11
-4,Interviews,hand-tiered,,11
-4,Wonderlic,hand-tiered,,11
-4,Regional Combine,hand-tiered,,14
-4,Tropical Bowl,hand-tiered,,17
-4,Medical Recheck,hand-tiered,,17
-4,Blue-Grey Game,hand-tiered,,17
-4,FCS Bowl,hand-tiered,,20
-4,Japan Bowl,hand-tiered,,20
-4,Gridiron Classic,hand-tiered,,20
-5,Oakland,hand-tiered,,2
-5,San Diego,hand-tiered,,2
-5,St. Louis,hand-tiered,,2
-5,Canton,hand-tiered,,8
-5,Boston,hand-tiered,,8
-5,Portsmouth,hand-tiered,,11
-5,Akron,hand-tiered,,11
-5,Dayton,hand-tiered,,11
-5,Columbus,hand-tiered,,11
-5,Milwaukee,hand-tiered,,11
-5,Pottsville,hand-tiered,,14
-5,Duluth,hand-tiered,,14
-5,Providence,hand-tiered,,14
-5,Toledo,hand-tiered,,14
-5,Louisville,hand-tiered,,14
-5,Rochester,hand-tiered,,14
-5,Hartford,hand-tiered,,17
-5,Rock Island,hand-tiered,,17
-5,Racine,hand-tiered,,17
-5,Hammond,hand-tiered,,17
-5,Evansville,hand-tiered,,17
-5,Newark,hand-tiered,,17
-5,Kenosha,hand-tiered,,20
-5,Muncie,hand-tiered,,20
-5,Tonawanda,hand-tiered,,20
-5,Orange,hand-tiered,,20
-5,LaRue,hand-tiered,,20
+1,Josh Allen,,3276398,2
+1,Cam Newton,1.0,1474605,2
+1,Lamar Jackson,2.3085,1237364,5
+1,Dan Marino,0.2647,650668,5
+1,Matt Ryan,0.3805,482209,8
+1,Steve McNair,,532599,8
+1,Fran Tarkenton,0.0357,300887,11
+1,Boomer Esiason,,404215,11
+1,Rich Gannon,0.0065,265194,11
+1,Roman Gabriel,0.0086,181378,14
+1,John Brodie,0.0015,148353,14
+1,Ken Anderson,0.004,112021,17
+1,Y. A. Tittle,0.0,120580,17
+1,Bert Jones,0.0,71199,20
+1,Brian Sipe,0.0,60208,20
+2,Mac Jones,,1063512,2
+2,Tua Tagovailoa,,967535,2
+2,Bryce Young,,888394,5
+2,Jahmyr Gibbs,,643128,5
+2,Terrion Arnold,,563241,5
+2,DeVonta Smith,,479943,5
+2,Patrick Surtain II,,328383,8
+2,Will Anderson Jr.,,321130,8
+2,Najee Harris,,289017,8
+2,Jaylen Waddle,,281744,8
+2,Jerry Jeudy,,191672,8
+2,Henry Ruggs III,,537239,11
+2,Jameson Williams,,269937,14
+2,Evan Neal,,104649,17
+2,Jedrick Wills Jr.,,84437,17
+2,Dallas Turner,,56421,17
+2,Alex Leatherwood,,50630,20
+2,JC Latham,,41170,20
+3,Deion Sanders,1.0,1775671,2
+3,Troy Polamalu,0.0792,457579,2
+3,Charles Woodson,0.0185,362583,2
+3,Ed Reed,0.0165,300812,5
+3,John Lynch,0.0106,249337,5
+3,Darrelle Revis,0.0046,228763,5
+3,Brian Dawkins,0.0092,203082,5
+3,Ronnie Lott,0.0007,245101,8
+3,Ronde Barber,0.0033,127356,8
+3,Kenny Easley,0.002,177661,8
+3,Champ Bailey,0.0,196980,8
+3,Rod Woodson,0.0,190427,11
+3,LeRoy Butler,0.0026,45802,11
+3,Darrell Green,0.0007,104366,11
+3,Eric Allen,0.002,46362,11
+3,Ty Law,0.0,121376,11
+3,Dick LeBeau,0.0,105735,14
+3,Ken Riley,0.0013,18665,14
+3,Steve Atwater,0.0,68704,14
+3,Aeneas Williams,0.0,51012,14
+3,Cliff Harris,0.0,30497,17
+3,Donnie Shell,0.0,24862,17
+3,Emmitt Thomas,0.0,18003,17
+3,Roger Wehrli,0.0,14912,17
+3,Johnny Robinson,0.0,12497,20
+3,Bobby Dillon,0.0,6303,20
+3,Jack Butler,0.0,5612,20
+4,Lane Kiffin,,3119124,2
+4,Pete Carroll,,1171107,2
+4,Lou Holtz,,954830,2
+4,Brian Kelly,,1031834,5
+4,Ed Orgeron,,657980,5
+4,Marcus Freeman,,634105,8
+4,Steve Sarkisian,,491546,8
+4,Lincoln Riley,,339332,8
+4,Charlie Weis,,269902,11
+4,Dan Devine,,95066,11
+4,Clay Helton,,85788,11
+4,Tyrone Willingham,,57528,11
+4,Gerry Faust,,30716,14
+4,Paul Hackett,,28415,14
+4,Bob Davie,,21798,14
+4,John Robinson,,17111,17
+4,Larry Smith,,13498,17
+4,Donte Williams,,10050,17
+4,Ted Tollner,,7830,20
+4,Kent Baer,,5375,20
+5,Friday Night Lights,hand-tiered,,2
+5,Hard Knocks,hand-tiered,,2
+5,Ballers,hand-tiered,,5
+5,All American,hand-tiered,,5
+5,The League,hand-tiered,,5
+5,Quarterback,hand-tiered,,5
+5,Last Chance U,hand-tiered,,8
+5,Coach,hand-tiered,,8
+5,Blue Mountain State,hand-tiered,,8
+5,A Football Life,hand-tiered,,8
+5,Receiver,hand-tiered,,11
+5,All or Nothing,hand-tiered,,11
+5,Playmakers,hand-tiered,,14
+5,The Game,hand-tiered,,14
+5,1st & Ten,hand-tiered,,17
+5,Necessary Roughness,hand-tiered,,17
+5,Hang Time,hand-tiered,,17
+5,Titletown High,hand-tiered,,20
+5,Two-a-Days,hand-tiered,,20
+5,Shrinking,hand-tiered,,20
+5,Running Point,hand-tiered,,20

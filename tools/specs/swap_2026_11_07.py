@@ -3,7 +3,7 @@ T = lambda n, *a: (n, list(a))
 # Replacements for off-topic questions (SNL hosts, anthem singers, refs, staff jobs...) on Nov 7 - Nov 23.
 # Players wanted real football trivia. Keys are question ids; WHERE says which (date, q#) each one replaces.
 
-WHERE = {"heishof": ("2026-11-07", 2), "kcgb": ("2026-11-07", 4), "celebs2": ("2026-11-10", 5), "rb1": ("2026-11-12", 3),
+WHERE = {"heishof": ("2026-11-07", 2), "kcgb": ("2026-11-07", 4), "rb1": ("2026-11-12", 3),
          "te1": ("2026-11-14", 3), "qb1": ("2026-11-15", 1), "broncqb": ("2026-11-21", 4), "qb2010": ("2026-11-22", 2),
          "nfl100": ("2026-11-23", 4)}
 
@@ -50,16 +50,9 @@ SPEC = {
    T("Marion Motley"), T("Lenny Moore"), T("Steve Van Buren"), T("Dutch Clark")])],
 }
 
-HAND = {
- "celebs2": ("Name a famous NFL touchdown celebration, dance or postgame tradition.", [
-   ("Lambeau Leap", 2, []), ("Gatorade shower", 2, ["Gatorade bath", "Gatorade dump", "Gatorade"]), ("Spike", 2, ["The Spike", "Spiking the ball"]),
-   ("Griddy", 5, ["The Griddy", "Hit the Griddy"]), ("Ickey Shuffle", 5, ["Ickey Woods shuffle"]), ("Dirty Bird", 8, ["The Dirty Bird"]),
-   ("Mile High Salute", 8, []), ("Discount Double Check", 8, []), ("Gronk Spike", 8, []), ("Dab", 8, ["The Dab", "Dabbing"]),
-   ("Superman", 11, ["Superman celebration"]), ("Sack dance", 11, ["Sack Exchange dance"]), ("Sharpie", 14, ["Sharpie celebration", "TO Sharpie"]),
-   ("Fun Bunch", 17, ["Fun Bunch high five"])]),
-}
+HAND = {}  # (a celebrations wildcard was cut here: it repeated the Oct 29 question)
 
-LEVEL = {"heishof": "M", "kcgb": "H", "celebs2": "E", "rb1": "M", "te1": "H", "qb1": "E", "broncqb": "M", "qb2010": "M", "nfl100": "H"}
+LEVEL = {"heishof": "M", "kcgb": "H", "rb1": "M", "te1": "H", "qb1": "E", "broncqb": "M", "qb2010": "M", "nfl100": "H"}
 OVERRIDE = {  # hand fixes where page views mislead (rookies, scandals, the obvious answer scoring low)
  "heishof": {"Barry Sanders": 2, "O. J. Simpson": 5},
  "te1": {"Kyle Pitts": 2, "Colston Loveland": 8, "Tyler Warren": 8, "Evan Engram": 8},

@@ -1,105 +1,77 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Ray Lewis,1.0,759711,2
-1,Von Miller,1.2253,718112,5
-1,Malcolm Smith,0.0019,90665,5
-1,Randy White,0.0067,87850,8
-1,Chuck Howley,0.0082,46146,11
-1,Richard Dent,0.001,73005,11
-1,Dexter Jackson,0.0,45117,14
-1,Larry Brown,,41869,17
-1,Harvey Martin,0.0,34642,17
-1,Jake Scott,,31752,20
-2,Patrick Mahomes,1.0,2238774,2
-2,Christian McCaffrey,0.4803,1572340,2
-2,Myles Garrett,0.2102,1955167,2
-2,Deshaun Watson,0.4292,786831,5
-2,T. J. Watt,0.1521,588067,5
-2,Mitchell Trubisky,0.0505,358190,5
-2,Leonard Fournette,0.0569,250099,5
-2,David Njoku,0.0482,220416,5
-2,Jamal Adams,0.0145,256029,8
-2,Jabrill Peppers,0.0081,216943,8
-2,Marshon Lattimore,0.0145,134144,8
-2,Haason Reddick,0.0221,121583,8
-2,Evan Engram,0.0232,104744,8
-2,Tre'Davious White,0.0075,121978,11
-2,Garett Bolles,0.0012,124728,11
-2,Marlon Humphrey,0.0035,114932,11
-2,Jonathan Allen,0.0046,97192,11
-2,Mike Williams,,99427,11
-2,Adoree' Jackson,0.0012,110829,11
-2,John Ross,0.0046,86564,14
-2,Corey Davis,0.0041,63679,14
-2,Solomon Thomas,0.0012,90219,14
-2,O. J. Howard,0.0023,51782,14
-2,Reuben Foster,0.0,84151,14
-2,Derek Barnett,0.0012,53838,17
-2,Malik Hooker,0.0,56619,17
-2,Taco Charlton,0.0,45758,17
-2,Takkarist McKinley,,22860,17
-2,Ryan Ramczyk,0.0,21716,17
-2,Gareon Conley,0.0,20542,20
-2,Jarrad Davis,0.0,13550,20
-2,Charles Harris,0.0,12648,20
-3,O. J. Simpson,,3245065,2
-3,Troy Polamalu,,457579,2
-3,Junior Seau,,382550,5
-3,Frank Gifford,,275545,8
-3,Ronnie Lott,,245101,8
-3,Lynn Swann,,238068,8
-3,Marcus Allen,,225106,11
-3,Anthony Muñoz,,108482,14
-3,Bruce Matthews,,76822,14
-3,Tony Boselli,,66109,14
-3,Ron Yary,,18554,17
-3,Willie Wood,,12977,20
-3,Red Badgro,,4709,20
-4,Chip Kelly,1.0,666202,2
-4,Urban Meyer,1.95,597272,2
-4,Jerod Mayo,0.5204,296362,5
-4,Bobby Petrino,0.3182,524322,5
-4,Frank Reich,0.3409,339582,5
+1,Drake Maye,,4328805,2
+1,Joe Burrow,,1365012,2
+1,Bo Nix,,1784926,5
+1,Caleb Williams,,1672755,5
+1,J. J. McCarthy,,1556135,5
+1,Justin Herbert,,1274856,5
+1,Jayden Daniels,,1115879,5
+1,Trevor Lawrence,,1044542,5
+1,Tua Tagovailoa,,967535,5
+1,Jaxson Dart,,2000166,8
+1,C. J. Stroud,,968641,8
+1,Mac Jones,,1063512,11
+1,Jordan Love,,950223,14
+1,Bryce Young,,888394,14
+1,Cam Ward,,821299,14
+1,Justin Fields,,815035,14
+1,Michael Penix Jr.,,543680,17
+1,Zach Wilson,,524405,17
+1,Trey Lance,,456838,17
+1,Kenny Pickett,,421384,20
+1,Anthony Richardson,,362178,20
+2,O. J. Simpson,,3245065,2
+2,Baker Mayfield,,1712873,2
+2,Caleb Williams,,1672755,5
+2,Kyler Murray,,1105596,5
+2,Reggie Bush,,445839,5
+2,Matt Leinart,,479776,8
+2,Sam Bradford,,286852,11
+2,Carson Palmer,,285469,11
+2,Marcus Allen,,225106,11
+2,Jason White,,98770,14
+2,Billy Sims,,73716,14
+2,Charles White,,42211,17
+2,Mike Garrett,,32493,17
+2,Steve Owens,,23279,20
+2,Billy Vessels,,9285,20
+3,New York,hand-tiered,,2
+3,Las Vegas,hand-tiered,,2
+3,Detroit,hand-tiered,,5
+3,Green Bay,hand-tiered,,5
+3,Kansas City,hand-tiered,,5
+3,Nashville,hand-tiered,,5
+3,Philadelphia,hand-tiered,,8
+3,Chicago,hand-tiered,,8
+3,Pittsburgh,hand-tiered,,8
+3,Cleveland,hand-tiered,,11
+3,Arlington,hand-tiered,,14
+4,Dan Quinn,1.875,364482,2
+4,Raheem Morris,1.0,626289,2
+4,Bobby Petrino,1.0957,524322,5
+4,Arthur Smith,1.2656,277053,8
 4,Jim L. Mora,,296713,8
-4,Lovie Smith,0.4372,173237,8
-4,Nathaniel Hackett,0.4715,144632,8
-4,Marty Schottenheimer,0.0909,434189,11
-4,Antonio Pierce,0.4223,140718,11
-4,Steve Wilks,0.2434,139870,11
-4,Freddie Kitchens,0.0392,151776,14
-4,Hue Jackson,0.176,116682,14
-4,Cam Cameron,0.0841,61713,14
-4,Romeo Crennel,0.0259,85808,17
-4,David Culley,0.0587,42562,17
-4,Jim Tomsula,0.0132,45952,17
-4,Mike Mularkey,0.0083,39486,20
-4,Rob Chudzinski,0.0015,35438,20
-5,Quarterback,hand-tiered,,2
-5,Running Back,hand-tiered,,2
-5,Wide Receiver,hand-tiered,,2
-5,Tight End,hand-tiered,,5
-5,Linebacker,hand-tiered,,5
-5,Cornerback,hand-tiered,,5
-5,Safety,hand-tiered,,5
-5,Kicker,hand-tiered,,5
-5,Punter,hand-tiered,,8
-5,Center,hand-tiered,,8
-5,Defensive End,hand-tiered,,8
-5,Defensive Tackle,hand-tiered,,8
-5,Offensive Tackle,hand-tiered,,11
-5,Guard,hand-tiered,,11
-5,Fullback,hand-tiered,,11
-5,Middle Linebacker,hand-tiered,,11
-5,Outside Linebacker,hand-tiered,,11
-5,Nose Tackle,hand-tiered,,14
-5,Long Snapper,hand-tiered,,14
-5,Free Safety,hand-tiered,,14
-5,Strong Safety,hand-tiered,,14
-5,Kick Returner,hand-tiered,,14
-5,Slot Receiver,hand-tiered,,14
-5,Edge Rusher,hand-tiered,,14
-5,Punt Returner,hand-tiered,,17
-5,Holder,hand-tiered,,17
-5,Nickelback,hand-tiered,,17
-5,Dime Back,hand-tiered,,20
-5,Gunner,hand-tiered,,20
-5,H-Back,hand-tiered,,20
+4,Dan Reeves,0.5254,194273,8
+4,Wade Phillips,0.2654,136115,11
+4,Jerry Glanville,0.0293,60410,14
+4,June Jones,0.0425,58756,14
+4,Mike Smith,,42828,14
+4,Emmitt Thomas,0.0088,18003,17
+4,Marion Campbell,0.0,9387,20
+4,Jim Hanifan,0.0,6343,20
+5,Kickoff,hand-tiered,,2
+5,Punt,hand-tiered,,2
+5,Field Goal,hand-tiered,,2
+5,Extra Point,hand-tiered,,2
+5,Onside Kick,hand-tiered,,5
+5,Squib Kick,hand-tiered,,5
+5,Pooch Kick,hand-tiered,,8
+5,Drop Kick,hand-tiered,,8
+5,Free Kick,hand-tiered,,11
+5,Fair Catch Kick,hand-tiered,,14
+5,Coffin Corner,hand-tiered,,14
+5,Rugby Punt,hand-tiered,,14
+5,Pop-Up Kick,hand-tiered,,14
+5,Sky Kick,hand-tiered,,17
+5,Quick Kick,hand-tiered,,17
+5,Directional Punt,hand-tiered,,17

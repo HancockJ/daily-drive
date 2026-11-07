@@ -1,104 +1,77 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Baker Mayfield,2.3882,1712873,2
-1,Joe Flacco,1.0,2082153,2
-1,Deshaun Watson,2.2511,786831,2
-1,Johnny Manziel,0.7511,1002225,2
-1,Jameis Winston,0.7785,987016,5
-1,Jacoby Brissett,0.2202,551023,5
-1,Robert Griffin III,0.4172,423654,5
-1,Tyrod Taylor,0.1943,406045,5
-1,Case Keenum,0.21,272572,5
-1,Trent Dilfer,0.0592,313049,5
-1,Doug Pederson,0.1008,258322,8
-1,Brady Quinn,0.0555,335723,8
-1,Bailey Zappe,0.197,177116,8
-1,Colt McCoy,0.1267,178791,8
-1,Jeff Garcia,0.0204,251269,8
-1,Josh McCown,0.025,190088,8
-1,Dorian Thompson-Robinson,0.0814,105142,11
-1,Brian Hoyer,0.0296,149075,11
-1,Ken Dorsey,0.0463,145842,11
-1,Nick Mullens,0.0564,85155,11
-1,Jake Delhomme,0.0009,133176,11
-1,Tim Couch,0.0028,100840,11
-1,DeShone Kizer,0.0028,92307,11
-1,Ty Detmer,0.0,89083,14
-1,Brandon Weeden,0.0009,81306,14
-1,Cody Kessler,0.0,64837,14
-1,Connor Shaw,0.0056,33404,14
-1,Jason Campbell,0.0,63428,14
-1,P. J. Walker,,63403,14
-1,Derek Anderson,0.0,60094,17
-1,Luke McCown,0.0,43731,17
-1,Seneca Wallace,0.0,36424,17
-1,Bruce Gradkowski,0.0,35424,17
-1,Kevin Hogan,0.0,28993,17
-1,Charlie Frye,0.0,27947,17
-1,Thaddeus Lewis,,21914,20
-1,Kelly Holcomb,0.0,18002,20
-1,Austin Davis,,19132,20
-1,Spergon Wynn,0.0,17767,20
-2,Kyle Shanahan,,680130,2
-2,Rex Ryan,,259073,5
-2,Brian Schottenheimer,,562114,8
-2,Brian Callahan,,422355,8
-2,Wade Phillips,,136115,8
-2,Jim L. Mora,,296713,11
-2,Klint Kubiak,,1006405,14
-2,Dave Shula,,131108,17
-2,Mike Nolan,,45503,20
-3,Tom Brady,1.0,4084883,2
-3,Peyton Manning,0.1919,1861392,2
-3,Johnny Unitas,0.0,291675,5
-3,Raymond Berry,0.0,123329,5
-3,John Hannah,,84615,8
-3,Art Donovan,0.0,40478,8
-3,Mike Haynes,0.0,33411,8
-3,Lenny Moore,0.0,30745,11
-3,Gino Marchetti,0.0,29368,11
-3,Gino Cappelletti,0.0,21099,14
-3,Bruce Armstrong,0.0,15434,14
-3,Jim Parker,0.0,13336,14
-3,Steve Nelson,0.0,9855,17
-3,Buddy Young,0.0,5326,17
-3,Bob Dee,0.0,4208,20
-3,Jim Lee Hunt,0.0,2716,20
-4,Tom Brady,,4084883,2
-4,Peyton Manning,,1861392,2
-4,Joe Montana,,1054715,2
-4,John Elway,,1236832,5
-4,Brett Favre,,979116,5
-4,Emmitt Smith,,811132,5
-4,Jim Brown,,672700,5
-4,Walter Payton,,539560,5
-4,Barry Sanders,,512295,5
-4,O. J. Simpson,,3245065,8
-4,Dan Marino,,650668,8
-4,Roger Staubach,,437631,11
-4,Johnny Unitas,,291675,11
-4,Eric Dickerson,,245033,14
-4,Gale Sayers,,232710,14
-4,Earl Campbell,,222877,14
-4,Otto Graham,,129610,17
-4,Sammy Baugh,,76281,17
-4,Steve Van Buren,,35162,17
-4,Lenny Moore,,30745,17
-4,Marion Motley,,26709,20
-4,Dutch Clark,,13502,20
-5,Tecmo Bowl,hand-tiered,,2
-5,NFL Blitz,hand-tiered,,2
-5,NFL 2K,hand-tiered,,5
-5,NFL Street,hand-tiered,,5
-5,Retro Bowl,hand-tiered,,5
-5,NFL GameDay,hand-tiered,,8
-5,NFL Quarterback Club,hand-tiered,,11
-5,Joe Montana Football,hand-tiered,,11
-5,Blitz: The League,hand-tiered,,14
-5,Backbreaker,hand-tiered,,14
-5,Mutant League Football,hand-tiered,,14
-5,NFL Fever,hand-tiered,,14
-5,NFL Head Coach,hand-tiered,,14
-5,Axis Football,hand-tiered,,17
-5,NFL Tour,hand-tiered,,17
-5,Front Office Football,hand-tiered,,20
-5,John Elway's Quarterback,hand-tiered,,20
+1,Jalen Hurts,,1198682,2
+1,Tua Tagovailoa,,967535,2
+1,Mac Jones,,1063512,5
+1,Bryce Young,,888394,8
+1,AJ McCarron,,331845,8
+1,Jalen Milroe,,348175,11
+1,Greg McElroy,,155701,14
+1,Jake Coker,,37079,17
+1,Blake Sims,,26607,17
+1,John Parker Wilson,,23747,20
+2,Jim Harbaugh,,1480156,2
+2,Urban Meyer,,597272,5
+2,Woody Hayes,,154268,5
+2,Ryan Day,,62955,5
+2,Sherrone Moore,,1480293,8
+2,Jim Tressel,,230281,8
+2,Rich Rodriguez,,216757,8
+2,Bo Schembechler,,120996,8
+2,Luke Fickell,,277574,11
+2,Lloyd Carr,,155419,11
+2,Brady Hoke,,64683,14
+2,John Cooper,,46468,17
+2,Earle Bruce,,36313,20
+2,Gary Moeller,,32693,20
+3,Super Bowl,hand-tiered,,2
+3,Lombardi Trophy,hand-tiered,,2
+3,AFC Championship Game,hand-tiered,,2
+3,NFC Championship Game,hand-tiered,,2
+3,Grey Cup,hand-tiered,,5
+3,NFL Championship Game,hand-tiered,,8
+3,AFL Championship Game,hand-tiered,,8
+3,ArenaBowl,hand-tiered,,8
+3,Lamar Hunt Trophy,hand-tiered,,8
+3,George Halas Trophy,hand-tiered,,8
+3,World Bowl,hand-tiered,,11
+3,USFL Championship Game,hand-tiered,,11
+3,XFL Championship Game,hand-tiered,,11
+3,UFL Championship Game,hand-tiered,,11
+3,Ed Thorp Memorial Trophy,hand-tiered,,17
+3,AAFC Championship Game,hand-tiered,,17
+3,Playoff Bowl,hand-tiered,,20
+3,Brickley Trophy,hand-tiered,,20
+4,Chip Kelly,1.0,666202,2
+4,Urban Meyer,1.95,597272,2
+4,Jerod Mayo,0.5204,296362,5
+4,Bobby Petrino,0.3182,524322,5
+4,Frank Reich,0.3409,339582,5
+4,Jim L. Mora,,296713,8
+4,Lovie Smith,0.4372,173237,8
+4,Nathaniel Hackett,0.4715,144632,8
+4,Marty Schottenheimer,0.0909,434189,11
+4,Antonio Pierce,0.4223,140718,11
+4,Steve Wilks,0.2434,139870,11
+4,Freddie Kitchens,0.0392,151776,14
+4,Hue Jackson,0.176,116682,14
+4,Cam Cameron,0.0841,61713,14
+4,Romeo Crennel,0.0259,85808,17
+4,David Culley,0.0587,42562,17
+4,Jim Tomsula,0.0132,45952,17
+4,Mike Mularkey,0.0083,39486,20
+4,Rob Chudzinski,0.0015,35438,20
+5,Sun Devil Stadium,hand-tiered,,2
+5,Husky Stadium,hand-tiered,,5
+5,Memorial Stadium (Champaign),hand-tiered,,5
+5,Huntington Bank Stadium,hand-tiered,,5
+5,Vanderbilt Stadium,hand-tiered,,8
+5,Franklin Field,hand-tiered,,8
+5,Tulane Stadium,hand-tiered,,8
+5,Memorial Stadium (Clemson),hand-tiered,,11
+5,Pitt Stadium,hand-tiered,,11
+5,Rice Stadium,hand-tiered,,11
+5,Yale Bowl,hand-tiered,,11
+5,Nippert Stadium,hand-tiered,,14
+5,Harvard Stadium,hand-tiered,,14
+5,Alumni Stadium,hand-tiered,,17
+5,Nickerson Field,hand-tiered,,20

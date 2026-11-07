@@ -1,0 +1,91 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,NFL Combine,hand-tiered,,2
+1,Pro Day,hand-tiered,,2
+1,Senior Bowl,hand-tiered,,2
+1,East-West Shrine Bowl,hand-tiered,,5
+1,Top 30 Visit,hand-tiered,,8
+1,Private Workout,hand-tiered,,8
+1,NFLPA Collegiate Bowl,hand-tiered,,11
+1,HBCU Legacy Bowl,hand-tiered,,11
+1,Hula Bowl,hand-tiered,,11
+1,Interviews,hand-tiered,,11
+1,Wonderlic,hand-tiered,,11
+1,Regional Combine,hand-tiered,,14
+1,Tropical Bowl,hand-tiered,,17
+1,Medical Recheck,hand-tiered,,17
+1,Blue-Grey Game,hand-tiered,,17
+1,FCS Bowl,hand-tiered,,20
+1,Japan Bowl,hand-tiered,,20
+1,Gridiron Classic,hand-tiered,,20
+2,Urban Meyer,6.7031,597272,2
+2,DeMeco Ryans,1.8125,606574,2
+2,Matt Rhule,2.6875,438230,2
+2,Liam Coen,1.0,689535,5
+2,Frank Reich,1.3193,339582,5
+2,Doug Pederson,1.5372,258322,5
+2,Mel Tucker,2.0698,222290,5
+2,Dave Canales,0.7179,350614,8
+2,Ron Rivera,1.2713,211019,8
+2,Gary Kubiak,0.2031,547415,8
+2,Lovie Smith,1.2248,173237,8
+2,Bill O'Brien,0.5186,258182,11
+2,Steve Wilks,0.7331,139870,11
+2,Tom Coughlin,0.2248,195045,11
+2,Wade Phillips,0.3294,136115,11
+2,John Fox,0.3328,131285,11
+2,Jack Del Rio,0.6212,96941,14
+2,Gus Bradley,0.1791,115915,14
+2,George Seifert,0.0743,110014,14
+2,Doug Marrone,0.1044,81970,14
+2,Darrell Bevell,0.1216,69995,17
+2,Romeo Crennel,0.0708,85808,17
+2,David Culley,0.174,42562,17
+2,Dom Capers,0.0439,53231,17
+2,Chris Tabor,0.0456,23914,20
+2,Mike Mularkey,0.0186,39486,20
+2,Perry Fewell,0.0,13957,20
+3,Russell Wilson,,1955619,2
+3,Bo Nix,,1784926,2
+3,Joe Flacco,,2082153,5
+3,Drew Lock,,315328,5
+3,Teddy Bridgewater,,483274,8
+3,Case Keenum,,272572,11
+3,Brock Osweiler,,175277,11
+3,Trevor Siemian,,87396,11
+3,Jarrett Stidham,,1497760,14
+3,Brett Rypien,,142436,14
+3,Paxton Lynch,,95456,14
+3,Brandon Allen,,94475,17
+3,Jeff Driskel,,61711,20
+3,Kendall Hinton,,26631,20
+4,Jordan Love,1.0,950223,2
+4,Jaire Alexander,0.1564,271904,2
+4,Matthew Golden,0.1108,198071,5
+4,Rashan Gary,0.025,156400,5
+4,Kenny Clark,0.0313,121281,8
+4,Quay Walker,0.0304,106429,8
+4,Ha Ha Clinton-Dix,0.0054,123822,8
+4,Lukas Van Ness,0.0206,88295,11
+4,Darnell Savage,,82076,11
+4,Devonte Wyatt,0.0063,41287,11
+4,Eric Stokes,0.0018,51459,14
+4,Jordan Morgan,,29967,14
+4,Bryan Bulaga,0.0009,22727,14
+4,Nick Perry,0.0,12646,17
+4,Damarious Randall,0.0,10987,17
+4,Datone Jones,0.0,8264,20
+4,Derek Sherrod,0.0,5417,20
+5,Uga,hand-tiered,,2
+5,Mike the Tiger,hand-tiered,,2
+5,Bevo,hand-tiered,,2
+5,Ralphie,hand-tiered,,5
+5,Smokey,hand-tiered,,5
+5,Reveille,hand-tiered,,8
+5,War Eagle,hand-tiered,,8
+5,Bill the Goat,hand-tiered,,8
+5,Renegade,hand-tiered,,11
+5,Traveler,hand-tiered,,11
+5,Tusk,hand-tiered,,14
+5,Cam the Ram,hand-tiered,,17
+5,Boomer and Sooner,hand-tiered,,17
+5,Handsome Dan,hand-tiered,,20

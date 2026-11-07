@@ -1,113 +1,97 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Drake Maye,,4328805,2
-1,Joe Burrow,,1365012,2
-1,Bo Nix,,1784926,5
-1,Caleb Williams,,1672755,5
-1,J. J. McCarthy,,1556135,5
-1,Justin Herbert,,1274856,5
-1,Jayden Daniels,,1115879,5
-1,Trevor Lawrence,,1044542,5
-1,Tua Tagovailoa,,967535,5
-1,Jaxson Dart,,2000166,8
-1,C. J. Stroud,,968641,8
-1,Mac Jones,,1063512,11
-1,Jordan Love,,950223,14
-1,Bryce Young,,888394,14
-1,Cam Ward,,821299,14
-1,Justin Fields,,815035,14
-1,Michael Penix Jr.,,543680,17
-1,Zach Wilson,,524405,17
-1,Trey Lance,,456838,17
-1,Kenny Pickett,,421384,20
-1,Anthony Richardson,,362178,20
-2,Deion Sanders,1.0,1775671,2
-2,Troy Polamalu,0.0792,457579,2
-2,Charles Woodson,0.0185,362583,2
-2,Ed Reed,0.0165,300812,5
-2,John Lynch,0.0106,249337,5
-2,Darrelle Revis,0.0046,228763,5
-2,Brian Dawkins,0.0092,203082,5
-2,Ronnie Lott,0.0007,245101,8
-2,Ronde Barber,0.0033,127356,8
-2,Kenny Easley,0.002,177661,8
-2,Champ Bailey,0.0,196980,8
-2,Rod Woodson,0.0,190427,11
-2,LeRoy Butler,0.0026,45802,11
-2,Darrell Green,0.0007,104366,11
-2,Eric Allen,0.002,46362,11
-2,Ty Law,0.0,121376,11
-2,Dick LeBeau,0.0,105735,14
-2,Ken Riley,0.0013,18665,14
-2,Steve Atwater,0.0,68704,14
-2,Aeneas Williams,0.0,51012,14
-2,Cliff Harris,0.0,30497,17
-2,Donnie Shell,0.0,24862,17
-2,Emmitt Thomas,0.0,18003,17
-2,Roger Wehrli,0.0,14912,17
-2,Johnny Robinson,0.0,12497,20
-2,Bobby Dillon,0.0,6303,20
-2,Jack Butler,0.0,5612,20
-3,Sam Darnold,1.0,3624213,2
-3,Zach Wilson,0.8321,524405,2
-3,Sauce Gardner,0.3951,570735,5
-3,Darron Lee,,378240,5
-3,Garrett Wilson,0.4196,189311,5
-3,Quinnen Williams,0.0705,342268,8
-3,Jamal Adams,0.1116,256029,8
-3,Jermaine Johnson,0.0317,128945,8
-3,Mekhi Becton,,118790,11
-3,Alijah Vera-Tucker,0.0055,89309,11
-3,Armand Membou,0.0063,63993,11
-3,Will McDonald IV,0.0127,54652,11
-3,Olu Fashanu,,46952,14
-3,Sheldon Richardson,0.0,28567,14
-3,Dee Milliner,0.0,17507,14
-3,Leonard Williams,0.0317,4034,8
-3,Muhammad Wilkerson,0.0,17130,17
-3,Calvin Pryor,0.0,11425,17
-3,Quinton Coples,0.0,8169,20
-3,Kyle Wilson,0.0,6766,20
-4,Jim Harbaugh,1.0,1480156,2
-4,Nick Saban,1.1731,1359586,2
-4,Pete Carroll,0.3506,1171107,5
-4,Lou Holtz,0.108,954830,5
-4,Jimmy Johnson,0.25,652729,8
-4,Urban Meyer,0.329,597272,8
-4,Barry Switzer,0.0138,345655,8
-4,Steve Spurrier,0.0291,303156,11
-4,Paul Brown,0.0031,157816,11
-4,Howard Schnellenberger,0.0,95624,14
-4,Dan Devine,0.0,95066,14
-4,Gene Stallings,0.0007,80945,14
-4,Dennis Erickson,0.0,92676,17
-4,John McKay,0.0,54793,17
-4,Bobby Ross,0.0,43117,20
-4,Bud Wilkinson,0.0,37206,20
-5,Shotgun,hand-tiered,,2
-5,I Formation,hand-tiered,,2
-5,Spread,hand-tiered,,5
-5,Pistol,hand-tiered,,5
-5,Wildcat,hand-tiered,,5
-5,Victory Formation,hand-tiered,,5
-5,West Coast Offense,hand-tiered,,5
-5,Singleback,hand-tiered,,8
-5,Empty Backfield,hand-tiered,,8
-5,Goal Line,hand-tiered,,8
-5,Air Coryell,hand-tiered,,11
-5,Run and Shoot,hand-tiered,,11
-5,Pro Set,hand-tiered,,11
-5,T Formation,hand-tiered,,11
-5,Wishbone,hand-tiered,,11
-5,Trips,hand-tiered,,11
-5,Air Raid,hand-tiered,,11
-5,Single Wing,hand-tiered,,14
-5,Wing T,hand-tiered,,14
-5,Power I,hand-tiered,,14
-5,Jumbo,hand-tiered,,14
-5,Bunch,hand-tiered,,14
-5,Twins,hand-tiered,,14
-5,Triple Option,hand-tiered,,14
-5,Offset I,hand-tiered,,17
-5,Diamond,hand-tiered,,17
-5,Veer,hand-tiered,,17
-5,Erhardt-Perkins,hand-tiered,,20
+1,Tom Brady,6.3727,4084883,2
+1,Drake Maye,1.0,4328805,5
+1,Cam Newton,1.0831,1474605,5
+1,Mac Jones,0.6622,1063512,8
+1,Drew Bledsoe,0.1149,400540,8
+1,Jimmy Garoppolo,0.8418,727474,11
+1,Jacoby Brissett,0.1485,551023,11
+1,Bailey Zappe,0.1245,177116,17
+1,Matt Cassel,0.0019,154113,17
+1,Brian Hoyer,0.0192,149075,20
+2,Trevor Lawrence,1.4327,1044542,2
+2,Justin Fields,1.5575,815035,2
+2,Mac Jones,1.0,1063512,2
+2,Micah Parsons,1.1994,860717,5
+2,Ja'Marr Chase,1.3285,514612,5
+2,Zach Wilson,0.987,524405,5
+2,DeVonta Smith,0.7477,479943,5
+2,Trey Lance,0.6514,456838,5
+2,Travis Etienne,,373125,8
+2,Najee Harris,0.5937,289017,8
+2,Patrick Surtain II,0.1739,328383,8
+2,Jaylen Waddle,0.5845,281744,8
+2,Kyle Pitts,0.3732,256121,8
+2,Jaelan Phillips,0.0751,324995,11
+2,Kadarius Toney,0.4004,201739,11
+2,Penei Sewell,0.0901,217114,11
+2,Odafe Oweh,0.0247,152571,11
+2,Jaycee Horn,0.0566,139996,11
+2,Rashod Bateman,0.1686,70758,11
+2,Greg Newsome II,0.0247,113438,14
+2,Joe Tryon,,81129,14
+2,Rashawn Slater,0.0189,67312,14
+2,Alijah Vera-Tucker,0.0088,89309,14
+2,Alex Leatherwood,0.0197,50630,14
+2,Kwity Paye,0.0092,57135,17
+2,Eric Stokes,0.0122,51459,17
+2,Christian Darrisaw,0.0134,31458,17
+2,Jamin Davis,0.0067,49168,17
+2,Gregory Rousseau,,36211,17
+2,Payton Turner,0.0025,33632,20
+2,Caleb Farley,0.0034,30547,20
+2,Zaven Collins,0.0013,28456,20
+3,Tom Brady,,4084883,2
+3,Matthew Stafford,,2275480,5
+3,Joe Burrow,,1365012,5
+3,Eli Manning,,1265737,5
+3,Kirk Cousins,,1069964,5
+3,Drew Brees,,1012748,5
+3,Ben Roethlisberger,,786462,5
+3,Dak Prescott,,1048063,8
+3,Tony Romo,,1046310,8
+3,Philip Rivers,,3221906,11
+3,Jared Goff,,797285,11
+3,Dan Marino,,650668,11
+3,Matt Ryan,,482209,11
+3,Derek Carr,,406953,14
+3,Boomer Esiason,,404215,14
+3,Warren Moon,,310830,14
+3,Phil Simms,,209661,17
+3,Y. A. Tittle,,120580,17
+3,Matt Schaub,,101519,17
+3,Norm Van Brocklin,,82730,17
+3,Elvis Grbac,,59997,20
+3,Vince Ferragamo,,54720,20
+4,Eli Manning,1.0,1265737,2
+4,Michael Strahan,,712448,2
+4,Lawrence Taylor,0.3644,645020,5
+4,Frank Gifford,0.0571,275545,5
+4,Phil Simms,0.0849,209661,8
+4,Y. A. Tittle,0.0044,120580,8
+4,Charlie Conerly,0.0004,17580,11
+4,Mel Hein,0.0,14150,11
+4,Ray Flaherty,0.0028,12350,14
+4,Joe Morrison,0.0,13446,14
+4,Al Blozis,0.0,9034,17
+4,Tuffy Leemans,0.0,6715,17
+4,Ken Strong,0.0,5973,20
+4,Ward Cuff,0.0,1980,20
+5,Iron Bowl,hand-tiered,,2
+5,The Game,hand-tiered,,2
+5,Red River Rivalry,hand-tiered,,2
+5,Egg Bowl,hand-tiered,,5
+5,Apple Cup,hand-tiered,,5
+5,Holy War,hand-tiered,,8
+5,Backyard Brawl,hand-tiered,,8
+5,Bedlam,hand-tiered,,8
+5,Civil War,hand-tiered,,8
+5,Big Game,hand-tiered,,11
+5,Territorial Cup,hand-tiered,,11
+5,World's Largest Outdoor Cocktail Party,hand-tiered,,11
+5,Third Saturday in October,hand-tiered,,14
+5,Palmetto Bowl,hand-tiered,,14
+5,Lone Star Showdown,hand-tiered,,14
+5,Border War,hand-tiered,,17
+5,Deep South's Oldest Rivalry,hand-tiered,,17
+5,"Clean, Old-Fashioned Hate",hand-tiered,,17

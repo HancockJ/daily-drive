@@ -1,89 +1,129 @@
 prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
-1,Josh Allen,,3276398,2
-1,Cam Newton,1.0,1474605,2
-1,Lamar Jackson,2.3085,1237364,5
-1,Dan Marino,0.2647,650668,5
-1,Matt Ryan,0.3805,482209,8
-1,Steve McNair,,532599,8
-1,Fran Tarkenton,0.0357,300887,11
-1,Boomer Esiason,,404215,11
-1,Rich Gannon,0.0065,265194,11
-1,Roman Gabriel,0.0086,181378,14
-1,John Brodie,0.0015,148353,14
-1,Ken Anderson,0.004,112021,17
-1,Y. A. Tittle,0.0,120580,17
-1,Bert Jones,0.0,71199,20
-1,Brian Sipe,0.0,60208,20
-2,Jon Gruden,1.0,862447,2
-2,Tony Dungy,0.4718,367172,2
-2,Raheem Morris,0.2709,626289,5
-2,Todd Bowles,0.3156,352446,8
-2,Bruce Arians,0.3597,322055,8
-2,Lovie Smith,0.3013,173237,8
-2,Greg Schiano,0.0748,145419,11
-2,John McKay,0.0021,54793,14
-2,Sam Wyche,0.0071,50738,14
-2,Dirk Koetter,0.0084,39534,14
-2,Ray Perkins,0.0006,31959,17
-2,Leeman Bennett,0.0,8290,20
-2,Richard Williamson,,3922,20
-3,Super Bowl,hand-tiered,,2
-3,Lombardi Trophy,hand-tiered,,2
-3,AFC Championship Game,hand-tiered,,2
-3,NFC Championship Game,hand-tiered,,2
-3,Grey Cup,hand-tiered,,5
-3,NFL Championship Game,hand-tiered,,8
-3,AFL Championship Game,hand-tiered,,8
-3,ArenaBowl,hand-tiered,,8
-3,Lamar Hunt Trophy,hand-tiered,,8
-3,George Halas Trophy,hand-tiered,,8
-3,World Bowl,hand-tiered,,11
-3,USFL Championship Game,hand-tiered,,11
-3,XFL Championship Game,hand-tiered,,11
-3,UFL Championship Game,hand-tiered,,11
-3,Ed Thorp Memorial Trophy,hand-tiered,,17
-3,AAFC Championship Game,hand-tiered,,17
-3,Playoff Bowl,hand-tiered,,20
-3,Brickley Trophy,hand-tiered,,20
-4,Philip Rivers,1.0,3221906,2
-4,Ezekiel Elliott,,654689,2
-4,Sauce Gardner,0.7483,570735,2
-4,Marvin Harrison Jr.,1.0136,285582,5
-4,Amari Cooper,0.9728,309456,5
-4,Trent Williams,0.4467,378362,5
-4,Anthony Richardson,,362178,5
-4,Kyle Pitts,0.5533,256121,8
-4,Matt Kalil,0.0499,411820,8
-4,Will Campbell,0.1746,344291,8
-4,Leonard Fournette,0.5057,250099,8
-4,Lane Johnson,0.2268,226150,11
-4,A. J. Green,0.3537,173198,11
-4,Justin Smith,0.0023,277053,11
-4,Denzel Ward,0.059,157151,11
-4,Sammy Watkins,0.102,82089,14
-4,Jamal Lewis,0.0023,150752,14
-4,Clelin Ferrell,0.0045,102249,14
-4,Darren McFadden,0.0,114755,14
-4,Andrew Thomas,0.0181,72560,17
-4,D'Brickashaw Ferguson,0.0,104672,17
-4,Cedric Benson,0.0,90135,17
-4,Aaron Curry,0.0,33033,17
-4,Gaines Adams,0.0,32274,20
-4,Dewayne Robertson,0.0,6327,20
-4,Mike Williams,,11246,20
-5,Kickoff,hand-tiered,,2
-5,Punt,hand-tiered,,2
-5,Field Goal,hand-tiered,,2
-5,Extra Point,hand-tiered,,2
-5,Onside Kick,hand-tiered,,5
-5,Squib Kick,hand-tiered,,5
-5,Pooch Kick,hand-tiered,,8
-5,Drop Kick,hand-tiered,,8
-5,Free Kick,hand-tiered,,11
-5,Fair Catch Kick,hand-tiered,,14
-5,Coffin Corner,hand-tiered,,14
-5,Rugby Punt,hand-tiered,,14
-5,Pop-Up Kick,hand-tiered,,14
-5,Sky Kick,hand-tiered,,17
-5,Quick Kick,hand-tiered,,17
-5,Directional Punt,hand-tiered,,17
+1,Tom Brady,1.0,4084883,2
+1,Bill Belichick,0.2385,1993798,2
+1,Peyton Manning,0.1918,1861392,2
+1,Randy Moss,0.0753,907568,2
+1,Ray Lewis,0.0576,759711,2
+1,Michael Strahan,,712448,5
+1,Tony Gonzalez,0.0063,579227,5
+1,Terrell Owens,0.0156,446633,5
+1,Troy Polamalu,0.0042,457579,5
+1,Adam Vinatieri,,421631,5
+1,Tony Dungy,0.0055,367172,5
+1,Jason Taylor,0.0034,411902,5
+1,Marvin Harrison,0.013,273828,5
+1,Charles Woodson,0.0029,362583,5
+1,LaDainian Tomlinson,0.0004,355252,5
+1,Ed Reed,0.0038,300812,8
+1,Shaun Alexander,0.0013,399496,8
+1,Larry Allen,0.0063,213335,8
+1,Warren Sapp,0.0017,297368,8
+1,Devin Hester,0.0025,268756,8
+1,Brian Urlacher,0.0013,309968,8
+1,Julius Peppers,0.0017,255962,8
+1,Joey Porter,0.0025,135860,8
+1,Brian Dawkins,0.0008,203082,11
+1,Antonio Gates,0.0013,168315,11
+1,Zach Thomas,0.0017,136523,11
+1,DeMarcus Ware,0.0013,161066,11
+1,Darren Sharper,0.0,257139,11
+1,Champ Bailey,0.0,196980,11
+1,Ronde Barber,0.0008,127356,11
+1,Edgerrin James,0.0,159996,11
+1,Jamal Lewis,0.0,150752,11
+1,Richard Seymour,0.0008,73628,14
+1,Torry Holt,0.0,125492,14
+1,Ty Law,0.0,121376,14
+1,Derrick Brooks,0.0,97344,14
+1,Dante Hall,0.0004,51114,14
+1,Jonathan Ogden,0.0,89654,14
+1,Orlando Pace,0.0,87249,14
+1,Olin Kreutz,0.0004,47233,14
+1,Dwight Freeney,0.0,86457,14
+1,Lorenzo Neal,0.0,85132,17
+1,Walter Jones,,58171,17
+1,Steve Hutchinson,0.0,56283,17
+1,Shane Lechler,0.0,51735,17
+1,Alan Faneca,0.0,50328,17
+1,David Akers,0.0,48834,17
+1,Josh Cribbs,0.0,46106,17
+1,Kevin Mawae,0.0,40208,17
+1,Kevin Williams,0.0,40172,17
+1,Willie Roaf,0.0,38321,20
+1,Will Shields,0.0,29623,20
+1,La'Roi Glover,0.0,24673,20
+1,Brian Moorman,0.0,12617,20
+1,Tony Richardson,,14177,20
+2,Kirby Smart,,543426,2
+2,Marcus Freeman,,634105,5
+2,Dabo Swinney,,350822,5
+2,Ryan Day,,62955,5
+2,Curt Cignetti,,3984794,8
+2,James Franklin,,1056109,8
+2,Dan Lanning,,600755,8
+2,Steve Sarkisian,,491546,8
+2,Josh Heupel,,340679,14
+2,Kenny Dillingham,,321317,14
+2,Rhett Lashlee,,128637,17
+2,Spencer Danielson,,45048,20
+3,Sean McDermott,1.0,811412,2
+3,Rex Ryan,0.5327,259073,2
+3,Marv Levy,0.1161,245098,5
+3,Wade Phillips,0.0536,136115,8
+3,Anthony Lynn,0.0417,114310,8
+3,Gregg Williams,0.003,108257,8
+3,Doug Marrone,0.0119,81970,11
+3,Dick Jauron,0.0208,46701,14
+3,Chan Gailey,0.0,47572,14
+3,Mike Mularkey,0.003,39486,14
+3,Perry Fewell,0.0,13957,17
+3,Hank Bullough,0.0,6008,20
+3,Kay Stephenson,0.0,5588,20
+4,Sam Darnold,1.0,3624213,2
+4,Zach Wilson,0.8321,524405,2
+4,Sauce Gardner,0.3951,570735,5
+4,Darron Lee,,378240,5
+4,Garrett Wilson,0.4196,189311,5
+4,Quinnen Williams,0.0705,342268,8
+4,Jamal Adams,0.1116,256029,8
+4,Jermaine Johnson,0.0317,128945,8
+4,Mekhi Becton,,118790,11
+4,Alijah Vera-Tucker,0.0055,89309,11
+4,Armand Membou,0.0063,63993,11
+4,Will McDonald IV,0.0127,54652,11
+4,Olu Fashanu,,46952,14
+4,Sheldon Richardson,0.0,28567,14
+4,Dee Milliner,0.0,17507,14
+4,Leonard Williams,0.0317,4034,8
+4,Muhammad Wilkerson,0.0,17130,17
+4,Calvin Pryor,0.0,11425,17
+4,Quinton Coples,0.0,8169,20
+4,Kyle Wilson,0.0,6766,20
+5,Shotgun,hand-tiered,,2
+5,I Formation,hand-tiered,,2
+5,Spread,hand-tiered,,5
+5,Pistol,hand-tiered,,5
+5,Wildcat,hand-tiered,,5
+5,Victory Formation,hand-tiered,,5
+5,West Coast Offense,hand-tiered,,5
+5,Singleback,hand-tiered,,8
+5,Empty Backfield,hand-tiered,,8
+5,Goal Line,hand-tiered,,8
+5,Air Coryell,hand-tiered,,11
+5,Run and Shoot,hand-tiered,,11
+5,Pro Set,hand-tiered,,11
+5,T Formation,hand-tiered,,11
+5,Wishbone,hand-tiered,,11
+5,Trips,hand-tiered,,11
+5,Air Raid,hand-tiered,,11
+5,Single Wing,hand-tiered,,14
+5,Wing T,hand-tiered,,14
+5,Power I,hand-tiered,,14
+5,Jumbo,hand-tiered,,14
+5,Bunch,hand-tiered,,14
+5,Twins,hand-tiered,,14
+5,Triple Option,hand-tiered,,14
+5,Offset I,hand-tiered,,17
+5,Diamond,hand-tiered,,17
+5,Veer,hand-tiered,,17
+5,Erhardt-Perkins,hand-tiered,,20

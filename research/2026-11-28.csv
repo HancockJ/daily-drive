@@ -1,0 +1,86 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Alabama,hand-tiered,,2
+1,Ohio State,hand-tiered,,2
+1,Georgia,hand-tiered,,2
+1,Clemson,hand-tiered,,2
+1,LSU,hand-tiered,,5
+1,Florida,hand-tiered,,5
+1,Oklahoma,hand-tiered,,5
+1,Texas,hand-tiered,,5
+1,Michigan,hand-tiered,,5
+1,Notre Dame,hand-tiered,,5
+1,Florida State,hand-tiered,,8
+1,USC,hand-tiered,,8
+1,Oregon,hand-tiered,,8
+1,Auburn,hand-tiered,,8
+1,Miami,hand-tiered,,8
+1,Tennessee,hand-tiered,,11
+1,Washington,hand-tiered,,11
+1,TCU,hand-tiered,,14
+1,Nebraska,hand-tiered,,14
+1,Virginia Tech,hand-tiered,,17
+2,Mike Vrabel,1.0,3167260,2
+2,Bill Belichick,3.4265,1993798,5
+2,Pete Carroll,0.7574,1171107,5
+2,Bill Parcells,0.0392,416974,8
+2,Jerod Mayo,0.1667,296362,11
+2,Raymond Berry,0.0027,123329,11
+2,Ron Meyer,0.0,34934,14
+2,Dante Scarnecchia,0.0,29716,17
+2,Rod Rust,0.0,12244,17
+2,Dick MacPherson,0.0,11308,20
+3,Tom Brady,1.0,4084883,2
+3,Peyton Manning,0.1919,1861392,2
+3,Johnny Unitas,0.0,291675,5
+3,Raymond Berry,0.0,123329,5
+3,John Hannah,,84615,8
+3,Art Donovan,0.0,40478,8
+3,Mike Haynes,0.0,33411,8
+3,Lenny Moore,0.0,30745,11
+3,Gino Marchetti,0.0,29368,11
+3,Gino Cappelletti,0.0,21099,14
+3,Bruce Armstrong,0.0,15434,14
+3,Jim Parker,0.0,13336,14
+3,Steve Nelson,0.0,9855,17
+3,Buddy Young,0.0,5326,17
+3,Bob Dee,0.0,4208,20
+3,Jim Lee Hunt,0.0,2716,20
+4,Tom Brady,,4084883,2
+4,Peyton Manning,,1861392,2
+4,Joe Montana,,1054715,2
+4,John Elway,,1236832,5
+4,Brett Favre,,979116,5
+4,Emmitt Smith,,811132,5
+4,Jim Brown,,672700,5
+4,Walter Payton,,539560,5
+4,Barry Sanders,,512295,5
+4,O. J. Simpson,,3245065,8
+4,Dan Marino,,650668,8
+4,Roger Staubach,,437631,11
+4,Johnny Unitas,,291675,11
+4,Eric Dickerson,,245033,14
+4,Gale Sayers,,232710,14
+4,Earl Campbell,,222877,14
+4,Otto Graham,,129610,17
+4,Sammy Baugh,,76281,17
+4,Steve Van Buren,,35162,17
+4,Lenny Moore,,30745,17
+4,Marion Motley,,26709,20
+4,Dutch Clark,,13502,20
+5,Tecmo Bowl,hand-tiered,,2
+5,NFL Blitz,hand-tiered,,2
+5,NFL 2K,hand-tiered,,5
+5,NFL Street,hand-tiered,,5
+5,Retro Bowl,hand-tiered,,5
+5,NFL GameDay,hand-tiered,,8
+5,NFL Quarterback Club,hand-tiered,,11
+5,Joe Montana Football,hand-tiered,,11
+5,Blitz: The League,hand-tiered,,14
+5,Backbreaker,hand-tiered,,14
+5,Mutant League Football,hand-tiered,,14
+5,NFL Fever,hand-tiered,,14
+5,NFL Head Coach,hand-tiered,,14
+5,Axis Football,hand-tiered,,17
+5,NFL Tour,hand-tiered,,17
+5,Front Office Football,hand-tiered,,20
+5,John Elway's Quarterback,hand-tiered,,20

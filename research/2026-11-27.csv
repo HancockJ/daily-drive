@@ -1,0 +1,83 @@
+prompt,answer,google_trends_relative,wikipedia_views_12mo,yards
+1,Deion Sanders,1.0,1775671,2
+1,Joe Montana,0.2343,1054715,5
+1,Jerry Rice,0.2,761695,8
+1,Steve Young,0.0568,562029,8
+1,Charles Haley,0.004,218666,11
+1,Ronnie Lott,0.0007,245101,14
+1,Bryant Young,0.002,44802,14
+1,Rickey Jackson,0.0,37878,17
+1,Fred Dean,0.0,24869,20
+2,Cam Newton,,1474605,2
+2,Andrew Luck,,675806,2
+2,Tim Tebow,,1017046,5
+2,Carson Wentz,,852911,5
+2,Jared Goff,,797285,5
+2,Robert Griffin III,,423654,5
+2,Johnny Manziel,,1002225,8
+2,Jameis Winston,,987016,8
+2,Marcus Mariota,,827885,8
+2,Teddy Bridgewater,,483274,11
+2,Ryan Tannehill,,287610,11
+2,Sam Bradford,,286852,14
+2,Blake Bortles,,239583,14
+2,EJ Manuel,,115987,14
+2,Christian Ponder,,103539,17
+2,Paxton Lynch,,95456,17
+2,Blaine Gabbert,,91497,17
+2,Brandon Weeden,,81306,20
+2,Jake Locker,,54670,20
+3,Kyle Shanahan,,680130,2
+3,Rex Ryan,,259073,5
+3,Brian Schottenheimer,,562114,8
+3,Brian Callahan,,422355,8
+3,Wade Phillips,,136115,8
+3,Jim L. Mora,,296713,11
+3,Klint Kubiak,,1006405,14
+3,Dave Shula,,131108,17
+3,Mike Nolan,,45503,20
+4,Steve Sarkisian,,491546,2
+4,Barry Switzer,,345655,5
+4,Lincoln Riley,,339332,5
+4,Brent Venables,,302136,5
+4,Bob Stoops,,192842,5
+4,Mack Brown,,151957,5
+4,Tom Herman,,147915,8
+4,Darrell Royal,,51965,8
+4,Charlie Strong,,130945,11
+4,Howard Schnellenberger,,95624,11
+4,Chuck Fairbanks,,25436,14
+4,John Mackovic,,20374,14
+4,Gary Gibbs,,17969,14
+4,Fred Akers,,12847,17
+4,John Blake,,10660,17
+4,David McWilliams,,7645,20
+4,Jim Mackenzie,,4744,20
+5,Helmet,hand-tiered,,2
+5,Shoulder Pads,hand-tiered,,2
+5,Cleats,hand-tiered,,2
+5,Football,hand-tiered,,2
+5,Jersey,hand-tiered,,5
+5,Mouthguard,hand-tiered,,5
+5,Facemask,hand-tiered,,5
+5,Chin Strap,hand-tiered,,5
+5,Gloves,hand-tiered,,5
+5,Thigh Pads,hand-tiered,,8
+5,Knee Pads,hand-tiered,,8
+5,Visor,hand-tiered,,8
+5,Eye Black,hand-tiered,,8
+5,Pants,hand-tiered,,11
+5,Hip Pads,hand-tiered,,11
+5,Wristband,hand-tiered,,11
+5,Guardian Cap,hand-tiered,,11
+5,Kicking Tee,hand-tiered,,11
+5,Socks,hand-tiered,,11
+5,Arm Sleeves,hand-tiered,,11
+5,Rib Protector,hand-tiered,,14
+5,Neck Roll,hand-tiered,,14
+5,Knee Brace,hand-tiered,,14
+5,Girdle,hand-tiered,,14
+5,Elbow Pads,hand-tiered,,14
+5,Tailbone Pad,hand-tiered,,17
+5,Towel,hand-tiered,,17
+5,Headset,hand-tiered,,17
